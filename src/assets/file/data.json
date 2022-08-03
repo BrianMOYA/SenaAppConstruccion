@@ -1,0 +1,361 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "Vulnerabiliad Sismica",
+      "img": "./assets/svg/menu/menuSismica.svg",
+      "modules": [
+        {
+          "prime": {
+            "img": "./assets/svg/menu/cartilla.svg",
+            "cartillaSsimica": "./assets/prime/cartillaSismica.pdf"
+          },
+          "assessment": {
+            "assessment1": {
+              "title": "Conocimientos Previos",
+              "formulario1": "./assets/formulario/sismica/conocimientosP.svg"
+            },
+            "assessment2": {
+              "title": "Evaluacion Basica",
+              "formulario2": "./assets/formulario/sismica/EBasica.svg"
+            },
+            "assessment3": {
+              "title": "Evaluacion Final",
+              "formulario3": "./assets/formulario/sismica/EFinal.svg"
+            }
+          },
+          "bindTheConcrete": {
+            "img": "./assets/svg/menu/menuSismica.svg",
+            "concrete1": {
+              "name": "concretoToxico",
+              "description": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico."
+            },
+            "concrete2": {
+              "name": "concretoToxico",
+              "description": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico."
+            },
+            "concrete3": {
+              "name": "concretoToxico",
+              "description": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico."
+            },
+            "concrete4": {
+              "name": "concretoToxico",
+              "description": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico."
+            }
+          },
+          "chooseCorrectImg": {
+            "img": "./assets/svg/menu/menuSismica.svg",
+            "vigas": {
+              "img": "./assets/svg/constrcution/sismica/constrcution.svg",
+              "statement": "Elije la imagen con una mala implemntación de concreto",
+              "incorrectImg": [
+                "./assets/svg/constrcution/sismica/constrcution1.svg",
+                "./assets/svg/constrcution/sismica/constrcution2.svg"
+              ]
+            },
+            "columnas": {
+              "img": "./assets/svg/constrcution/sismica/constrcution.svg",
+              "statement": "Elije la imagen con una mala implemntación de concreto",
+              "incorrectImg": [
+                "./assets/svg/constrcution/sismica/constrcution1.svg",
+                "./assets/svg/constrcution/sismica/constrcution2.svg"
+              ]
+            },
+            "material": {
+              "img": "./assets/svg/constrcution/sismica/constrcution.svg",
+              "statement": "Elije la imagen con una mala implemntación de concreto",
+              "incorrectImg": [
+                "./assets/svg/constrcution/sismica/constrcution1.svg",
+                "./assets/svg/constrcution/sismica/constrcution2.svg"
+              ]
+            },
+            "concreto": {
+              "img": "./assets/svg/constrcution/sismica/constrcution.svg",
+              "statement": "Elije la imagen con una mala implemntación de concreto",
+              "incorrectImg": [
+                "./assets/svg/constrcution/sismica/constrcution1.svg",
+                "./assets/svg/constrcution/sismica/constrcution2.svg"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Hidraulica",
+      "img": "./assets/svg/menu/menuHidraulica.svg",
+      "modules": [
+        {
+          "prime": {
+            "img": "./assets/svg/menu/cartilla.svg",
+            "cartillaHidraulica": "./assets/prime/cartillaHidraulica.pdf"
+          },
+          "assessment": {
+            "assessment1": {
+              "title": "Conocimientos Previos",
+              "formulario1": "./assets/formulario/hidraulica/conocimientosP.svg"
+            },
+            "assessment2": {
+              "title": "Evaluacion Basica",
+              "formulario2": "./assets/formulario/hidraulica/EBasica.svg"
+            },
+            "assessment3": {
+              "title": "Evaluacion Final",
+              "formulario3": "./assets/formulario/hidraulica/EFinal.svg"
+            }
+          },
+          "chooseThePieces": {
+            "img": "./assets/svg/menu/Hidraulica.svg",
+            "plan": "./assets/svg/planos/PlanoHidraulica.svg",
+            "incorrectImg": [
+              "./assets/svg/constrcution/sismica/constrcution1.svg",
+              "./assets/svg/constrcution/sismica/constrcution2.svg"
+            ]
+          },
+          "chooseTheSimbol": {
+            "img": "./assets/svg/menu/Hidraulica.svg",
+            "figura": {
+              "img": "./assets/svg/menu/Hidraulica.svg",
+              "simbol": "./assets/svg/menu/Hidraulica.svg"
+            },
+            "figura1": {
+              "img": "./assets/svg/menu/Hidraulica.svg",
+              "simbol": "./assets/svg/menu/Hidraulica.svg"
+            },
+            "figura2": {
+              "img": "./assets/svg/menu/Hidraulica.svg",
+              "simbol": "./assets/svg/menu/Hidraulica.svg"
+            },
+            "figura3": {
+              "img": "./assets/svg/menu/Hidraulica.svg",
+              "simbol": "./assets/svg/menu/Hidraulica.svg"
+            }
+          }
+        }
+      ],
+      "installation": [
+        {
+          "title": "Codo de 45",
+          "img": "./assets/svg/piezas/piezasHidrualicas/codo45_0.webp",
+          "concept": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.",
+          "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+        },
+        {
+          "title": "Codo 90",
+          "img": "./assets/svg/piezas/piezasHidrualicas/codo90.webp",
+          "concept": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.",
+          "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+        },
+        {
+          "title": "Tee",
+          "img": "./assets/svg/piezas/piezasHidrualicas/tee_0.webp",
+          "concept": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.",
+          "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+        },
+        {
+          "title": "Union",
+          "img": "./assets/svg/piezas/piezasHidrualicas/union_0.webp",
+          "concept": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.",
+          "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+        },
+        {
+          "title": "conector",
+          "img": "./assets/svg/tubes/hidrualica/conector1.png",
+          "concept": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.",
+          "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+        },
+        {
+          "title": "tee",
+          "img": "./assets/svg/tubes/hidrualica/tee2.png",
+          "concept": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.",
+          "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+        },
+        {
+          "title": "codo 90",
+          "img": "./assets/svg/tubes/hidrualica/codo90.png",
+          "concept": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.",
+          "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+        },
+        {
+          "title": "conector",
+          "img": "./assets/svg/tubes/hidrualica/conector1.png",
+          "concept": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.",
+          "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+        },
+        {
+          "title": "tee",
+          "img": "./assets/svg/tubes/hidrualica/tee2.png",
+          "concept": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.",
+          "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+        },
+        {
+          "title": "codo 90",
+          "img": "./assets/svg/tubes/hidrualica/codo90.png",
+          "concept": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.",
+          "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+        },
+        {
+          "title": "conector",
+          "img": "./assets/svg/tubes/hidrualica/conector1.png",
+          "concept": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.",
+          "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+        },
+        {
+          "title": "tee",
+          "img": "./assets/svg/tubes/hidrualica/tee2.png",
+          "concept": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.",
+          "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Sanitaria",
+      "img": "./assets/svg/menu/menuSanitaria.svg",
+      "modules": [
+        {
+          "prime": {
+            "img": "./assets/svg/menu/cartilla.svg",
+            "cartillaHidraulica": "./assets/prime/cartillaSanitaria.pdf"
+          },
+          "assessment": {
+            "assessment1": {
+              "title": "Conocimientos Previos",
+              "formulario1": "./assets/formulario/sanitaria/conocimientosP.svg"
+            },
+            "assessment2": {
+              "title": "Evaluacion Basica",
+              "formulario2": "./assets/formulario/sanitaria/EBasica.svg"
+            },
+            "assessment3": {
+              "title": "Evaluacion Final",
+              "formulario3": "./assets/formulario/sanitaria/EFinal.svg"
+            }
+          },
+          "installation": {
+            "tube1": {
+              "title": "Uniones",
+              "img": "./assets/svg/sanitaria/tube2.svg",
+              "concept": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.",
+              "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+            },
+            "tube2": {
+              "title": "Uniones",
+              "img": "./assets/svg/sanitaria/tube2.svg",
+              "concept": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.",
+              "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+            },
+            "tube3": {
+              "title": "Uniones",
+              "img": "./assets/svg/sanitaria/tube2.svg",
+              "concept": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.",
+              "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+            }
+          },
+          "chooseThePieces": {
+            "img": "./assets/svg/menu/sanitaria.svg",
+            "plan": "./assets/svg/planos/PlanoHidraulica.svg",
+            "incorrectImg": [
+              "./assets/svg/constrcution/sismica/constrcution1.svg",
+              "./assets/svg/constrcution/sismica/constrcution2.svg"
+            ]
+          },
+          "chooseTheSimbol": {
+            "img": "./assets/svg/menu/Hidraulica.svg",
+            "figura": {
+              "img": "./assets/svg/menu/Hidraulica.svg",
+              "simbol": "./assets/svg/menu/Hidraulica.svg"
+            },
+            "figura1": {
+              "img": "./assets/svg/menu/Hidraulica.svg",
+              "simbol": "./assets/svg/menu/Hidraulica.svg"
+            },
+            "figura2": {
+              "img": "./assets/svg/menu/Hidraulica.svg",
+              "simbol": "./assets/svg/menu/Hidraulica.svg"
+            },
+            "figura3": {
+              "img": "./assets/svg/menu/Hidraulica.svg",
+              "simbol": "./assets/svg/menu/Hidraulica.svg"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Gas",
+      "img": "./assets/svg/menu/menuGases.svg",
+      "modules": [
+        {
+          "prime": {
+            "img": "./assets/svg/menu/cartilla.svg",
+            "cartillaHidraulica": "./assets/prime/cartillaGas.pdf"
+          },
+          "assessment": {
+            "assessment1": {
+              "title": "Conocimientos Previos",
+              "formulario1": "./assets/formulario/sanitaria/conocimientosP.svg"
+            },
+            "assessment2": {
+              "title": "Evaluacion Basica",
+              "formulario2": "./assets/formulario/sanitaria/EBasica.svg"
+            },
+            "assessment3": {
+              "title": "Evaluacion Final",
+              "formulario3": "./assets/formulario/sanitaria/EFinal.svg"
+            }
+          },
+          "installation": {
+            "tube1": {
+              "title": "Uniones",
+              "img": "./assets/svg/sanitaria/tube2.svg",
+              "concept": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.",
+              "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+            },
+            "tube2": {
+              "title": "Uniones",
+              "img": "./assets/svg/sanitaria/tube2.svg",
+              "concept": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.",
+              "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+            },
+            "tube3": {
+              "title": "Uniones",
+              "img": "./assets/svg/sanitaria/tube2.svg",
+              "concept": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.",
+              "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+            }
+          },
+          "chooseThePieces": {
+            "img": "./assets/svg/menu/sanitaria.svg",
+            "plan": "./assets/svg/planos/PlanoHidraulica.svg",
+            "incorrectImg": [
+              "./assets/svg/constrcution/sismica/constrcution1.svg",
+              "./assets/svg/constrcution/sismica/constrcution2.svg"
+            ]
+          },
+          "chooseTheSimbol": {
+            "img": "./assets/svg/menu/Hidraulica.svg",
+            "figura": {
+              "img": "./assets/svg/menu/Hidraulica.svg",
+              "simbol": "./assets/svg/menu/Hidraulica.svg"
+            },
+            "figura1": {
+              "img": "./assets/svg/menu/Hidraulica.svg",
+              "simbol": "./assets/svg/menu/Hidraulica.svg"
+            },
+            "figura2": {
+              "img": "./assets/svg/menu/Hidraulica.svg",
+              "simbol": "./assets/svg/menu/Hidraulica.svg"
+            },
+            "figura3": {
+              "img": "./assets/svg/menu/Hidraulica.svg",
+              "simbol": "./assets/svg/menu/Hidraulica.svg"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

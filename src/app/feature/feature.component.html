@@ -1,0 +1,30 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar color="primary">
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true">
+  <ion-grid>
+    <ion-slides pager="true" [options]="slideOpts">
+      <ion-slide>
+        <img src="assets/svg/slides/HowToUse.svg" />
+      </ion-slide>
+      <ion-slide>
+        <img src="assets/svg/slides/HowToUse2.svg" />
+      </ion-slide>
+      <ion-slide>
+        <img src="assets/svg/slides/Logo2-2.svg" />
+      </ion-slide>
+      <ion-slide>
+        <img src="assets/svg/slides/Logo3.svg" />
+      </ion-slide>
+    </ion-slides>
+    <ion-row class="ion-justify-content-center">
+      <button class="btn" routerLink="/index">Continuar</button>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+<ion-footer color="primary" collapse="undefined">
+  <ion-toolbar color="primary">
+    <img class="footerimg" src="assets/svg/head/logoSenaAppBlanco.svg" />
+  </ion-toolbar>
+</ion-footer>

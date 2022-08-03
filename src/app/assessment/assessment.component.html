@@ -1,0 +1,36 @@
+<app-nav-bar></app-nav-bar>
+<app-header backUrl='/mainInterface/:id'></app-header>
+<ion-content color="primary" [fullscreen]="true">
+  <ion-row class="headImg">
+    <img class="headimg" src="assets/svg/menu/menuSismica.svg" />
+  </ion-row>
+  <ion-row class="title">
+    <h2>Simulacro evaluativo</h2>
+  </ion-row>
+  <div class="contain">
+    <div class="contain-items">
+      <ion-item lines="none">
+        <button>
+          <ion-avatar class="module-avatar">
+            <img src="../../assets/svg/assessment/pruebaDeAvance.svg" />
+          </ion-avatar>
+        </button>
+      </ion-item>
+      <ion-item lines="none">
+        <button>
+          <ion-avatar class="module-avatar">
+            <img src="../../assets/svg/assessment/pruebaConocPrevios.svg" />
+          </ion-avatar>
+        </button>
+      </ion-item>
+      <ion-item lines="none">
+        <button>
+          <ion-avatar class="module-avatar">
+            <img src="../../assets/svg/assessment/pruebaFinal.svg" />
+          </ion-avatar>
+        </button>
+      </ion-item>
+    </div>
+  </div>
+</ion-content>
+<app-footer></app-footer>

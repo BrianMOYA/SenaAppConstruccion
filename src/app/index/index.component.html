@@ -1,0 +1,16 @@
+<app-nav-bar></app-nav-bar>
+<app-header backUrl='/feature'></app-header>
+<ion-content color="medium" [fullscreen]="true">
+  <ion-grid>
+    <ion-row class="ion-padding">
+      <button *ngFor="let cat of categories" class="category" (click)="goModule(cat.name)">
+        <img [src]="cat.img"/>
+      </button>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+<ion-footer color="primary" collapse="undefined">
+  <ion-toolbar color="primary">
+    <img class="footerimg" src="assets/svg/head/logoSenaAppBlanco.svg" />
+  </ion-toolbar>
+</ion-footer>

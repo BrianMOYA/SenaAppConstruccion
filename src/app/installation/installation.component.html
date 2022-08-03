@@ -1,0 +1,21 @@
+<app-nav-bar></app-nav-bar>
+<app-header backUrl='/mainInterface/:id'></app-header>
+<ion-row class="module-name">
+  <h1></h1>
+</ion-row>
+<ion-content color="medium" [fullscreen]="true">
+  <ion-grid>
+    <ion-row class="ion-padding">
+      <ion-col size="12" class="animate__animated animate__bounceInLeft">
+        <ion-item lines="none" class="item" *ngFor="let accessory of accessories">
+          <ion-avatar class="module-avatar" slot="start">
+            <img src={{accessory.img}} />
+          </ion-avatar>
+          <div class="txt">
+            <p>{{accessory.title}}</p>
+          </div>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

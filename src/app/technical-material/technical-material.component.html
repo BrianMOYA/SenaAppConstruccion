@@ -1,0 +1,45 @@
+<app-nav-bar></app-nav-bar>
+<app-header backUrl='/mainInterface/:id'></app-header>
+<ion-content color="primary" [fullscreen]="true">
+  <ion-row class="headImg">
+    <img class="headimg" src="assets/svg/menu/menuSismica.svg" />
+  </ion-row>
+  <ion-row class="title">
+    <h1>Material de apoyo</h1>
+  </ion-row>
+  <div class="contain">
+    <ion-item lines="none">
+      <button>
+        <ion-avatar class="module-avatar">
+          <img src="../../assets/svg/material/cartilla.png" />
+        </ion-avatar>
+        <div class="txt">Cartilla</div>
+      </button>
+    </ion-item>
+    <ion-item lines="none">
+      <button>
+        <ion-avatar class="module-avatar">
+          <img src="../../assets/svg/material/norma.png" />
+        </ion-avatar>
+        <div class="txt">Normas</div>
+      </button>
+    </ion-item>
+    <ion-item lines="none">
+      <button>
+        <ion-avatar class="module-avatar">
+          <img src="../../assets/svg/material/errores.png" />
+        </ion-avatar>
+        <div class="txt">Errores comunes</div>
+      </button>
+    </ion-item>
+    <ion-item lines="none">
+      <button>
+        <ion-avatar class="module-avatar">
+          <img src="../../assets/svg/material/videos.png" />
+        </ion-avatar>
+        <div class="txt">Vídeos interactivos</div>
+      </button>
+    </ion-item>
+  </div>
+</ion-content>
+<app-footer></app-footer>
