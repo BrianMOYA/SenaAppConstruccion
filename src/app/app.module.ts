@@ -23,6 +23,8 @@ import { InstallationComponent } from './installation/installation.component';
 import { HeaderComponent } from './header/header.component';
 import { GamesInterfaceComponent } from '././game/games-interface/games-interface.component';
 import { PrimerComponent } from './primer/primer.component';
+import { GameInterfaceComponent } from './game-interface/game-interface.component';
+import { SelectTheCorrectPairComponent } from './select-the-correct-pair/select-the-correct-pair.component';
 
 
 /* Importación HttpClientModule */
@@ -46,7 +48,9 @@ import { HttpClientModule } from '@angular/common/http';
     InstallationComponent,
     HeaderComponent,
     GamesInterfaceComponent,
-    PrimerComponent
+    PrimerComponent,
+    GameInterfaceComponent,
+    SelectTheCorrectPairComponent
   ],
   entryComponents: [],
   imports:

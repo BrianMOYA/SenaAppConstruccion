@@ -1,0 +1,38 @@
+.contain{
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+ion-avatar{
+  --border-radius: 10px;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  margin: auto;
+}
+
+ion-item{
+  width: 150px;
+  padding: 0, 0,0,0;
+  --inner-padding-start: 0;
+  --inner-padding-end: 0;
+  outline: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  --background: transparent;
+}
+
+button{
+  width: 110px;
+  background: transparent;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

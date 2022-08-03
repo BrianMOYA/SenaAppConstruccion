@@ -13,8 +13,10 @@ import { TechnicalMaterialComponent } from './technical-material/technical-mater
 import { ModuleNameComponent } from './module-name/module-name.component';
 import { InstallationComponent } from './installation/installation.component';
 import { HeaderComponent } from './header/header.component';
-import { GamesInterfaceComponent } from '././game/games-interface/games-interface.component';
+//import { GamesInterfaceComponent } from '././game/games-interface/games-interface.component';
 import { PrimerComponent } from './primer/primer.component';
+import { GameInterfaceComponent } from './game-interface/game-interface.component';
+import { SelectTheCorrectPairComponent } from './select-the-correct-pair/select-the-correct-pair.component';
 
 
 const routes: Routes = [
@@ -72,12 +74,16 @@ const routes: Routes = [
     component: HeaderComponent
   },
   {
-    path: 'gamesInterface',
-    component: GamesInterfaceComponent
-  },
-  {
     path: 'primer',
     component: PrimerComponent
+  },
+  {
+    path: 'gameInterface',
+    component: GameInterfaceComponent
+  },
+  {
+    path: 'selectThePair',
+    component: SelectTheCorrectPairComponent
   }
 ];
 
