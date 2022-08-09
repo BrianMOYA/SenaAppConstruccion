@@ -1,41 +1,17 @@
-<app-nav-bar></app-nav-bar>
 <app-header backUrl='/index'></app-header>
 <ion-content color="primary" [fullscreen]="true">
   <ion-grid>
     <app-module-name></app-module-name>
     <div class="contain">
-      <ion-item lines="none">
-        <button routerLink="/sinupot">
+      <ion-item lines="none" *ngFor="let btn of btns" >
+        <button [routerLink]="btn.route">
           <ion-avatar class="module-avatar">
-            <img src="../../assets/svg/menuS/sinupot.svg" />
+            <img [src]="btn.img" />
           </ion-avatar>
-          <div class="txt">SINUPOT</div>
+          <div class="txt">{{ btn.title | titlecase }}</div>
         </button>
       </ion-item>
-      <ion-item lines="none">
-        <button routerLink="/gameInterface">
-          <ion-avatar class="module-avatar">
-            <img src="../../assets/svg/menuS/juegos.svg" />
-          </ion-avatar>
-          <div class="txt">Juegos</div>
-        </button>
-      </ion-item>
-      <ion-item lines="none">
-        <button routerLink="/technicalMaterial">
-          <ion-avatar class="module-avatar">
-            <img src="../../assets/svg/menuS/materialDeApoyo.svg" />
-          </ion-avatar>
-          <div class="txt">Material de apoyo</div>
-        </button>
-      </ion-item>
-      <ion-item lines="none">
-        <button routerLink="/assessment">
-          <ion-avatar class="module-avatar">
-            <img src="../../assets/svg/menuS/evaluacion.svg" />
-          </ion-avatar>
-          <div class="txt">Simulacro evaluativo</div>
-        </button>
-      </ion-item>
+
     </div>
   </ion-grid>
 </ion-content>

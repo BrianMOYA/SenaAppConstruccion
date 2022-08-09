@@ -1,11 +1,12 @@
-<app-nav-bar></app-nav-bar>
 <app-header backUrl='/feature'></app-header>
 <ion-content color="medium" [fullscreen]="true">
   <ion-grid>
     <ion-row class="ion-padding">
-      <button *ngFor="let cat of categories" class="category" (click)="goModule(cat.name)">
-        <img [src]="cat.img"/>
-      </button>
+      <ion-col size="12" size-md="3" *ngFor="let cat of categories">
+        <button  class="category" (click)="goModule(cat.name)">
+          <img [src]="cat.img"/>
+        </button>
+      </ion-col>
     </ion-row>
   </ion-grid>
 </ion-content>

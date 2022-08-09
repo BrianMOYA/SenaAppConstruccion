@@ -11,12 +11,45 @@ import { ActivatedRoute, Router } from '@angular/router';
 export class MainInterfaceComponent implements OnInit {
   moduleName : string;
 
+  public btns : {img: string, title: string, route: string}[] = [
+
+    {
+      img: "../../assets/svg/menuS/sinupot.svg",
+      title: "sinupot",
+      route: "/sinupot"
+    },
+    {
+      img: "../../assets/svg/menuS/juegos.svg",
+      title: "Juegos",
+      route: "/gameInterface"
+    },
+    {
+      img: "../../assets/svg/menuS/materialDeApoyo.svg",
+      title: "Material de apoyo",
+      route: "/technicalMaterial"
+    },
+    {
+      img: "../../assets/svg/menuS/evaluacion.svg",
+      title: "Simulacro evaluativo",
+      route: "/assessment"
+    }
+  ];
+
+
   constructor(
     private moduleNameService: ModuleNameService,
     private route: ActivatedRoute
   ) {
     this.route.params.subscribe(({id}) => {
-      this.moduleNameService.passModuleName(id);
+
+
+      const moduleId = id === ':id' ? localStorage.getItem('currentModule') : id;
+
+      if(!moduleId.includes("Vulnerabiliad Sismica")){
+        this.btns[0].title = "instalaciones";
+        this.btns[0].route = "/installation";
+      }
+      this.moduleNameService.passModuleName(moduleId);
     })
   }
 
