@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { ModalController } from '@ionic/angular';
 import { ModuleNameService } from '../services/module-name.service'
 import { ActivatedRoute, Router } from '@angular/router';
 
@@ -12,24 +11,23 @@ export class MainInterfaceComponent implements OnInit {
   moduleName : string;
 
   public btns : {img: string, title: string, route: string}[] = [
-
     {
-      img: "../../assets/svg/menuS/sinupot.svg",
+      img: "../../assets/svg/sourceMainInterface/portada_Sinupot.svg",
       title: "sinupot",
       route: "/sinupot"
     },
     {
-      img: "../../assets/svg/menuS/juegos.svg",
+      img: "../../assets/svg/sourceMainInterface/portada_juegos.svg",
       title: "Juegos",
       route: "/gameInterface"
     },
     {
-      img: "../../assets/svg/menuS/materialDeApoyo.svg",
+      img: "../../assets/svg/sourceMainInterface/portada_MaterialDeApoyo.svg",
       title: "Material de apoyo",
       route: "/technicalMaterial"
     },
     {
-      img: "../../assets/svg/menuS/evaluacion.svg",
+      img: "../../assets/svg/sourceMainInterface/portada_Evaluaciones.svg",
       title: "Simulacro evaluativo",
       route: "/assessment"
     }
@@ -46,7 +44,8 @@ export class MainInterfaceComponent implements OnInit {
       const moduleId = id === ':id' ? localStorage.getItem('currentModule') : id;
 
       if(!moduleId.includes("Vulnerabiliad Sismica")){
-        this.btns[0].title = "instalaciones";
+        this.btns[0].title = "instalación";
+        this.btns[0].img = "../../assets/svg/sourceMainInterface/portada_Instalaciones.svg";
         this.btns[0].route = "/installation";
       }
       this.moduleNameService.passModuleName(moduleId);

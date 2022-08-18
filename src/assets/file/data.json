@@ -137,73 +137,73 @@
       "installation": [
         {
           "title": "Codo de 45",
-          "img": "./assets/svg/piezas/piezasHidrualicas/codo45_0.webp",
+          "img": "./assets/svg/sourceInstallation/piezasHidrualicas/codo45_0.webp",
           "concept": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "Codo 90",
-          "img": "./assets/svg/piezas/piezasHidrualicas/codo90.webp",
+          "img": "./assets/svg/sourceInstallation/piezasHidrualicas/codo90.webp",
           "concept": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "Tee",
-          "img": "./assets/svg/piezas/piezasHidrualicas/tee_0.webp",
+          "img": "./assets/svg/sourceInstallation/piezasHidrualicas/tee_0.webp",
           "concept": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "Union",
-          "img": "./assets/svg/piezas/piezasHidrualicas/union_0.webp",
+          "img": "./assets/svg/sourceInstallation/piezasHidrualicas/union_0.webp",
           "concept": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "conector",
-          "img": "./assets/svg/tubes/hidrualica/conector1.png",
+          "img": "./assets/svg/sourceInstallation/piezasHidrualicas/conector1.png",
           "concept": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "tee",
-          "img": "./assets/svg/tubes/hidrualica/tee2.png",
+          "img": "./assets/svg/sourceInstallation/piezasHidrualicas/tee2.png",
           "concept": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "codo 90",
-          "img": "./assets/svg/tubes/hidrualica/codo90.png",
+          "img": "./assets/svg/sourceInstallation/piezasHidrualicas/codo90.png",
           "concept": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "conector",
-          "img": "./assets/svg/tubes/hidrualica/conector1.png",
+          "img": "./assets/svg/sourceInstallation/piezasHidrualicas/conector1.png",
           "concept": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "tee",
-          "img": "./assets/svg/tubes/hidrualica/tee2.png",
+          "img": "./assets/svg/sourceInstallation/piezasHidrualicas/tee2.png",
           "concept": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "codo 90",
-          "img": "./assets/svg/tubes/hidrualica/codo90.png",
+          "img": "./assets/svg/sourceInstallation/piezasHidrualicas/codo90.png",
           "concept": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "conector",
-          "img": "./assets/svg/tubes/hidrualica/conector1.png",
+          "img": "./assets/svg/sourceInstallation/piezasHidrualicas/conector1.png",
           "concept": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "tee",
-          "img": "./assets/svg/tubes/hidrualica/tee2.png",
+          "img": "./assets/svg/sourceInstallation/piezasHidrualicas/tee2.png",
           "concept": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         }
