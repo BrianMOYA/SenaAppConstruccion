@@ -56,6 +56,9 @@ export class MainInterfaceComponent implements OnInit {
     //this.moduleNameService.currentModuleName.subscribe(moduleName => this.moduleName = moduleName)
   }
 
+  goToSubject(){
+
+  }
 
 
 

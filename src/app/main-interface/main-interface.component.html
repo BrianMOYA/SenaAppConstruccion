@@ -1,17 +1,19 @@
 <app-header backUrl='/index'></app-header>
 <ion-content color="primary" [fullscreen]="true">
-  <ion-grid>
     <app-module-name></app-module-name>
-    <div class="contain">
-      <ion-item lines="none" *ngFor="let btn of btns" >
-        <button [routerLink]="btn.route">
-          <ion-avatar class="module-avatar">
-            <img [src]="btn.img" />
-          </ion-avatar>
-          <div class="txt">{{ btn.title | titlecase }}</div>
-        </button>
-      </ion-item>
+    <div class="content_div">
+      <ion-label class="hello_lbl">Ingresa al modulo que te gustaria</ion-label>
+      <ion-grid fixed>
+        <ion-row>
+          <ion-col size="6" *ngFor="let btn of btns">
+            <div class="col_div">
+              <button [routerLink]="btn.route">
+                <img [src]="btn.img" />
+                <ion-label>{{ btn.title | titlecase }}</ion-label>
+              </button>
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
     </div>
-  </ion-grid>
 </ion-content>
-<app-footer></app-footer>
