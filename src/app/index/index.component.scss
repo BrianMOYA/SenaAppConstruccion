@@ -1,62 +1,36 @@
-/*Estilos head*/
-ion-header{
-  background-color: #2a3749;
-}
 ion-content{
   width: 100%;
   padding: auto;
-}
 
-/*Estilos cuerpo de la interfaz*/
-ion-grid{
-  padding: 10px;
-  margin: auto;
-}
+  ion-grid{
+    padding: 10px;
+    margin: auto;
 
-ion-row{
-  padding-top: 70px;
-  padding-bottom: 70px;
-  width: 100%;
+    ion-row{
+      padding-top: 80px;
+      padding-bottom: 80px;
+      margin-top: 8%;
+      width: 100%;
+    }
 
-}
+    ion-col{
+      padding: 10px;
+      margin: 0;
 
-/*Estilo botones*/
-button{
-  background: none;
-  border-radius: 50px;
-  width: 100%;
-  height: 80px;
-  margin-top: 5px;
-  padding: 0;
-  cursor: pointer;
-  margin: auto;
-}
+      button{
+        background: none;
+        border-radius: 50px;
+        width: 100%;
+        height: 100px;
+        cursor: pointer;
+        margin: 0;
 
-.category{
-  margin-bottom: 2vh;
-  img{
-    width: 250px;
+        img{
+          width: 320px;
+        }
+      }
+
+    }
   }
 }
 
-/*Estilo imagenes*/
-
-
-/*Estilo footer*/
-ion-footer{
-  background-color: #2a3749;
-  width: 100%;
-  max-width: 100%;
-  height: 11%;
-  text-align: center;
-  position: absolute;
-  bottom: 0;
-}
-
-ion-toolbar{
-  padding-top: 3%;
-}
-
-.footerimg{
-  width: 50%;
-}

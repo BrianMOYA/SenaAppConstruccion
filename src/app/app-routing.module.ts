@@ -7,16 +7,15 @@ import { IndexComponent } from './index/index.component';
 import { MainInterfaceComponent } from './main-interface/main-interface.component';
 import { SinupotComponent } from './sinupot/sinupot.component';
 import { FooterComponent } from './footer/footer.component';
-import { GamesComponent } from './games/games.component';
 import { AssessmentComponent } from './assessment/assessment.component';
 import { TechnicalMaterialComponent } from './technical-material/technical-material.component';
 import { ModuleNameComponent } from './module-name/module-name.component';
 import { InstallationComponent } from './installation/installation.component';
 import { HeaderComponent } from './header/header.component';
-//import { GamesInterfaceComponent } from '././game/games-interface/games-interface.component';
-import { PrimerComponent } from './primer/primer.component';
+import { GamesInterfaceComponent } from '././game/games-interface/games-interface.component';
 import { GameInterfaceComponent } from './game-interface/game-interface.component';
 import { SelectTheCorrectPairComponent } from './select-the-correct-pair/select-the-correct-pair.component';
+import { InstallationInformationComponent } from './installation-information/installation-information.component';
 
 
 const routes: Routes = [
@@ -49,10 +48,11 @@ const routes: Routes = [
     path: 'footer',
     component: FooterComponent
   },
-  {
-    path: 'games',
-    component: GamesComponent
-  },
+  //{
+    //path: 'game',
+    //loadChildren: () => import('./game/game.module').then(m => m.UserModule),
+    //canActivateChild: [IsLoggedGuard]
+  //},
   {
     path: 'assessment',
     component: AssessmentComponent
@@ -74,16 +74,16 @@ const routes: Routes = [
     component: HeaderComponent
   },
   {
-    path: 'primer',
-    component: PrimerComponent
-  },
-  {
     path: 'gameInterface',
     component: GameInterfaceComponent
   },
   {
     path: 'selectThePair',
     component: SelectTheCorrectPairComponent
+  },
+  {
+    path: 'installationInfo',
+    component: InstallationInformationComponent
   }
 ];
 

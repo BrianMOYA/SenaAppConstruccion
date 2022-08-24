@@ -1,35 +1,22 @@
-<app-header backUrl='/mainInterface/:id'></app-header>
+<app-header backUrl="/mainInterface/:id"></app-header>
 <ion-content color="primary" [fullscreen]="true">
-  <ion-row class="headImg">
-    <img class="headimg" src="assets/svg/menu/menuSismica.svg" />
-  </ion-row>
+  <app-module-name></app-module-name>
   <ion-row class="title">
     <h1>Material de apoyo</h1>
   </ion-row>
-  <div class="contain">
-    <ion-item lines="none">
-      <button>
-        <ion-avatar class="module-avatar">
-          <img src="../../assets/svg/sourceVulnerabilidad/prime/portadaCartillaV.svg" />
-        </ion-avatar>
-        <div class="txt">Cartilla</div>
-      </button>
-    </ion-item>
-    <ion-item lines="none">
-      <button>
-        <ion-avatar class="module-avatar">
-          <img src="../../assets/svg/sourceMaterialDeApoyo/portada_Normas.svg" />
-        </ion-avatar>
-        <div class="txt">Normas</div>
-      </button>
-    </ion-item>
-    <ion-item lines="none">
-      <button>
-        <ion-avatar class="module-avatar">
-          <img src="../../assets/svg/sourceMaterialDeApoyo/portada_Videos.svg" />
-        </ion-avatar>
-        <div class="txt">Vídeos interactivos</div>
-      </button>
-    </ion-item>
+  <div class="content_div">
+    <ion-grid fixed>
+      <ion-row>
+        <ion-col size="6" *ngFor="let material of btnsMaterial">
+          <div class="col_div">
+            <button [routerLink]="material.route">
+              <img [src]="material.img" />
+              <ion-label>{{ material.title | titlecase }}</ion-label>
+            </button>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
   </div>
 </ion-content>
+

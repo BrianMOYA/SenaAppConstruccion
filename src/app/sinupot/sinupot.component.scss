@@ -2,20 +2,13 @@ img{
   width: 100%;
 }
 
-ion-footer{
-  background-color: #2a3749;
-  width: 100%;
-  max-width: 100%;
-  height: 11%;
-  text-align: center;
-  position: absolute;
-  bottom: 0;
-}
-
-ion-toolbar{
-  padding-top: 3%;
-}
-
-.footerimg{
+.sinupot{
   width: 50%;
+  height: 60px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background: linear-gradient(#D04D52, #ee555a, #f38a8f);
+  color: #ffffff;
+  font-weight: 500;
+  font-size: medium;
 }

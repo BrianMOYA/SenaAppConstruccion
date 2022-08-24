@@ -3,7 +3,7 @@
   <ion-grid>
     <ion-row class="ion-padding">
       <ion-col size="12" size-md="3" *ngFor="let cat of categories">
-        <button  class="category" (click)="goModule(cat.name)">
+        <button (click)="goModule(cat.name)">
           <img [src]="cat.img"/>
         </button>
       </ion-col>

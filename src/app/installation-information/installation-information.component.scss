@@ -1,0 +1,10 @@
+.contain{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+
+  .contain_col_div{
+    width: 100%;
+  }
+}

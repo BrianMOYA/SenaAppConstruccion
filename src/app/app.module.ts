@@ -15,16 +15,15 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { MainInterfaceComponent } from './main-interface/main-interface.component';
 import { SinupotComponent } from './sinupot/sinupot.component';
 import { FooterComponent } from './footer/footer.component';
-import { GamesComponent } from './games/games.component';
 import { AssessmentComponent } from './assessment/assessment.component';
 import { TechnicalMaterialComponent } from './technical-material/technical-material.component';
 import { ModuleNameComponent } from './module-name/module-name.component';
 import { InstallationComponent } from './installation/installation.component';
 import { HeaderComponent } from './header/header.component';
 import { GamesInterfaceComponent } from '././game/games-interface/games-interface.component';
-import { PrimerComponent } from './primer/primer.component';
 import { GameInterfaceComponent } from './game-interface/game-interface.component';
 import { SelectTheCorrectPairComponent } from './select-the-correct-pair/select-the-correct-pair.component';
+import { InstallationInformationComponent } from './installation-information/installation-information.component';
 
 
 /* Importación HttpClientModule */
@@ -41,16 +40,15 @@ import { HttpClientModule } from '@angular/common/http';
     MainInterfaceComponent,
     SinupotComponent,
     FooterComponent,
-    GamesComponent,
     AssessmentComponent,
     TechnicalMaterialComponent,
     ModuleNameComponent,
     InstallationComponent,
     HeaderComponent,
     GamesInterfaceComponent,
-    PrimerComponent,
     GameInterfaceComponent,
-    SelectTheCorrectPairComponent
+    SelectTheCorrectPairComponent,
+    InstallationInformationComponent
   ],
   entryComponents: [],
   imports:
