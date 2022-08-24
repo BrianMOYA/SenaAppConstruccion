@@ -3,7 +3,7 @@
     {
       "id": 0,
       "name": "Vulnerabiliad Sismica",
-      "img": "./assets/svg/menu/menuSismica.svg",
+      "img": "./assets/svg/sourceIndex/menuSismica.svg",
       "modules": [
         {
           "prime": {
@@ -84,7 +84,7 @@
     {
       "id": 1,
       "name": "Hidraulica",
-      "img": "./assets/svg/menu/menuHidraulica.svg",
+      "img": "./assets/svg/sourceIndex/menuHidraulica.svg",
       "modules": [
         {
           "prime": {
@@ -212,7 +212,7 @@
     {
       "id": 2,
       "name": "Sanitaria",
-      "img": "./assets/svg/menu/menuSanitaria.svg",
+      "img": "./assets/svg/sourceIndex/menuSanitaria.svg",
       "modules": [
         {
           "prime": {
@@ -286,7 +286,7 @@
     {
       "id": 3,
       "name": "Gas",
-      "img": "./assets/svg/menu/menuGases.svg",
+      "img": "./assets/svg/sourceIndex/menuGases.svg",
       "modules": [
         {
           "prime": {

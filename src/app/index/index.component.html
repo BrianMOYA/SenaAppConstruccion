@@ -1,8 +1,8 @@
 <app-header backUrl='/feature'></app-header>
 <ion-content color="medium" [fullscreen]="true">
   <ion-grid>
-    <ion-row class="ion-padding">
-      <ion-col size="12" size-md="3" *ngFor="let cat of categories">
+    <ion-row class="ion-justify-content-center" class="ion-padding">
+      <ion-col size="12" size-md="6" size-sm="4" size-lg="2" *ngFor="let cat of categories">
         <button (click)="goModule(cat.name)">
           <img [src]="cat.img"/>
         </button>
@@ -10,3 +10,9 @@
     </ion-row>
   </ion-grid>
 </ion-content>
+<ion-footer collapse="undefined">
+  <ion-toolbar color="primary">
+    <img class="footer-img" src="assets/svg/sourceFooter/logoSenaAppBlanco.svg" />
+  </ion-toolbar>
+</ion-footer>
+

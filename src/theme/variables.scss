@@ -26,14 +26,15 @@
   /** slides **/
   ion-slides{
     padding-bottom: 10%;
-  }
-  ion-slide{
-    --background:transparent;
-    height: 62vh;
-    width: 100%;
-    margin-top: 10px;
-    --bullet-background: #41546e;
-  --bullet-background-active: #2a3749;
+
+    ion-slide{
+      --background:transparent;
+      height: 62vh;
+      border-radius: 30px;
+      margin-top: 5%;
+      --bullet-background: #41546e;
+      --bullet-background-active: #2a3749;
+    }
   }
 
   /** primary **/

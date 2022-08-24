@@ -1,22 +1,31 @@
 import { NgModule, Component } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
-/* Importación componentes de la APP  */
+/* Importación componentes inicio, header y footer de la APP */
 import { FeatureComponent } from './feature/feature.component';
 import { IndexComponent } from './index/index.component';
-import { MainInterfaceComponent } from './main-interface/main-interface.component';
-import { SinupotComponent } from './sinupot/sinupot.component';
+import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+
+/* Importación componentes principales de la APP */
+import { MainInterfaceComponent } from './main-interface/main-interface.component';
 import { AssessmentComponent } from './assessment/assessment.component';
 import { TechnicalMaterialComponent } from './technical-material/technical-material.component';
-import { ModuleNameComponent } from './module-name/module-name.component';
-import { InstallationComponent } from './installation/installation.component';
-import { HeaderComponent } from './header/header.component';
-import { GamesInterfaceComponent } from '././game/games-interface/games-interface.component';
-import { GameInterfaceComponent } from './game-interface/game-interface.component';
-import { SelectTheCorrectPairComponent } from './select-the-correct-pair/select-the-correct-pair.component';
-import { InstallationInformationComponent } from './installation-information/installation-information.component';
+import { SinupotComponent } from './sinupot/sinupot.component';
 
+/* Importación componentes de juegos de la APP  */
+
+import { GameInterfaceComponent } from './game-interface/game-interface.component';
+import { GameDashboardComponent } from './game-dashboard/game-dashboard.component';
+import { GameChooseTheDescriptionComponent } from './game-choose-the-description/game-choose-the-description.component';
+import { GameChooseThePiecesComponent } from './game-choose-the-pieces/game-choose-the-pieces.component';
+import { GameSelectTheConcreteComponent } from './game-select-the-concrete/game-select-the-concrete.component';
+import { GameSelectThePairComponent } from './game-select-the-pair/game-select-the-pair.component';
+
+
+/* Importación componentes de piezas simbologia de la APP  */
+import { InstallationInformationComponent } from './installation-information/installation-information.component';
+import { InstallationComponent } from './installation/installation.component';
 
 const routes: Routes = [
   {
@@ -37,6 +46,14 @@ const routes: Routes = [
     component: IndexComponent
   },
   {
+    path: 'header',
+    component: HeaderComponent
+  },
+  {
+    path: 'footer',
+    component: FooterComponent
+  },
+  {
     path: 'mainInterface/:id',
     component: MainInterfaceComponent
   },
@@ -44,15 +61,6 @@ const routes: Routes = [
     path: 'sinupot',
     component: SinupotComponent
   },
-  {
-    path: 'footer',
-    component: FooterComponent
-  },
-  //{
-    //path: 'game',
-    //loadChildren: () => import('./game/game.module').then(m => m.GameModule),
-    //canActivateChild: [IsLoggedGuard]
-  //},
   {
     path: 'assessment',
     component: AssessmentComponent
@@ -62,24 +70,35 @@ const routes: Routes = [
     component: TechnicalMaterialComponent
   },
   {
-    path: 'moduleName',
-    component: ModuleNameComponent
+    path: 'gameInterface',
+    component: GameInterfaceComponent
+  },
+  ,
+  {
+    path: 'gameDashboard',
+    component: GameDashboardComponent
+  },
+  ,
+  {
+    path: 'gameChooseDescription',
+    component: GameChooseTheDescriptionComponent
+  },
+  ,
+  {
+    path: 'gameChoosePieces',
+    component: GameChooseThePiecesComponent
+  },
+  {
+    path: 'gameSelectConcrete',
+    component: GameSelectTheConcreteComponent
+  },
+  {
+    path: 'gameSelectPair',
+    component: GameSelectThePairComponent
   },
   {
     path: 'installation',
     component: InstallationComponent
-  },
-  {
-    path: 'header',
-    component: HeaderComponent
-  },
-  {
-    path: 'gameInterface',
-    component: GameInterfaceComponent
-  },
-  {
-    path: 'selectThePair',
-    component: SelectTheCorrectPairComponent
   },
   {
     path: 'installationInfo',
