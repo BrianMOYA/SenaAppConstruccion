@@ -1,59 +1,67 @@
-ion-item{
-  --background: transparent;
-}
-
-ion-icon{
-  width: 40px;
-  height: 40.3px;
-}
-
-ion-item{
-  font-size: 13px;
-  font-weight: 700;
-  background: var(--ion-color-primary);
-  color: var(--ion-color-primary-contrast);
-  border: 1.5px;
-  border-style: solid;
-  border-color: var(--ion-color-marron);
-  border-radius: 50px;
+.module-name{
+  z-index: 1;
   width: 100%;
-  height: 65px;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  padding-right: 0px;
-  padding-left: 0px;
+  background-color: var(--ion-color-crema);
+  justify-content: center;
+  h1{
+      text-align: center;
+      color:  var(--ion-color-marron);
+      font-size: 30px;
+      font-family: 'Poppins-bold' !important;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 10px;
+  }
+  small{
+      text-align: center;
+      font-family: 'Poppins-medium';
+      color: #b28857;
+  }
 }
 
-ion-item::part(native){
-  margin-top: 3px;
+ion-col{
+  padding: 0px;
 }
 
-.item{
-  -webkit-box-shadow: 0px 7px 6px 0px rgba(0,0,0,0.14);
-  box-shadow: 0px 7px 6px 0px rgba(0,0,0,0.14);
-}
-
-.txt{
-  height: 100%;
-  max-width: 100%;
-  display: grid;
-  align-content: center;
-  float: left;
-  font-size: 1.5em;
-}
-
-.module-avatar{
-  max-width: 50px;
-  max-height: 50px;
-  margin: 7px;
-  float: left;
-}
-.padlocks{
-  display: grid;
-  align-content: center;
-  max-width: 50px;
-  max-height: 50px;
-  margin: 7px;
-}
+ion-card{
+  font-size: 13px;
+  color: #b28857b8;
+  --background:#faedca;
+  border-radius: 10px;
+  min-height: 129px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  ion-card-header{
+      padding: 7px;
+  }
+  ion-card-title{
+      color: #b28857;
+      b{
+          font-size: 19px;
+      }
+      ion-icon{
+          font-size: larger;
+      }
+  }
 
 
+  ion-card-subtitle{
+      font-size: 10px;
+  }
+}
+
+.main-title{
+  border-bottom: 1px solid #b2885766;
+  b{
+      font-family: 'Poppins-medium' !important;
+  }
+}
+
+.obs{
+  font-family: 'Poppins-regular' !important;
+}
+
+.locked{
+  --background: #c5bca3f7;
+}

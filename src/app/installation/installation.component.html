@@ -1,21 +1,30 @@
 <app-header backUrl='/mainInterface/:id'></app-header>
-<app-module-name></app-module-name>
-<ion-row class="title">
-  <h1>Juegos</h1>
-</ion-row>
-<ion-content color="medium" [fullscreen]="true">
-  <ion-grid>
-    <ion-row class="ion-padding">
-      <ion-col size="12" class="animate__animated animate__bounceInLeft">
-        <ion-item lines="none" class="item" *ngFor="let accessory of accessories">
-          <ion-avatar class="module-avatar" slot="start">
-            <img src={{accessory.img}} />
-          </ion-avatar>
-          <div class="txt">
-            <p>{{accessory.title}}</p>
-          </div>
-        </ion-item>
+<ion-content color="gradient" [fullscreen]="true">
+  <ion-grid >
+    <app-module-name></app-module-name>
+    <ion-row class="title">
+      <h1>Piezas de planos</h1>
+    </ion-row>
+    <ion-row>
+      <ion-col size="4" size-md="3"  size-sm="6" size-sm="4" size-lg="2" *ngFor="let accessory of accessories">
+        <ion-card class="animate__animated animate__bounceIn ion-activatable ripple-parent" (click)="goTo()">
+          <ion-ripple-effect></ion-ripple-effect>
+          <ion-card-header>
+            <ion-card-title class="ion-text-center main-title" >
+              <b>
+                {{ accessory.title | titlecase }}
+              </b>
+            </ion-card-title>
+            <ion-card-title class="ion-text-center" >
+              <img [src]=accessory.img>
+            </ion-card-title>
+            <ion-card-subtitle class="ion-text-center obs">
+              {{ accessory.concept }}
+            </ion-card-subtitle>
+          </ion-card-header>
+        </ion-card>
       </ion-col>
     </ion-row>
   </ion-grid>
+
 </ion-content>

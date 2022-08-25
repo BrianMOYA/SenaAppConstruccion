@@ -1,8 +1,13 @@
-<app-header backUrl='/feature'></app-header>
-<app-module-name></app-module-name>
-<small>select the correct description</small>
-<ion-content  color="gradient">
+<app-header backUrl='/gameInterface'></app-header>
+<ion-content color="medium">
   <ion-grid fixed>
+    <app-module-name></app-module-name>
+    <ion-row class="ion-justify-content-center">
+      <h4>¿Cuál fue el fallo de la siguiente construcción?</h4>
+    </ion-row>
+    <ion-row class="ion-justify-content-center">
+      <img src="../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/1.png">
+    </ion-row>
     <ion-row>
       <ion-col size="12" *ngFor="let opt of options" >
         <ion-card class="ion-activatable ripple-parent animate__animated animate__bounceIn" (click)="select()">

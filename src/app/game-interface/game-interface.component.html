@@ -1,26 +1,24 @@
 <app-header backUrl='mainInterface/:id'></app-header>
 <ion-content color="primary" [fullscreen]="true">
-  <ion-grid>
+  <ion-grid >
     <app-module-name></app-module-name>
     <ion-row class="title">
       <h1>Juegos</h1>
     </ion-row>
-    <div class="contain">
-      <ion-item lines="none">
-        <button routerLink="/selectThePair">
-          <ion-avatar class="module-avatar">
-            <img src="../../assets/svg/sourceVulnerabilidad/moduleGame/mainInterface/juegoCementos.svg" />
-          </ion-avatar>
-        </button>
-      </ion-item>
-      <ion-item lines="none">
-        <button>
-          <ion-avatar class="module-avatar">
-            <img src="../../assets/svg/sourceVulnerabilidad/moduleGame/mainInterface/juegoMalasPracticas.svg" />
-          </ion-avatar>
-        </button>
-      </ion-item>
-    </div>
+    <ion-row class="ion-justify-content-center">
+      <ion-col size="12" size-md="3"  size-sm="6" size-sm="4" size-lg="2" *ngFor="let item of mouduleGames">
+        <ion-card [routerLink]="item.route" class="animate__animated animate__bounceIn ion-activatable ripple-parent">
+          <ion-ripple-effect></ion-ripple-effect>
+          <ion-card-header>
+
+            <ion-card-title class="ion-text-center" >
+              <img [src]="item.img">
+            </ion-card-title>
+
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+    </ion-row>
   </ion-grid>
 </ion-content>
 <app-footer></app-footer>

@@ -1,38 +1,44 @@
-.contain{
-  width: 90%;
+ion-content::part(scroll){
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin: auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
-
-}
-
-ion-avatar{
-  --border-radius: 10px;
-  width: 72px;
-  height: 72px;
-  text-align: center;
-  margin: auto;
-}
-
-ion-item{
-  padding: 0, 0,0,0;
-  --inner-padding-start: 0;
-  --inner-padding-end: 0;
-  outline: none;
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 1%;
-  margin-bottom: 1%;
-  --background: transparent;
-}
-
-button{
-  width: 110px;
-  background: transparent;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+  flex-direction: column;
+}
+
+ion-content{
+
+  ion-card{
+      -webkit-box-shadow: 0px 7px 6px 0px rgba(0,0,0,0.14);
+      box-shadow: 0px 7px 6px 0px rgba(0,0,0,0.14);
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      background-color: #2a3749;
+  }
+
+  ion-grid{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      background-image: url("../../assets/svg/sourceGame/vulnerabilidad/backgroundGame/fondo_gris_ladrillos.svg");
+      background-size: cover;
+  }
+
+
+  ion-row{
+    background: transparent;
+    text-align: center;
+    margin-top: 5%;
+
+    h4{
+      color: black;
+    }
+
+  }
+
+}
+
+img{
+  width: 80%;
+  height: 60px;
 }

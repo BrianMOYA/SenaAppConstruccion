@@ -37,6 +37,16 @@
     }
   }
 
+  .title{
+    font-size: 10px;
+    border-bottom: solid 3px #ffffff;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    justify-content: center;
+  }
+
   /** primary **/
   --ion-color-primary: #2a3749;
   --ion-color-primary-rgb: 56, 128, 255;

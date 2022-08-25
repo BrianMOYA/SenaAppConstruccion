@@ -73,17 +73,14 @@ const routes: Routes = [
     path: 'gameInterface',
     component: GameInterfaceComponent
   },
-  ,
   {
     path: 'gameDashboard',
     component: GameDashboardComponent
   },
-  ,
   {
     path: 'gameChooseDescription',
     component: GameChooseTheDescriptionComponent
   },
-  ,
   {
     path: 'gameChoosePieces',
     component: GameChooseThePiecesComponent

@@ -1,64 +1,23 @@
 <app-header backUrl='/index'></app-header>
-<ion-content color="primary" [fullscreen]="true">
+<ion-content color="medium" [fullscreen]="true">
   <ion-grid>
     <app-module-name></app-module-name>
-    <div class="contain">
-      <ion-item lines="none">
-        <button>
-          <ion-avatar class="module-avatar">
-            <img src="../../assets/svg/sourceVulnerabilidad/moduleGame/gameConcrete/cemento_super_resistnte.svg" />
-          </ion-avatar>
-        </button>
-      </ion-item>
-      <ion-item lines="none">
-        <button>
-          <ion-avatar class="module-avatar">
-            <img src="../../assets/svg/menuS/sinupot.svg" />
-          </ion-avatar>
-        </button>
-      </ion-item>
-      <ion-item lines="none">
-        <button>
-          <ion-avatar class="module-avatar">
-            <img src="../../assets/svg/sourceVulnerabilidad/moduleGame/gameConcrete/cemento_uso_amb_marino.svg" />
-          </ion-avatar>
-        </button>
-      </ion-item>
-      <ion-item lines="none">
-        <button>
-          <ion-avatar class="module-avatar">
-            <img src="../../assets/svg/menuS/sinupot.svg" />
-          </ion-avatar>
-        </button>
-      </ion-item>
-      <ion-item lines="none">
-        <button>
-          <ion-avatar class="module-avatar">
-            <img src="../../assets/svg/sourceVulnerabilidad/moduleGame/gameConcrete/cemento_uso_estrctral.svg" />
-          </ion-avatar>
-        </button>
-      </ion-item>
-      <ion-item lines="none">
-        <button>
-          <ion-avatar class="module-avatar">
-            <img src="../../assets/svg/menuS/sinupot.svg" />
-          </ion-avatar>
-        </button>
-      </ion-item>
-      <ion-item lines="none">
-        <button>
-          <ion-avatar class="module-avatar">
-            <img src="../../assets/svg/sourceVulnerabilidad/moduleGame/gameConcrete/cemento_uso_gral.svg" />
-          </ion-avatar>
-        </button>
-      </ion-item>
-      <ion-item lines="none">
-        <button>
-          <ion-avatar class="module-avatar">
-            <img src="../../assets/svg/menuS/sinupot.svg" />
-          </ion-avatar>
-        </button>
-      </ion-item>
-    </div>
+    <ion-row>
+      <h4>Selecciona la figura con la convencion correcta</h4>
+    </ion-row>
+    <ion-row class="ion-justify-content-center">
+      <ion-col size="5" size-md="3"  size-sm="6" size-sm="4" size-lg="2" *ngFor="let simbologia of simbologias">
+        <ion-card class="animate__animated animate__bounceIn ion-activatable ripple-parent" (click)="goTo()">
+          <ion-ripple-effect></ion-ripple-effect>
+          <ion-card-header>
+
+            <ion-card-title class="ion-text-center" >
+              <img [src]="simbologia.img">
+            </ion-card-title>
+
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+    </ion-row>
   </ion-grid>
 </ion-content>

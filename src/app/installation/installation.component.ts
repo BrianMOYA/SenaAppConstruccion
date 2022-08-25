@@ -36,4 +36,8 @@ export class InstallationComponent implements OnInit {
     )
   }
 
+  goTo(){
+
+  }
+
 }

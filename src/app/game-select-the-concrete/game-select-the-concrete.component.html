@@ -1,3 +1,29 @@
-<p>
-  game-select-the-concrete works!
-</p>
+<app-header backUrl='/gameInterface'></app-header>
+<ion-content color="medium" [fullscreen]="true">
+
+  <ion-grid>
+    <app-module-name></app-module-name>
+    <ion-row>
+      <h4>Selecciona el concreto que mejor va con la descrpción</h4>
+    </ion-row>
+    <ion-row class="enunciado">
+      <h4>Selecciona el concreto que mejor va con la descrpción dshadjsahdjsahdsadh s
+        dshadjs ahdjsahdsa dhsdasdasdsa sdasdsadasdsadsad
+      </h4>
+    </ion-row>
+    <ion-row class="ion-justify-content-center">
+      <ion-col size="6" size-md="3"  size-sm="6" size-sm="4" size-lg="2" *ngFor="let concrete of concretes">
+        <ion-card class="animate__animated animate__bounceIn ion-activatable ripple-parent" (click)="goTo()">
+          <ion-ripple-effect></ion-ripple-effect>
+          <ion-card-header>
+
+            <ion-card-title class="ion-text-center" >
+              <img [src]="concrete.img">
+            </ion-card-title>
+
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
