@@ -161,29 +161,88 @@
           },
           "chooseThePieces": {
             "img": "../../assets/svg/sourceGame/hidraulica/menuGame/juegoCementos.svg",
-            "plan": "./assets/svg/planos/PlanoHidraulica.svg",
-            "incorrectImg": [
-              "./assets/svg/constrcution/sismica/constrcution1.svg",
-              "./assets/svg/constrcution/sismica/constrcution2.svg"
-            ]
+            "planoBaño1": {
+              "imgPlanoBaño1": "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/1.png",
+              "correctPiece": "./assets/svg/constrcution/sismica/constrcution2.svg",
+              "wrongPieces": [
+                "./assets/svg/constrcution/sismica/constrcution1.svg",
+                "./assets/svg/constrcution/sismica/constrcution2.svg"
+              ]
+            },
+            "planoBaño2": {
+              "imgPlanoBaño2": "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/1.png",
+              "correctPiece": "./assets/svg/constrcution/sismica/constrcution2.svg",
+              "wrongPieces": [
+                "./assets/svg/constrcution/sismica/constrcution1.svg",
+                "./assets/svg/constrcution/sismica/constrcution2.svg"
+              ]
+            },
+            "planoBaño3": {
+              "imgPlanoBaño3": "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/1.png",
+              "correctPiece": "./assets/svg/constrcution/sismica/constrcution2.svg",
+              "wrongPieces": [
+                "./assets/svg/constrcution/sismica/constrcution1.svg",
+                "./assets/svg/constrcution/sismica/constrcution2.svg"
+              ]
+            },
+            "planoBaño4": {
+              "imgPlanoBaño4": "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/1.png",
+              "correctPiece": "./assets/svg/constrcution/sismica/constrcution2.svg",
+              "wrongPieces": [
+                "./assets/svg/constrcution/sismica/constrcution1.svg",
+                "./assets/svg/constrcution/sismica/constrcution2.svg"
+              ]
+            },
+            "planoBaño5": {
+              "imgPlanoBaño5": "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/1.png",
+              "correctPiece": "./assets/svg/constrcution/sismica/constrcution2.svg",
+              "wrongPieces": [
+                "./assets/svg/constrcution/sismica/constrcution1.svg",
+                "./assets/svg/constrcution/sismica/constrcution2.svg"
+              ]
+            },
+            "planoBaño6": {
+              "imgPlanoBaño6": "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/1.png",
+              "correctPiece": "./assets/svg/constrcution/sismica/constrcution2.svg",
+              "wrongPieces": [
+                "./assets/svg/constrcution/sismica/constrcution1.svg",
+                "./assets/svg/constrcution/sismica/constrcution2.svg"
+              ]
+            },
+            "planoBaño7": {
+              "imgPlanoBaño7": "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/1.png",
+              "correctPiece": "./assets/svg/constrcution/sismica/constrcution2.svg",
+              "wrongPieces": [
+                "./assets/svg/constrcution/sismica/constrcution1.svg",
+                "./assets/svg/constrcution/sismica/constrcution2.svg"
+              ]
+            },
+            "planoBaño8": {
+              "imgPlanoBaño8": "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/1.png",
+              "correctPiece": "./assets/svg/constrcution/sismica/constrcution2.svg",
+              "wrongPieces": [
+                "./assets/svg/constrcution/sismica/constrcution1.svg",
+                "./assets/svg/constrcution/sismica/constrcution2.svg"
+              ]
+            }
           },
           "chooseSelectThePair": {
-            "img": "./assets/svg/menu/Hidraulica.svg",
-            "figura": {
-              "img": "./assets/svg/menu/Hidraulica.svg",
-              "simbol": "./assets/svg/menu/Hidraulica.svg"
+            "piece1": {
+              "figure": "./assets/svg/menu/Hidraulica.svg",
+              "CorrectConvention": "./assets/svg/menu/Hidraulica.svg"
             },
-            "figura1": {
-              "img": "./assets/svg/menu/Hidraulica.svg",
-              "simbol": "./assets/svg/menu/Hidraulica.svg"
+            "piece2": {
+              "figure": "./assets/svg/menu/Hidraulica.svg",
+              "CorrectConvention": "./assets/svg/menu/Hidraulica.svg"
             },
-            "figura2": {
-              "img": "./assets/svg/menu/Hidraulica.svg",
-              "simbol": "./assets/svg/menu/Hidraulica.svg"
+            "piece3": {
+              "figure": "./assets/svg/menu/Hidraulica.svg",
+              "CorrectConvention": "./assets/svg/menu/Hidraulica.svg"
             },
-            "figura3": {
-              "img": "./assets/svg/menu/Hidraulica.svg",
-              "simbol": "./assets/svg/menu/Hidraulica.svg"
+
+            "piece4": {
+              "figure": "./assets/svg/menu/Hidraulica.svg",
+              "CorrectConvention": "./assets/svg/menu/Hidraulica.svg"
             }
           }
         }
@@ -269,71 +328,209 @@
       "img": "./assets/svg/sourceIndex/menuSanitaria.svg",
       "modules": [
         {
-          "prime": {
-            "img": "./assets/svg/menu/cartilla.svg",
-            "cartillaHidraulica": "./assets/prime/cartillaSanitaria.pdf"
-          },
-          "assessment": {
-            "assessment1": {
-              "title": "Conocimientos Previos",
-              "formulario1": "./assets/formulario/sanitaria/conocimientosP.svg"
+          "documents": {
+            "prime": {
+              "img": "../../assets/docuemnts/sourceVulnerabilidad/prime/portadaCartillaV.svg",
+              "primeS": "./assets/documents/primes/vulnerabilidadSismica.pdf"
             },
-            "assessment2": {
-              "title": "Evaluacion Basica",
-              "formulario2": "./assets/formulario/sanitaria/EBasica.svg"
-            },
-            "assessment3": {
-              "title": "Evaluacion Final",
-              "formulario3": "./assets/formulario/sanitaria/EFinal.svg"
+            "rule": {
+              "ruleS": "./assets/documents/rules/tituloEnrs.pdf"
             }
           },
-          "installation": {
-            "tube1": {
-              "title": "Uniones",
-              "img": "./assets/svg/sanitaria/tube2.svg",
-              "concept": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.",
-              "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+          "assessment": {
+            "firstQuestion": {
+              "question":"¿Que es la naturaleza?",
+              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+              "wrongAnswer": [
+                 "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+                 "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
+               ]
             },
-            "tube2": {
-              "title": "Uniones",
-              "img": "./assets/svg/sanitaria/tube2.svg",
-              "concept": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.",
-              "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+            "secondQuestion": {
+              "question":"¿Que es el pollo?",
+              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+              "wrongAnswer": [
+                "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+                "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
+              ]
             },
-            "tube3": {
-              "title": "Uniones",
-              "img": "./assets/svg/sanitaria/tube2.svg",
-              "concept": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.",
-              "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+            "thirdQuestion": {
+              "question":"¿Que es caldo?",
+              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+              "wrongAnswer": [
+                "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+                "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
+              ]
+            },
+            "forthQuestion": {
+              "question":"¿Que es la pizza?",
+              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+              "wrongAnswer": [
+                "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+                "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
+              ]
             }
           },
           "chooseThePieces": {
-            "img": "./assets/svg/menu/sanitaria.svg",
-            "plan": "./assets/svg/planos/PlanoHidraulica.svg",
-            "incorrectImg": [
-              "./assets/svg/constrcution/sismica/constrcution1.svg",
-              "./assets/svg/constrcution/sismica/constrcution2.svg"
-            ]
+            "img": "../../assets/svg/sourceGame/hidraulica/menuGame/juegoCementos.svg",
+            "planoBaño1": {
+              "imgPlanoBaño1": "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/1.png",
+              "correctPiece": "./assets/svg/constrcution/sismica/constrcution2.svg",
+              "wrongPieces": [
+                "./assets/svg/constrcution/sismica/constrcution1.svg",
+                "./assets/svg/constrcution/sismica/constrcution2.svg"
+              ]
+            },
+            "planoBaño2": {
+              "imgPlanoBaño2": "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/1.png",
+              "correctPiece": "./assets/svg/constrcution/sismica/constrcution2.svg",
+              "wrongPieces": [
+                "./assets/svg/constrcution/sismica/constrcution1.svg",
+                "./assets/svg/constrcution/sismica/constrcution2.svg"
+              ]
+            },
+            "planoBaño3": {
+              "imgPlanoBaño3": "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/1.png",
+              "correctPiece": "./assets/svg/constrcution/sismica/constrcution2.svg",
+              "wrongPieces": [
+                "./assets/svg/constrcution/sismica/constrcution1.svg",
+                "./assets/svg/constrcution/sismica/constrcution2.svg"
+              ]
+            },
+            "planoBaño4": {
+              "imgPlanoBaño4": "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/1.png",
+              "correctPiece": "./assets/svg/constrcution/sismica/constrcution2.svg",
+              "wrongPieces": [
+                "./assets/svg/constrcution/sismica/constrcution1.svg",
+                "./assets/svg/constrcution/sismica/constrcution2.svg"
+              ]
+            },
+            "planoBaño5": {
+              "imgPlanoBaño5": "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/1.png",
+              "correctPiece": "./assets/svg/constrcution/sismica/constrcution2.svg",
+              "wrongPieces": [
+                "./assets/svg/constrcution/sismica/constrcution1.svg",
+                "./assets/svg/constrcution/sismica/constrcution2.svg"
+              ]
+            },
+            "planoBaño6": {
+              "imgPlanoBaño6": "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/1.png",
+              "correctPiece": "./assets/svg/constrcution/sismica/constrcution2.svg",
+              "wrongPieces": [
+                "./assets/svg/constrcution/sismica/constrcution1.svg",
+                "./assets/svg/constrcution/sismica/constrcution2.svg"
+              ]
+            },
+            "planoBaño7": {
+              "imgPlanoBaño7": "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/1.png",
+              "correctPiece": "./assets/svg/constrcution/sismica/constrcution2.svg",
+              "wrongPieces": [
+                "./assets/svg/constrcution/sismica/constrcution1.svg",
+                "./assets/svg/constrcution/sismica/constrcution2.svg"
+              ]
+            },
+            "planoBaño8": {
+              "imgPlanoBaño8": "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/1.png",
+              "correctPiece": "./assets/svg/constrcution/sismica/constrcution2.svg",
+              "wrongPieces": [
+                "./assets/svg/constrcution/sismica/constrcution1.svg",
+                "./assets/svg/constrcution/sismica/constrcution2.svg"
+              ]
+            }
           },
-          "chooseTheSimbol": {
-            "img": "./assets/svg/menu/Hidraulica.svg",
-            "figura": {
-              "img": "./assets/svg/menu/Hidraulica.svg",
-              "simbol": "./assets/svg/menu/Hidraulica.svg"
+          "chooseSelectThePair": {
+            "piece1": {
+              "figure": "./assets/svg/menu/Hidraulica.svg",
+              "CorrectConvention": "./assets/svg/menu/Hidraulica.svg"
             },
-            "figura1": {
-              "img": "./assets/svg/menu/Hidraulica.svg",
-              "simbol": "./assets/svg/menu/Hidraulica.svg"
+            "piece2": {
+              "figure": "./assets/svg/menu/Hidraulica.svg",
+              "CorrectConvention": "./assets/svg/menu/Hidraulica.svg"
             },
-            "figura2": {
-              "img": "./assets/svg/menu/Hidraulica.svg",
-              "simbol": "./assets/svg/menu/Hidraulica.svg"
+            "piece3": {
+              "figure": "./assets/svg/menu/Hidraulica.svg",
+              "CorrectConvention": "./assets/svg/menu/Hidraulica.svg"
             },
-            "figura3": {
-              "img": "./assets/svg/menu/Hidraulica.svg",
-              "simbol": "./assets/svg/menu/Hidraulica.svg"
+
+            "piece4": {
+              "figure": "./assets/svg/menu/Hidraulica.svg",
+              "CorrectConvention": "./assets/svg/menu/Hidraulica.svg"
             }
           }
+        }
+      ],
+      "installation": [
+        {
+          "title": "Codo de 45",
+          "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
+          "concept": "Son uniones",
+          "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+        },
+        {
+          "title": "TEE",
+          "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/tee_1.webp",
+          "concept": "Son uniones.",
+          "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+        },
+        {
+          "title": "TeTRA",
+          "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
+          "concept": "Son uniones hermeticas.",
+          "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+        },
+        {
+          "title": "Union",
+          "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/union_0.webp",
+          "concept": "Son uniones hermeticas",
+          "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+        },
+        {
+          "title": "conector",
+          "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
+          "concept": "Son uniones hermeticas",
+          "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+        },
+        {
+          "title": "tee",
+          "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/tee_1.webp",
+          "concept": "Son uniones hermeticas .",
+          "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+        },
+        {
+          "title": "codo 90",
+          "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
+          "concept": "Son uniones hermeticas .",
+          "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+        },
+        {
+          "title": "conector",
+          "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/union_0.webp",
+          "concept": "Son uniones hermeticas .",
+          "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+        },
+        {
+          "title": "tee",
+          "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
+          "concept": "Son uniones hermeticas .",
+          "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+        },
+        {
+          "title": "codo 90",
+          "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/tee_1.webp",
+          "concept": "Son uniones hermeticas .",
+          "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+        },
+        {
+          "title": "conector",
+          "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
+          "concept": "Son uniones hermeticas .",
+          "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+        },
+        {
+          "title": "tee",
+          "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/union_0.webp",
+          "concept": "Son uniones hermeticas .",
+          "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         }
       ]
     },
@@ -343,71 +540,209 @@
       "img": "./assets/svg/sourceIndex/menuGases.svg",
       "modules": [
         {
-          "prime": {
-            "img": "./assets/svg/menu/cartilla.svg",
-            "cartillaHidraulica": "./assets/prime/cartillaGas.pdf"
-          },
-          "assessment": {
-            "assessment1": {
-              "title": "Conocimientos Previos",
-              "formulario1": "./assets/formulario/sanitaria/conocimientosP.svg"
+          "documents": {
+            "prime": {
+              "img": "../../assets/docuemnts/sourceVulnerabilidad/prime/portadaCartillaV.svg",
+              "primeS": "./assets/documents/primes/vulnerabilidadSismica.pdf"
             },
-            "assessment2": {
-              "title": "Evaluacion Basica",
-              "formulario2": "./assets/formulario/sanitaria/EBasica.svg"
-            },
-            "assessment3": {
-              "title": "Evaluacion Final",
-              "formulario3": "./assets/formulario/sanitaria/EFinal.svg"
+            "rule": {
+              "ruleS": "./assets/documents/rules/tituloEnrs.pdf"
             }
           },
-          "installation": {
-            "tube1": {
-              "title": "Uniones",
-              "img": "./assets/svg/sanitaria/tube2.svg",
-              "concept": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.",
-              "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+          "assessment": {
+            "firstQuestion": {
+              "question":"¿Que es la naturaleza?",
+              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+              "wrongAnswer": [
+                 "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+                 "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
+               ]
             },
-            "tube2": {
-              "title": "Uniones",
-              "img": "./assets/svg/sanitaria/tube2.svg",
-              "concept": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.",
-              "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+            "secondQuestion": {
+              "question":"¿Que es el pollo?",
+              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+              "wrongAnswer": [
+                "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+                "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
+              ]
             },
-            "tube3": {
-              "title": "Uniones",
-              "img": "./assets/svg/sanitaria/tube2.svg",
-              "concept": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.",
-              "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+            "thirdQuestion": {
+              "question":"¿Que es caldo?",
+              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+              "wrongAnswer": [
+                "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+                "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
+              ]
+            },
+            "forthQuestion": {
+              "question":"¿Que es la pizza?",
+              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+              "wrongAnswer": [
+                "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+                "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
+              ]
             }
           },
           "chooseThePieces": {
-            "img": "./assets/svg/menu/sanitaria.svg",
-            "plan": "./assets/svg/planos/PlanoHidraulica.svg",
-            "incorrectImg": [
-              "./assets/svg/constrcution/sismica/constrcution1.svg",
-              "./assets/svg/constrcution/sismica/constrcution2.svg"
-            ]
+            "img": "../../assets/svg/sourceGame/hidraulica/menuGame/juegoCementos.svg",
+            "planoBaño1": {
+              "imgPlanoBaño1": "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/1.png",
+              "correctPiece": "./assets/svg/constrcution/sismica/constrcution2.svg",
+              "wrongPieces": [
+                "./assets/svg/constrcution/sismica/constrcution1.svg",
+                "./assets/svg/constrcution/sismica/constrcution2.svg"
+              ]
+            },
+            "planoBaño2": {
+              "imgPlanoBaño2": "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/1.png",
+              "correctPiece": "./assets/svg/constrcution/sismica/constrcution2.svg",
+              "wrongPieces": [
+                "./assets/svg/constrcution/sismica/constrcution1.svg",
+                "./assets/svg/constrcution/sismica/constrcution2.svg"
+              ]
+            },
+            "planoBaño3": {
+              "imgPlanoBaño3": "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/1.png",
+              "correctPiece": "./assets/svg/constrcution/sismica/constrcution2.svg",
+              "wrongPieces": [
+                "./assets/svg/constrcution/sismica/constrcution1.svg",
+                "./assets/svg/constrcution/sismica/constrcution2.svg"
+              ]
+            },
+            "planoBaño4": {
+              "imgPlanoBaño4": "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/1.png",
+              "correctPiece": "./assets/svg/constrcution/sismica/constrcution2.svg",
+              "wrongPieces": [
+                "./assets/svg/constrcution/sismica/constrcution1.svg",
+                "./assets/svg/constrcution/sismica/constrcution2.svg"
+              ]
+            },
+            "planoBaño5": {
+              "imgPlanoBaño5": "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/1.png",
+              "correctPiece": "./assets/svg/constrcution/sismica/constrcution2.svg",
+              "wrongPieces": [
+                "./assets/svg/constrcution/sismica/constrcution1.svg",
+                "./assets/svg/constrcution/sismica/constrcution2.svg"
+              ]
+            },
+            "planoBaño6": {
+              "imgPlanoBaño6": "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/1.png",
+              "correctPiece": "./assets/svg/constrcution/sismica/constrcution2.svg",
+              "wrongPieces": [
+                "./assets/svg/constrcution/sismica/constrcution1.svg",
+                "./assets/svg/constrcution/sismica/constrcution2.svg"
+              ]
+            },
+            "planoBaño7": {
+              "imgPlanoBaño7": "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/1.png",
+              "correctPiece": "./assets/svg/constrcution/sismica/constrcution2.svg",
+              "wrongPieces": [
+                "./assets/svg/constrcution/sismica/constrcution1.svg",
+                "./assets/svg/constrcution/sismica/constrcution2.svg"
+              ]
+            },
+            "planoBaño8": {
+              "imgPlanoBaño8": "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/1.png",
+              "correctPiece": "./assets/svg/constrcution/sismica/constrcution2.svg",
+              "wrongPieces": [
+                "./assets/svg/constrcution/sismica/constrcution1.svg",
+                "./assets/svg/constrcution/sismica/constrcution2.svg"
+              ]
+            }
           },
-          "chooseTheSimbol": {
-            "img": "./assets/svg/menu/Hidraulica.svg",
-            "figura": {
-              "img": "./assets/svg/menu/Hidraulica.svg",
-              "simbol": "./assets/svg/menu/Hidraulica.svg"
+          "chooseSelectThePair": {
+            "piece1": {
+              "figure": "./assets/svg/menu/Hidraulica.svg",
+              "CorrectConvention": "./assets/svg/menu/Hidraulica.svg"
             },
-            "figura1": {
-              "img": "./assets/svg/menu/Hidraulica.svg",
-              "simbol": "./assets/svg/menu/Hidraulica.svg"
+            "piece2": {
+              "figure": "./assets/svg/menu/Hidraulica.svg",
+              "CorrectConvention": "./assets/svg/menu/Hidraulica.svg"
             },
-            "figura2": {
-              "img": "./assets/svg/menu/Hidraulica.svg",
-              "simbol": "./assets/svg/menu/Hidraulica.svg"
+            "piece3": {
+              "figure": "./assets/svg/menu/Hidraulica.svg",
+              "CorrectConvention": "./assets/svg/menu/Hidraulica.svg"
             },
-            "figura3": {
-              "img": "./assets/svg/menu/Hidraulica.svg",
-              "simbol": "./assets/svg/menu/Hidraulica.svg"
+
+            "piece4": {
+              "figure": "./assets/svg/menu/Hidraulica.svg",
+              "CorrectConvention": "./assets/svg/menu/Hidraulica.svg"
             }
           }
+        }
+      ],
+      "installation": [
+        {
+          "title": "Codo de 45",
+          "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
+          "concept": "Son uniones",
+          "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+        },
+        {
+          "title": "TEE",
+          "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/tee_1.webp",
+          "concept": "Son uniones.",
+          "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+        },
+        {
+          "title": "TeTRA",
+          "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
+          "concept": "Son uniones hermeticas.",
+          "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+        },
+        {
+          "title": "Union",
+          "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/union_0.webp",
+          "concept": "Son uniones hermeticas",
+          "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+        },
+        {
+          "title": "conector",
+          "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
+          "concept": "Son uniones hermeticas",
+          "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+        },
+        {
+          "title": "tee",
+          "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/tee_1.webp",
+          "concept": "Son uniones hermeticas .",
+          "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+        },
+        {
+          "title": "codo 90",
+          "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
+          "concept": "Son uniones hermeticas .",
+          "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+        },
+        {
+          "title": "conector",
+          "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/union_0.webp",
+          "concept": "Son uniones hermeticas .",
+          "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+        },
+        {
+          "title": "tee",
+          "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
+          "concept": "Son uniones hermeticas .",
+          "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+        },
+        {
+          "title": "codo 90",
+          "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/tee_1.webp",
+          "concept": "Son uniones hermeticas .",
+          "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+        },
+        {
+          "title": "conector",
+          "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
+          "concept": "Son uniones hermeticas .",
+          "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
+        },
+        {
+          "title": "tee",
+          "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/union_0.webp",
+          "concept": "Son uniones hermeticas .",
+          "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         }
       ]
     }
