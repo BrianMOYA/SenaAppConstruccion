@@ -1,3 +1,24 @@
-<p>
-  game-choose-the-pieces works!
-</p>
+<app-header backUrl='/gameInterface'></app-header>
+<ion-content color="medium">
+  <ion-grid fixed>
+    <app-module-name></app-module-name>
+    <ion-row class="ion-justify-content-center">
+      <h4>¿Cuál fue el fallo de la siguiente construcción?</h4>
+    </ion-row>
+    <ion-row class="ion-justify-content-center">
+      <img class="planos" src="../../assets/svg/sourceGame/hidraulica/planosGame/2.png">
+    </ion-row>
+    <ion-row class="ion-justify-content-center">
+      <ion-col size="4" size-md="3"  size-sm="6" size-sm="4" size-lg="2" *ngFor="let piece of pieces">
+        <ion-card class="animate__animated animate__bounceIn ion-activatable ripple-parent" (click)="goTo()">
+          <ion-ripple-effect></ion-ripple-effect>
+          <ion-card-header>
+            <ion-card-title class="ion-text-center" >
+              <img class="pieces" [src]="piece.img">
+            </ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

@@ -7,8 +7,27 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GameChooseThePiecesComponent implements OnInit {
 
+  public pieces: { img: string; }[] = [
+    {
+      img: '../../assets/svg/sourceGame/hidraulica/symbologyGame/1.png',
+
+    },
+    {
+      img: '../../assets/svg/sourceGame/hidraulica/symbologyGame/2.png',
+
+    },
+    {
+      img: '../../assets/svg/sourceGame/hidraulica/symbologyGame/3.png',
+
+    },
+  ];
+
   constructor() { }
 
   ngOnInit() {}
+
+  goTo(){
+
+  }
 
 }

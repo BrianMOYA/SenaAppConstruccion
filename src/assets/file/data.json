@@ -6,76 +6,105 @@
       "img": "./assets/svg/sourceIndex/menuSismica.svg",
       "modules": [
         {
-          "prime": {
-            "img": "./assets/svg/menu/cartilla.svg",
-            "cartillaSsimica": "./assets/prime/cartillaSismica.pdf"
+          "documents": {
+            "prime": {
+              "img": "../../assets/docuemnts/sourceVulnerabilidad/prime/portadaCartillaV.svg",
+              "primeS": "./assets/documents/primes/vulnerabilidadSismica.pdf"
+            },
+            "rule": {
+              "ruleS": "./assets/documents/rules/tituloEnrs.pdf"
+            }
           },
           "assessment": {
-            "assessment1": {
-              "title": "Conocimientos Previos",
-              "formulario1": "./assets/formulario/sismica/conocimientosP.svg"
+            "firstQuestion": {
+              "question":"¿Que es la naturaleza?",
+              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+              "wrongAnswer": [
+                 "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+                 "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
+               ]
             },
-            "assessment2": {
-              "title": "Evaluacion Basica",
-              "formulario2": "./assets/formulario/sismica/EBasica.svg"
+           "secondQuestion": {
+              "question":"¿Que es el pollo?",
+              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+              "wrongAnswer": [
+                "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+                "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
+              ]
             },
-            "assessment3": {
-              "title": "Evaluacion Final",
-              "formulario3": "./assets/formulario/sismica/EFinal.svg"
+            "thirdQuestion": {
+              "question":"¿Que es caldo?",
+              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+              "wrongAnswer": [
+                "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+                "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
+              ]
+            },
+            "forthQuestion": {
+              "question":"¿Que es la pizza?",
+              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+              "wrongAnswer": [
+                "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+                "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
+              ]
             }
           },
-          "bindTheConcrete": {
-            "img": "./assets/svg/menu/menuSismica.svg",
-            "concrete1": {
-              "name": "concretoToxico",
-              "description": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico."
+          "gameSelectTheConcrete": {
+            "img": "../../assets/svg/sourceGame/vulnerabilidad/menuGame/juegoCementos.svg",
+            "concreteResistente": {
+              "imgResistente" : "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_super_resistente.svg",
+              "description": "a. Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico."
             },
-            "concrete2": {
-              "name": "concretoToxico",
-              "description": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico."
+            "concreteEstructural": {
+              "imgEstructural" : "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_uso_estructural.svg",
+              "description": "b. Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico."
             },
-            "concrete3": {
-              "name": "concretoToxico",
-              "description": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico."
+            "concreteAmbMarino": {
+              "imgMarino" : "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_uso_amb_marino.svg",
+              "description": "c. Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico."
             },
-            "concrete4": {
-              "name": "concretoToxico",
-              "description": "Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico."
+            "concreteUsoGeneral": {
+              "imgGeneral" : "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_uso_general.svg",
+              "description": "d. Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico."
             }
           },
-          "chooseCorrectImg": {
-            "img": "./assets/svg/menu/menuSismica.svg",
-            "vigas": {
-              "img": "./assets/svg/constrcution/sismica/constrcution.svg",
-              "statement": "Elije la imagen con una mala implemntación de concreto",
-              "incorrectImg": [
-                "./assets/svg/constrcution/sismica/constrcution1.svg",
-                "./assets/svg/constrcution/sismica/constrcution2.svg"
-              ]
+          "chooseTheDescription": {
+            "img": "../../assets/svg/sourceGame/vulnerabilidad/menuGame/juegoMalasPracticas.svg",
+            "errorViga": {
+              "imgError":"../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/1.png",
+              "correctDescription": "Este error se debe a las vigas que estan mal fin",
+              "wrongDescription": [
+                 "problemas con el mal uso de cemento",
+                 "mala aplicacion de los ladrillos",
+                 "problema en del plano estructural"
+               ]
             },
-            "columnas": {
-              "img": "./assets/svg/constrcution/sismica/constrcution.svg",
-              "statement": "Elije la imagen con una mala implemntación de concreto",
-              "incorrectImg": [
-                "./assets/svg/constrcution/sismica/constrcution1.svg",
-                "./assets/svg/constrcution/sismica/constrcution2.svg"
-              ]
+            "errorMaterial": {
+              "imgError":"../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/2.png",
+              "correctDescription": "Este error se debe al mal uso del material",
+              "wrongDescription": [
+                 "problemas con el mal uso de cemento",
+                 "mala aplicacion de las vigas",
+                 "problema en del plano estructural"
+               ]
             },
-            "material": {
-              "img": "./assets/svg/constrcution/sismica/constrcution.svg",
-              "statement": "Elije la imagen con una mala implemntación de concreto",
-              "incorrectImg": [
-                "./assets/svg/constrcution/sismica/constrcution1.svg",
-                "./assets/svg/constrcution/sismica/constrcution2.svg"
-              ]
+            "errorConcreto": {
+              "imgError":"../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/3.png",
+              "correctDescription": "Este error se debe al mal uso del concreto",
+              "wrongDescription": [
+                 "problemas en las vigas",
+                 "mala aplicacion del material",
+                 "problema en del plano estructural"
+               ]
             },
-            "concreto": {
-              "img": "./assets/svg/constrcution/sismica/constrcution.svg",
-              "statement": "Elije la imagen con una mala implemntación de concreto",
-              "incorrectImg": [
-                "./assets/svg/constrcution/sismica/constrcution1.svg",
-                "./assets/svg/constrcution/sismica/constrcution2.svg"
-              ]
+            "errorPlano": {
+              "imgError":"../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/4.png",
+              "correctDescription": "Este error se debe a las vigas que estan mal fin",
+              "wrongDescription": [
+                 "problemas con el mal uso de cemento",
+                 "mala aplicacion de los ladrillos",
+                 "problema en las vigas"
+               ]
             }
           }
         }
@@ -87,33 +116,58 @@
       "img": "./assets/svg/sourceIndex/menuHidraulica.svg",
       "modules": [
         {
-          "prime": {
-            "img": "./assets/svg/menu/cartilla.svg",
-            "cartillaHidraulica": "./assets/prime/cartillaHidraulica.pdf"
+          "documents": {
+            "prime": {
+              "img": "../../assets/docuemnts/sourceVulnerabilidad/prime/portadaCartillaV.svg",
+              "primeS": "./assets/documents/primes/vulnerabilidadSismica.pdf"
+            },
+            "rule": {
+              "ruleS": "./assets/documents/rules/tituloEnrs.pdf"
+            }
           },
           "assessment": {
-            "assessment1": {
-              "title": "Conocimientos Previos",
-              "formulario1": "./assets/formulario/hidraulica/conocimientosP.svg"
+            "firstQuestion": {
+              "question":"¿Que es la naturaleza?",
+              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+              "wrongAnswer": [
+                 "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+                 "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
+               ]
             },
-            "assessment2": {
-              "title": "Evaluacion Basica",
-              "formulario2": "./assets/formulario/hidraulica/EBasica.svg"
+            "secondQuestion": {
+              "question":"¿Que es el pollo?",
+              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+              "wrongAnswer": [
+                "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+                "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
+              ]
             },
-            "assessment3": {
-              "title": "Evaluacion Final",
-              "formulario3": "./assets/formulario/hidraulica/EFinal.svg"
+            "thirdQuestion": {
+              "question":"¿Que es caldo?",
+              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+              "wrongAnswer": [
+                "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+                "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
+              ]
+            },
+            "forthQuestion": {
+              "question":"¿Que es la pizza?",
+              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+              "wrongAnswer": [
+                "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+                "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
+              ]
             }
           },
           "chooseThePieces": {
-            "img": "./assets/svg/menu/Hidraulica.svg",
+            "img": "../../assets/svg/sourceGame/hidraulica/menuGame/juegoCementos.svg",
             "plan": "./assets/svg/planos/PlanoHidraulica.svg",
             "incorrectImg": [
               "./assets/svg/constrcution/sismica/constrcution1.svg",
               "./assets/svg/constrcution/sismica/constrcution2.svg"
             ]
           },
-          "chooseTheSimbol": {
+          "chooseSelectThePair": {
             "img": "./assets/svg/menu/Hidraulica.svg",
             "figura": {
               "img": "./assets/svg/menu/Hidraulica.svg",
