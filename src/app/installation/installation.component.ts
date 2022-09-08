@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { map } from 'rxjs/operators';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-installation',
@@ -12,11 +13,11 @@ export class InstallationComponent implements OnInit {
   accessories: any [];
 
   constructor(
-    private http: HttpClient
+    private http: HttpClient,
+    private router: Router
   ) { }
 
   ngOnInit() {
-    console.log("Hola");
     this.getaccessory().subscribe(res=>{
       console.log("Res",res)
       const hidraulicas = res[1];
@@ -37,7 +38,9 @@ export class InstallationComponent implements OnInit {
   }
 
   goTo(){
-
+    this.router.navigateByUrl(
+      'installationInfo'
+    )
   }
 
 }

@@ -1,33 +1,57 @@
-<app-header backUrl='/mainInterface/:id'></app-header>
-<ion-content color="primary" [fullscreen]="true">
+<app-header backUrl="/mainInterface/:id"></app-header>
+<ion-content color="medium" class="ion-padding">
   <app-module-name></app-module-name>
-  <ion-row class="title">
-    <h2>Simulacro evaluativo</h2>
+  <ion-row class="ion-justify-content-center">
+    <h1>Evaluación</h1>
   </ion-row>
-  <div class="contain">
-    <div class="contain-items">
-      <ion-item lines="none">
-        <button>
-          <ion-avatar class="module-avatar">
-            <img src="../../assets/svg/assessment/pruebaDeAvance.svg" />
-          </ion-avatar>
-        </button>
+  <ion-row class="ion-justify-content-center">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque maxime assumenda labore nesciunt eum aperiam, repudiandae nam eaque Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dolores assumenda deleniti error culpa quibusdam obcaecati, similique nulla delectus necessitatibus porro suscipit recusandae, at, ducimus placeat laborum sit a repudiandae.</p>
+  </ion-row>
+  <ion-list>
+    <ion-radio-group name="auto" value="tesla">
+      <ion-list-header>
+        <ion-label>¿Que significa matrerial inadecuado?</ion-label>
+      </ion-list-header>
+      <ion-item>
+        <ion-label>Lorem ipsum dolor, sit amet consectetur adipisicing</ion-label>
+        <ion-radio value="respuesta1"></ion-radio>
       </ion-item>
-      <ion-item lines="none">
-        <button>
-          <ion-avatar class="module-avatar">
-            <img src="../../assets/svg/assessment/pruebaConocPrevios.svg" />
-          </ion-avatar>
-        </button>
+      <ion-item>
+        <ion-label>Lorem ipsum dolor, sit amet consectetur adipisicing elit</ion-label>
+        <ion-radio value="respuesta2"></ion-radio>
       </ion-item>
-      <ion-item lines="none">
-        <button>
-          <ion-avatar class="module-avatar">
-            <img src="../../assets/svg/assessment/pruebaFinal.svg" />
-          </ion-avatar>
-        </button>
+      <ion-item>
+        <ion-label>Lorem ipsum dolor, sit amet consectetur adipisicing</ion-label>
+        <ion-radio value="respuesta3"></ion-radio>
       </ion-item>
-    </div>
-  </div>
+      <ion-item>
+        <ion-label>Lorem ipsum dolor, sit amet consectetur adipisicing eli</ion-label>
+        <ion-radio value="respuesta4"></ion-radio>
+      </ion-item>
+    </ion-radio-group>
+  </ion-list>
+  <ion-list>
+    <ion-radio-group name="auto" value="tesla">
+      <ion-list-header>
+        <ion-label>¿Que significa matrerial inadecuado?</ion-label>
+      </ion-list-header>
+      <ion-item>
+        <ion-label>Lorem ipsum dolor, sit amet consectetur adipisicing</ion-label>
+        <ion-radio value="respuesta1"></ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-label>Lorem ipsum dolor, sit amet consectetur adipisicing elit</ion-label>
+        <ion-radio value="respuesta2"></ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-label>Lorem ipsum dolor, sit amet consectetur adipisicing</ion-label>
+        <ion-radio value="respuesta3"></ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-label>Lorem ipsum dolor, sit amet consectetur adipisicing eli</ion-label>
+        <ion-radio value="respuesta4"></ion-radio>
+      </ion-item>
+    </ion-radio-group>
+  </ion-list>
 </ion-content>
-<app-footer></app-footer>
+

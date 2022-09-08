@@ -1,30 +1,44 @@
-<app-header backUrl='/index'></app-header>
-<ion-content color="primary" [fullscreen]="true">
+<app-header backUrl='/installation'></app-header>
+<ion-content color="gradient" [fullscreen]="true">
+  <ion-grid>
     <app-module-name></app-module-name>
-    <div class="content_div">
-      <ion-label class="hello_lbl">Información</ion-label>
-      <ion-grid fixed>
-        <ion-row>
-          <ion-col size="6">
-            <div class="contain">
-              <div class="contain_col_div">
-                <div>
-                  <h1>PIEZA TEE</h1>
-                </div>
-                <div>
-                  <ion-label>convención</ion-label>
-                  <img src="../../assets/svg/sourceHidraulica/convencionModule/tee.png">
-                </div>
-              </div>
-              <div class="img">
-                <img src="../../assets/svg/sourceInstallation/piezasHidraulicas/tee_0.webp">
-              </div>
-              <div class="txt">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dicta mollitia nostrum. Magnam dolore cumque itaque odit nam voluptates, dolorum totam accusantium consequatur, esse corporis cum praesentium eaque, quibusdam perspiciatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dicta mollitia nostrum. Magnam dolore cumque itaque odit nam voluptates, dolorum totam accusantium consequatur, esse corporis cum praesentium eaque, quibusdam perspiciatis?</p>
-              </div>
-            </div>
-          </ion-col>
-        </ion-row>
-      </ion-grid>
-    </div>
+      <ion-row>
+        <ion-col size="6">
+          <ion-card>
+            <ion-card-header>
+              <ion-card-title class="ion-text-center main-title" >
+                <b>
+                  <h1>Convencion</h1>
+                </b>
+              </ion-card-title>
+              <ion-card-title class="ion-text-center" >
+                <img src="../../assets/svg/sourceMainInterface/portada_Sinupot.svg">
+              </ion-card-title>
+            </ion-card-header>
+          </ion-card>
+        </ion-col>
+        <ion-col>
+          <ion-card>
+            <ion-card-header>
+              <ion-card-title class="ion-text-center main-title" >
+                <b>
+                  <h1>Nombre TEE</h1>
+                </b>
+              </ion-card-title>
+              <ion-card-title class="ion-text-center" >
+                <img Src="../../assets/svg/sourceMainInterface/portada_Sinupot.svg">
+              </ion-card-title>
+            </ion-card-header>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+      <ion-row class="ion-justify-content-center">
+        <h1>Concepto</h1>
+        <p  class="ion-text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque maxime assumenda labore nesciunt eum aperiam, repudiandae nam eaque Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dolores assumenda deleniti error culpa quibusdam obcaecati, similique nulla delectus necessitatibus porro suscipit recusandae, at, ducimus placeat laborum sit a repudiandae.</p>
+      </ion-row>
+      <ion-row class="ion-justify-content-center">
+        <h1>Caracteristicas</h1>
+        <p  class="ion-text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque maxime assumenda labore nesciunt eum aperiam, repudiandae nam eaque Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dolores assumenda deleniti error culpa quibusdam obcaecati, similique nulla delectus necessitatibus porro suscipit recusandae, at, ducimus placeat laborum sit a repudiandae.</p>
+      </ion-row>
+  </ion-grid>
 </ion-content>

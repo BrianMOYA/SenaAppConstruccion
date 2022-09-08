@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MenuController } from '@ionic/angular';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-nav-bar',
@@ -8,11 +9,24 @@ import { MenuController } from '@ionic/angular';
 })
 export class NavBarComponent implements OnInit {
 
-  constructor() {
+  constructor(
+    private router: Router,
+  ) {
 
   }
 
 
   ngOnInit() {}
+
+  async goModule(
+    moduleId = ''
+  )
+  {
+    //this.moduleName.passModuleName(moduleId)
+    localStorage.setItem('currentModule', moduleId);
+    this.router.navigateByUrl(
+      'mainInterface/' + moduleId
+    )
+  }
 
 }

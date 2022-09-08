@@ -25,7 +25,7 @@ export class TechnicalMaterialComponent implements OnInit {
     {
       img: "../../assets/svg/sourceMaterialDeApoyo/portada_Videos.svg",
       title: "Videos",
-      route: "/"
+      route: "https://www.youtube.com/watch?v=8pnyiYnzq0A&ab_channel=SennovaCTCM"
     },
   ];
 

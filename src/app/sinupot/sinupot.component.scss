@@ -8,9 +8,12 @@ img{
   margin-top: 20px;
   border-radius: 10px;
   background: linear-gradient(#D04D52, #ee555a, #f38a8f);
-  color: #ffffff;
-  font-weight: 500;
-  font-size: medium;
+  a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: medium;
+  }
 }
 
 ion-footer{

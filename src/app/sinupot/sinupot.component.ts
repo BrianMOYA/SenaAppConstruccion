@@ -17,4 +17,14 @@ export class SinupotComponent implements OnInit {
 
   ngOnInit() {}
 
+  /*@Component({
+    selector: 'app-internet-alert',
+    styles:[],
+    template: `
+      <div style="text-align: center;">
+        Internet Required
+      </div>
+    `
+  })*/
+
 }

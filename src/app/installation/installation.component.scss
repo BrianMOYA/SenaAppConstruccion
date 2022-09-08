@@ -1,24 +1,3 @@
-.module-name{
-  z-index: 1;
-  width: 100%;
-  background-color: var(--ion-color-crema);
-  justify-content: center;
-  h1{
-      text-align: center;
-      color:  var(--ion-color-marron);
-      font-size: 30px;
-      font-family: 'Poppins-bold' !important;
-      margin-left: 10px;
-      margin-right: 10px;
-      margin-top: 10px;
-  }
-  small{
-      text-align: center;
-      font-family: 'Poppins-medium';
-      color: #b28857;
-  }
-}
-
 ion-col{
   padding: 0px;
 }
@@ -53,15 +32,5 @@ ion-card{
 
 .main-title{
   border-bottom: 1px solid #b2885766;
-  b{
-      font-family: 'Poppins-medium' !important;
-  }
 }
 
-.obs{
-  font-family: 'Poppins-regular' !important;
-}
-
-.locked{
-  --background: #c5bca3f7;
-}

@@ -15,57 +15,23 @@
               "ruleS": "./assets/documents/rules/tituloEnrs.pdf"
             }
           },
-          "assessment": {
-            "firstQuestion": {
-              "question":"¿Que es la naturaleza?",
-              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
-              "wrongAnswer": [
-                 "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
-                 "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
-               ]
-            },
-           "secondQuestion": {
-              "question":"¿Que es el pollo?",
-              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
-              "wrongAnswer": [
-                "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
-                "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
-              ]
-            },
-            "thirdQuestion": {
-              "question":"¿Que es caldo?",
-              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
-              "wrongAnswer": [
-                "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
-                "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
-              ]
-            },
-            "forthQuestion": {
-              "question":"¿Que es la pizza?",
-              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
-              "wrongAnswer": [
-                "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
-                "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
-              ]
-            }
-          },
           "gameSelectTheConcrete": {
             "img": "../../assets/svg/sourceGame/vulnerabilidad/menuGame/juegoCementos.svg",
             "concreteResistente": {
               "imgResistente" : "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_super_resistente.svg",
-              "description": "a. Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico."
+              "description": "Presenta buena durabilidad en ambientes polucionados con un buen terminado. Con alta retención de agua dándole una buena manejabilidad para acabados finos. Igualmente, es adecuado para nivelación y afinados de piso. "
             },
             "concreteEstructural": {
               "imgEstructural" : "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_uso_estructural.svg",
-              "description": "b. Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico."
+              "description": "Es especial para elementos estructurales como cimientos, losas, vigas, columnas y muros. También, es ideal para producir elementos prefabricados de todo tipo y concretos de alta resistencia, además cumple con un tiempo de fraguado que incrementa el rendimiento en obra, por permitir desencofrar en menor tiempo."
             },
             "concreteAmbMarino": {
               "imgMarino" : "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_uso_amb_marino.svg",
-              "description": "c. Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico."
+              "description": "Es durable en construcciones con altos contenidos de sulfatos como aguas residuales urbanas o industriales. Ideal para concretos y morteros expuestos a la acción de sulfatos presentes en aguas costeras, aguas negras o industriales, además es adecuado para obras de infraestructura que requieran bajo calor de hidratación"
             },
             "concreteUsoGeneral": {
               "imgGeneral" : "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_uso_general.svg",
-              "description": "d. Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico."
+              "description": "Puede usarse en estructuras que no demanden alta resistencia inicial. Ideal para acabados y repello de paredes interiores y exteriores, pegado de bloques, mosaicos, baldosas y piezas sanitarias."
             }
           },
           "chooseTheDescription": {
@@ -106,7 +72,49 @@
                  "problema en las vigas"
                ]
             }
-          }
+          },
+          "assessment": [
+            {
+              "question":"¿Que es la naturaleza?",
+              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+              "wrongAnswer": [
+                  "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+                  "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
+              ]
+            },
+            {
+              "question":"¿Que es la naturaleza?",
+              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+              "wrongAnswer": [
+                  "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+                  "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
+              ]
+            },
+            {
+              "question":"¿Que es la naturaleza?",
+              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+              "wrongAnswer": [
+                  "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+                  "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
+              ]
+            },
+            {
+              "question":"¿Que es la naturaleza?",
+              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+              "wrongAnswer": [
+                  "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+                  "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
+              ]
+            },
+            {
+              "question":"¿Que es la naturaleza?",
+              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+              "wrongAnswer": [
+                  "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+                  "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -125,40 +133,41 @@
               "ruleS": "./assets/documents/rules/tituloEnrs.pdf"
             }
           },
-          "assessment": {
-            "firstQuestion": {
-              "question":"¿Que es la naturaleza?",
-              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
-              "wrongAnswer": [
-                 "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
-                 "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
-               ]
+          "gameDashboard":[
+            {
+              "name":"Union universal",
+              "img": "./assets/svg/sourceIndex/menuHidraulica.svg"
             },
-            "secondQuestion": {
-              "question":"¿Que es el pollo?",
-              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
-              "wrongAnswer": [
-                "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
-                "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
-              ]
+            {
+              "name":"TEE reducida",
+              "img": "./assets/svg/sourceIndex/menuHidraulica.svg"
             },
-            "thirdQuestion": {
-              "question":"¿Que es caldo?",
-              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
-              "wrongAnswer": [
-                "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
-                "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
-              ]
+            {
+              "name":"Adaptador macho",
+              "img": "./assets/svg/sourceIndex/menuHidraulica.svg"
             },
-            "forthQuestion": {
-              "question":"¿Que es la pizza?",
-              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
-              "wrongAnswer": [
-                "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
-                "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
-              ]
+            {
+              "name":"Valvula retacion",
+              "img": "./assets/svg/sourceIndex/menuHidraulica.svg"
+            },
+            {
+              "name":"Tapon",
+              "img": "./assets/svg/sourceIndex/menuHidraulica.svg"
+            },
+            {
+              "name":"Buje",
+              "img": "./assets/svg/sourceIndex/menuHidraulica.svg"
+            },
+            {
+              "name":"Codo 90",
+              "img": "./assets/svg/sourceIndex/menuHidraulica.svg"
+            },
+
+            {
+              "name":"TEE",
+              "img": "./assets/svg/sourceIndex/menuHidraulica.svg"
             }
-          },
+          ],
           "chooseThePieces": {
             "img": "../../assets/svg/sourceGame/hidraulica/menuGame/juegoCementos.svg",
             "planoBaño1": {
@@ -244,78 +253,132 @@
               "figure": "./assets/svg/menu/Hidraulica.svg",
               "CorrectConvention": "./assets/svg/menu/Hidraulica.svg"
             }
-          }
+          },
+          "assessment": [
+            {
+              "question":"¿Que es la naturaleza?",
+              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+              "wrongAnswer": [
+                  "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+                  "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
+              ]
+            },
+            {
+              "question":"¿Que es la naturaleza?",
+              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+              "wrongAnswer": [
+                  "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+                  "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
+              ]
+            },
+            {
+              "question":"¿Que es la naturaleza?",
+              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+              "wrongAnswer": [
+                  "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+                  "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
+              ]
+            },
+            {
+              "question":"¿Que es la naturaleza?",
+              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+              "wrongAnswer": [
+                  "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+                  "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
+              ]
+            },
+            {
+              "question":"¿Que es la naturaleza?",
+              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+              "wrongAnswer": [
+                  "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+                  "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
+              ]
+            }
+          ]
         }
       ],
       "installation": [
         {
-          "title": "Codo de 45",
+          "title": "Codo 45",
+          "convencion": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "concept": "Son uniones",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "TEE",
+          "convencion": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/tee_1.webp",
           "concept": "Son uniones.",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "TeTRA",
+          "convencion": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "concept": "Son uniones hermeticas.",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "Union",
+          "convencion": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/union_0.webp",
           "concept": "Son uniones hermeticas",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "conector",
+          "convencion": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "concept": "Son uniones hermeticas",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "tee",
+          "convencion": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/tee_1.webp",
           "concept": "Son uniones hermeticas .",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "codo 90",
+          "convencion": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "concept": "Son uniones hermeticas .",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "conector",
+          "convencion": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/union_0.webp",
           "concept": "Son uniones hermeticas .",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "tee",
+          "convencion": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "concept": "Son uniones hermeticas .",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "codo 90",
+          "convencion": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/tee_1.webp",
           "concept": "Son uniones hermeticas .",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "conector",
+          "convencion": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "concept": "Son uniones hermeticas .",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "tee",
+          "convencion": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/union_0.webp",
           "concept": "Son uniones hermeticas .",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
@@ -337,40 +400,41 @@
               "ruleS": "./assets/documents/rules/tituloEnrs.pdf"
             }
           },
-          "assessment": {
-            "firstQuestion": {
-              "question":"¿Que es la naturaleza?",
-              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
-              "wrongAnswer": [
-                 "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
-                 "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
-               ]
+          "gameDashboard":[
+            {
+              "name":"TEE sanitaria",
+              "img": "./assets/svg/sourceIndex/menuHidraulica.svg"
             },
-            "secondQuestion": {
-              "question":"¿Que es el pollo?",
-              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
-              "wrongAnswer": [
-                "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
-                "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
-              ]
+            {
+              "name":"YEE sanitaria",
+              "img": "./assets/svg/sourceIndex/menuHidraulica.svg"
             },
-            "thirdQuestion": {
-              "question":"¿Que es caldo?",
-              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
-              "wrongAnswer": [
-                "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
-                "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
-              ]
+            {
+              "name":"TEE reducida",
+              "img": "./assets/svg/sourceIndex/menuHidraulica.svg"
             },
-            "forthQuestion": {
-              "question":"¿Que es la pizza?",
-              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
-              "wrongAnswer": [
-                "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
-                "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
-              ]
+            {
+              "name":"YEE reducida",
+              "img": "./assets/svg/sourceIndex/menuHidraulica.svg"
+            },
+            {
+              "name":"Cifon",
+              "img": "./assets/svg/sourceIndex/menuHidraulica.svg"
+            },
+            {
+              "name":"Codo 90",
+              "img": "./assets/svg/sourceIndex/menuHidraulica.svg"
+            },
+            {
+              "name":"Union",
+              "img": "./assets/svg/sourceIndex/menuHidraulica.svg"
+            },
+
+            {
+              "name":"Semicodo",
+              "img": "./assets/svg/sourceIndex/menuHidraulica.svg"
             }
-          },
+          ],
           "chooseThePieces": {
             "img": "../../assets/svg/sourceGame/hidraulica/menuGame/juegoCementos.svg",
             "planoBaño1": {
@@ -456,78 +520,132 @@
               "figure": "./assets/svg/menu/Hidraulica.svg",
               "CorrectConvention": "./assets/svg/menu/Hidraulica.svg"
             }
-          }
+          },
+          "assessment": [
+            {
+              "question":"¿Que es la naturaleza?",
+              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+              "wrongAnswer": [
+                  "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+                  "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
+              ]
+            },
+            {
+              "question":"¿Que es la naturaleza?",
+              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+              "wrongAnswer": [
+                  "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+                  "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
+              ]
+            },
+            {
+              "question":"¿Que es la naturaleza?",
+              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+              "wrongAnswer": [
+                  "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+                  "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
+              ]
+            },
+            {
+              "question":"¿Que es la naturaleza?",
+              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+              "wrongAnswer": [
+                  "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+                  "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
+              ]
+            },
+            {
+              "question":"¿Que es la naturaleza?",
+              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+              "wrongAnswer": [
+                  "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+                  "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
+              ]
+            }
+          ]
         }
       ],
       "installation": [
         {
-          "title": "Codo de 45",
+          "title": "Codo 45",
+          "convencion": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "concept": "Son uniones",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "TEE",
+          "convencion": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/tee_1.webp",
           "concept": "Son uniones.",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "TeTRA",
+          "convencion": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "concept": "Son uniones hermeticas.",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "Union",
+          "convencion": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/union_0.webp",
           "concept": "Son uniones hermeticas",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "conector",
+          "convencion": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "concept": "Son uniones hermeticas",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "tee",
+          "convencion": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/tee_1.webp",
           "concept": "Son uniones hermeticas .",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "codo 90",
+          "convencion": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "concept": "Son uniones hermeticas .",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "conector",
+          "convencion": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/union_0.webp",
           "concept": "Son uniones hermeticas .",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "tee",
+          "convencion": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "concept": "Son uniones hermeticas .",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "codo 90",
+          "convencion": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/tee_1.webp",
           "concept": "Son uniones hermeticas .",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "conector",
+          "convencion": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "concept": "Son uniones hermeticas .",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "tee",
+          "convencion": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/union_0.webp",
           "concept": "Son uniones hermeticas .",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
@@ -549,40 +667,41 @@
               "ruleS": "./assets/documents/rules/tituloEnrs.pdf"
             }
           },
-          "assessment": {
-            "firstQuestion": {
-              "question":"¿Que es la naturaleza?",
-              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
-              "wrongAnswer": [
-                 "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
-                 "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
-               ]
+          "gameDashboard":[
+            {
+              "name":"Tapon de copa",
+              "img": "./assets/svg/sourceIndex/menuHidraulica.svg"
             },
-            "secondQuestion": {
-              "question":"¿Que es el pollo?",
-              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
-              "wrongAnswer": [
-                "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
-                "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
-              ]
+            {
+              "name":"Valvula de bola",
+              "img": "./assets/svg/sourceIndex/menuHidraulica.svg"
             },
-            "thirdQuestion": {
-              "question":"¿Que es caldo?",
-              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
-              "wrongAnswer": [
-                "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
-                "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
-              ]
+            {
+              "name":"Adaptador macho",
+              "img": "./assets/svg/sourceIndex/menuHidraulica.svg"
             },
-            "forthQuestion": {
-              "question":"¿Que es la pizza?",
-              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
-              "wrongAnswer": [
-                "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
-                "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
-              ]
+            {
+              "name":"Codo calle",
+              "img": "./assets/svg/sourceIndex/menuHidraulica.svg"
+            },
+            {
+              "name":"Regulador",
+              "img": "./assets/svg/sourceIndex/menuHidraulica.svg"
+            },
+            {
+              "name":"Elevador",
+              "img": "./assets/svg/sourceIndex/menuHidraulica.svg"
+            },
+            {
+              "name":"Codo 90",
+              "img": "./assets/svg/sourceIndex/menuHidraulica.svg"
+            },
+
+            {
+              "name":"TEE",
+              "img": "./assets/svg/sourceIndex/menuHidraulica.svg"
             }
-          },
+          ],
           "chooseThePieces": {
             "img": "../../assets/svg/sourceGame/hidraulica/menuGame/juegoCementos.svg",
             "planoBaño1": {
@@ -668,78 +787,132 @@
               "figure": "./assets/svg/menu/Hidraulica.svg",
               "CorrectConvention": "./assets/svg/menu/Hidraulica.svg"
             }
-          }
+          },
+          "assessment": [
+            {
+              "question":"¿Que es la naturaleza?",
+              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+              "wrongAnswer": [
+                  "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+                  "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
+              ]
+            },
+            {
+              "question":"¿Que es la naturaleza?",
+              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+              "wrongAnswer": [
+                  "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+                  "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
+              ]
+            },
+            {
+              "question":"¿Que es la naturaleza?",
+              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+              "wrongAnswer": [
+                  "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+                  "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
+              ]
+            },
+            {
+              "question":"¿Que es la naturaleza?",
+              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+              "wrongAnswer": [
+                  "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+                  "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
+              ]
+            },
+            {
+              "question":"¿Que es la naturaleza?",
+              "answer": "La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+              "wrongAnswer": [
+                  "es un fenonmeno concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico",
+                  "es antiguo utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico"
+              ]
+            }
+          ]
         }
       ],
       "installation": [
         {
-          "title": "Codo de 45",
+          "title": "Codo 45",
+          "convencion": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "concept": "Son uniones",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "TEE",
+          "convencion": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/tee_1.webp",
           "concept": "Son uniones.",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "TeTRA",
+          "convencion": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "concept": "Son uniones hermeticas.",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "Union",
+          "convencion": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/union_0.webp",
           "concept": "Son uniones hermeticas",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "conector",
+          "convencion": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "concept": "Son uniones hermeticas",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "tee",
+          "convencion": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/tee_1.webp",
           "concept": "Son uniones hermeticas .",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "codo 90",
+          "convencion": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "concept": "Son uniones hermeticas .",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "conector",
+          "convencion": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/union_0.webp",
           "concept": "Son uniones hermeticas .",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "tee",
+          "convencion": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "concept": "Son uniones hermeticas .",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "codo 90",
+          "convencion": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/tee_1.webp",
           "concept": "Son uniones hermeticas .",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "conector",
+          "convencion": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "concept": "Son uniones hermeticas .",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
         },
         {
           "title": "tee",
+          "convencion": "../../assets/svg/sourceInstallation/piezasHidraulicas/codo45.webp",
           "img": "../../assets/svg/sourceInstallation/piezasHidraulicas/union_0.webp",
           "concept": "Son uniones hermeticas .",
           "feature": "Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo."
