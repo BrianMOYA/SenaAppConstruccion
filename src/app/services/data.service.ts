@@ -23,11 +23,23 @@ export class DataService {
       })
     ).toPromise();
 
+
     this.currentModule = categories.find( (module) => module.name.includes(modulename) );
     return this.currentModule || {};
   }
 
+  async getinfor(modulename: string){
+    const categories = await this.http
+    .get("assets/file/data.json")
+    .pipe(
+      map((res:any) =>{
+        return res.categories
+      })
+    ).toPromise();
 
 
+    this.currentModule = categories.find( (module) => module.name.includes(modulename) );
+    return this.currentModule || {};
+  }
 
 }

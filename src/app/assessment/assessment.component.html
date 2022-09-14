@@ -7,48 +7,25 @@
   <ion-row class="ion-justify-content-center">
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque maxime assumenda labore nesciunt eum aperiam, repudiandae nam eaque Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dolores assumenda deleniti error culpa quibusdam obcaecati, similique nulla delectus necessitatibus porro suscipit recusandae, at, ducimus placeat laborum sit a repudiandae.</p>
   </ion-row>
-  <ion-list>
+  <ion-list *ngFor="let opt of options">
     <ion-radio-group name="auto" value="tesla">
       <ion-list-header>
-        <ion-label>¿Que significa matrerial inadecuado?</ion-label>
+        <ion-label>{{ opt.question | titlecase }}</ion-label>
       </ion-list-header>
       <ion-item>
-        <ion-label>Lorem ipsum dolor, sit amet consectetur adipisicing</ion-label>
+        <ion-label>{{ opt.opt1 }}</ion-label>
         <ion-radio value="respuesta1"></ion-radio>
       </ion-item>
       <ion-item>
-        <ion-label>Lorem ipsum dolor, sit amet consectetur adipisicing elit</ion-label>
+        <ion-label>{{ opt.opt2 }}</ion-label>
         <ion-radio value="respuesta2"></ion-radio>
       </ion-item>
       <ion-item>
-        <ion-label>Lorem ipsum dolor, sit amet consectetur adipisicing</ion-label>
+        <ion-label>{{ opt.opt3 }}</ion-label>
         <ion-radio value="respuesta3"></ion-radio>
       </ion-item>
       <ion-item>
-        <ion-label>Lorem ipsum dolor, sit amet consectetur adipisicing eli</ion-label>
-        <ion-radio value="respuesta4"></ion-radio>
-      </ion-item>
-    </ion-radio-group>
-  </ion-list>
-  <ion-list>
-    <ion-radio-group name="auto" value="tesla">
-      <ion-list-header>
-        <ion-label>¿Que significa matrerial inadecuado?</ion-label>
-      </ion-list-header>
-      <ion-item>
-        <ion-label>Lorem ipsum dolor, sit amet consectetur adipisicing</ion-label>
-        <ion-radio value="respuesta1"></ion-radio>
-      </ion-item>
-      <ion-item>
-        <ion-label>Lorem ipsum dolor, sit amet consectetur adipisicing elit</ion-label>
-        <ion-radio value="respuesta2"></ion-radio>
-      </ion-item>
-      <ion-item>
-        <ion-label>Lorem ipsum dolor, sit amet consectetur adipisicing</ion-label>
-        <ion-radio value="respuesta3"></ion-radio>
-      </ion-item>
-      <ion-item>
-        <ion-label>Lorem ipsum dolor, sit amet consectetur adipisicing eli</ion-label>
+        <ion-label>{{ opt.opt4 }}</ion-label>
         <ion-radio value="respuesta4"></ion-radio>
       </ion-item>
     </ion-radio-group>

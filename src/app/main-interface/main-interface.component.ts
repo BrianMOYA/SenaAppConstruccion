@@ -19,7 +19,7 @@ export class MainInterfaceComponent implements OnInit {
     {
       img: "../../assets/svg/sourceMainInterface/portada_juegos.svg",
       title: "Juegos",
-      route: "/gameInterface"
+      route: "/game/gameInterface"
     },
     {
       img: "../../assets/svg/sourceMainInterface/portada_MaterialDeApoyo.svg",

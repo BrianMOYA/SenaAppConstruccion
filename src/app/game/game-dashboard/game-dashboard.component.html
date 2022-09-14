@@ -1,13 +1,10 @@
-<app-header backUrl='/index'></app-header>
+<app-header backUrl='/game/gameInterface'></app-header>
 <ion-content color="medium" [fullscreen]="true">
   <app-module-name></app-module-name>
-  <ion-row class="module-name">
-    <h1>Piezas</h1>
-  </ion-row>
   <ion-grid >
     <ion-row class="ion-justify-content-center">
       <ion-col size="5" size-md="3"  size-sm="6" size-sm="4" size-lg="2" *ngFor="let item of games">
-        <ion-card class="animate__animated animate__bounceIn ion-activatable ripple-parent" (click)="goTo">
+        <ion-card [routerLink]="item.route" class="animate__animated animate__bounceIn ion-activatable ripple-parent" (click)="goTo">
           <ion-ripple-effect></ion-ripple-effect>
           <ion-card-header>
             <ion-card-title class="ion-text-center main-title" >

@@ -11,42 +11,42 @@ export class GameDashboardComponent implements OnInit {
     {
       img: "../../assets/svg/sourceMainInterface/piezas/codo90.webp",
       title: "Codo de 45",
-      route: "/sinupot"
+      route: "/game/gameChoosePieces"
     },
     {
       img: "../../assets/svg/sourceMainInterface/piezas/codo90.webp",
       title: "Codo 90",
-      route: "/gameInterface"
+      route: "/game/gameChoosePieces"
     },
     {
       img: "../../assets/svg/sourceMainInterface/piezas/codo90.webp",
       title: "Union",
-      route: "/technicalMaterial"
+      route: "/game/gameChoosePieces"
     },
     {
       img: "../../assets/svg/sourceMainInterface/piezas/codo90.webp",
       title: "Cubo",
-      route: "/assessment"
+      route: "/game/gameChoosePieces"
     },
     {
       img: "../../assets/svg/sourceMainInterface/piezas/codo90.webp",
       title: "Conector",
-      route: "/assessment"
+      route: "/game/gameChoosePieces"
     },
     {
       img: "../../assets/svg/sourceMainInterface/piezas/codo90.webp",
       title: "esfera",
-      route: "/assessment"
+      route: "/game/gameChoosePieces"
     },
     {
       img: "../../assets/svg/sourceMainInterface/piezas/codo90.webp",
       title: "codo 100",
-      route: "/assessment"
+      route: "/game/gameChoosePieces"
     },
     {
       img: "../../assets/svg/sourceMainInterface/piezas/codo90.webp",
       title: "tee 720",
-      route: "/assessment"
+      route: "/game/gameChoosePieces"
     }
   ];
 

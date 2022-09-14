@@ -12,40 +12,68 @@ export class TechnicalMaterialComponent implements OnInit {
   moduleName : string;
 
   public btnsMaterial : {img: string, title: string, route: string}[] = [
-    {
-      img: "../../assets/svg/sourceVulnerabilidad/prime/portadaCartillaV.svg",
-      title: "Cartilla Vulnerabilidad",
-      route: "/"
-    },
-    {
-      img: "../../assets/svg/sourceMaterialDeApoyo/portada_Normas.svg",
-      title: "Normas",
-      route: "/"
-    },
-    {
-      img: "../../assets/svg/sourceMaterialDeApoyo/portada_Videos.svg",
-      title: "Videos",
-      route: "https://www.youtube.com/watch?v=8pnyiYnzq0A&ab_channel=SennovaCTCM"
-    },
   ];
+
+  rutas = {
+    "Vulnerabiliad Sismica" : [
+      {
+        img: "../../assets/svg/sourceVulnerabilidad/prime/portadaCartillaV.svg",
+        title: "Cartilla Sismica",
+        route: "/game/gameSelectConcrete"
+      },
+      {
+        img: "../../assets/svg/sourceMaterialDeApoyo/portada_Normas.svg",
+        title: "Norma Titulo E",
+        route: "/game/gameChooseDescription"
+      }
+    ],
+    "Hidraulica" : [
+      {
+        img: "../../assets/svg/sourceHidraulica/prime/portada_H.svg",
+        title: "Cartilla Hidrualica",
+        route: "/game/gameSelectConcrete"
+      },
+      {
+        img: "../../assets/svg/sourceMaterialDeApoyo/portada_Normas.svg",
+        title: "Norma 1500",
+        route: "/game/gameChooseDescription"
+      }
+    ],
+    "Sanitaria" : [
+      {
+        img: "../../assets/svg/sourceSanitaria/prime/portada_S.svg",
+        title: "Cartilla Sanitaria",
+        route: "/game/gameSelectConcrete"
+      },
+      {
+        img: "../../assets/svg/sourceMaterialDeApoyo/portada_Normas.svg",
+        title: "Norma 1500",
+        route: "/game/gameChooseDescription"
+      }
+    ],
+    "Gas" : [
+      {
+        img: "../../assets/svg/sourceGas/prime/portada_G.svg",
+        title: "Cartilla Gas",
+        route: "/game/gameSelectConcrete"
+      },
+      {
+        img: "../../assets/svg/sourceMaterialDeApoyo/portada_Normas.svg",
+        title: "Norma 1500",
+        route: "/game/gameChooseDescription"
+      }
+    ],
+  }
 
   constructor(
     private moduleNameService: ModuleNameService,
     private route: ActivatedRoute
   ) {
-    this.route.params.subscribe(({id}) => {
-
-
-      const moduleId = id === ':id' ? localStorage.getItem('currentModule') : id;
-
-      if(!moduleId.includes("Vulnerabiliad Sismica")){
-        this.btnsMaterial[0].title = "Cartilla Sismica";
-        this.btnsMaterial[0].img = "../../assets/svg/sourceMainInterface/portada_Instalaciones.svg";
-        this.btnsMaterial[0].route = "/";
-      }
-      this.moduleNameService.passModuleName(moduleId);
+    this.moduleNameService.moduleNameSource.subscribe((moduleId) => {
+      this.btnsMaterial = this.rutas[moduleId]
     })
   }
+
 
   ngOnInit(): void {}
 

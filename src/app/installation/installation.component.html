@@ -1,5 +1,5 @@
 <app-header backUrl='/mainInterface/:id'></app-header>
-<ion-content color="gradient" [fullscreen]="true">
+<ion-content color="primary" [fullscreen]="true">
   <ion-grid >
     <app-module-name></app-module-name>
     <ion-row>
@@ -15,9 +15,6 @@
             <ion-card-title class="ion-text-center" >
               <img [src]=accessory.img>
             </ion-card-title>
-            <ion-card-subtitle class="ion-text-center obs">
-              {{ accessory.concept }}
-            </ion-card-subtitle>
           </ion-card-header>
         </ion-card>
       </ion-col>

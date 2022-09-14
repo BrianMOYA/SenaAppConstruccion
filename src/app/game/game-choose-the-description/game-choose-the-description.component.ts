@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-game-choose-the-description',
   templateUrl: './game-choose-the-description.component.html',
@@ -21,14 +22,24 @@ export class GameChooseTheDescriptionComponent implements OnInit {
       description:
         'Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías .',
     },
-    {
-      img: '../../assets/svg/sourceMaterialDeApoyo/portada_Videos.svg',
-      description:
-        'Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores',
-    },
   ];
 
-  constructor() {}
+  constructor() {
+    this.options.push({img:'', description:'brian'})
+    console.log(this.randomArrayShuffle(this.options))
+  }
+
+  public randomArrayShuffle = (array) => {
+    var currentIndex = array.length, temporaryValue, randomIndex;
+    while (0 !== currentIndex) {
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex -= 1;
+      temporaryValue = array[currentIndex];
+      array[currentIndex] = array[randomIndex];
+      array[randomIndex] = temporaryValue;
+    }
+    return array;
+  }
 
   ngOnInit() {}
 

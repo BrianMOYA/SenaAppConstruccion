@@ -6,55 +6,52 @@ ion-content::part(scroll){
 
 ion-content{
 
-  .planos{
-    width: 60%;
-    border-radius: 10px;
-    border: #D0673B solid 3px;
-  }
-
   ion-card{
       -webkit-box-shadow: 0px 7px 6px 0px rgba(0,0,0,0.14);
       box-shadow: 0px 7px 6px 0px rgba(0,0,0,0.14);
-      min-height: 85px;
-      height: 90%;
       border-radius: 10px;
       display: flex;
       justify-content: center;
       flex-direction: column;
       background-color: #2a3749;
-      color: #ffffff;
-      padding:3px;
-
-      ion-card-header{
-        padding: 0;
-        margin: 0;
-        ion-card-title{
-          padding-top: 9px;
-          margin-bottom: 0;
-        }
-      }
   }
 
   ion-grid{
       display: flex;
       justify-content: center;
       flex-direction: column;
-      background-image: url("../../assets/svg/sourceGame/hidraulica/backgroundGame/fondo_juego_planos.svg");
+      background-image: url("../../../assets/svg/sourceGame/vulnerabilidad/backgroundGame/fondo_gris_ladrillos.svg");
       background-size: cover;
+  }
+
+  .enunciado{
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 7px 6px 0px rgba(0,0,0,0.14);
+    box-shadow: 0px 7px 6px 0px rgba(0,0,0,0.14);
+    background-color: #2a3749;
+    padding: 5px;
+    width: 85%;
+    justify-content: center ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+    h4{
+      color: #ffffff;
+      font-size: medium;
+    }
   }
 
   ion-row{
     background: transparent;
     text-align: center;
-    margin-bottom: 6%;
+    margin-top: 5%;
 
     h4{
       color: black;
     }
 
-    .pieces{
-      width: 100%;
-    }
   }
 
 }

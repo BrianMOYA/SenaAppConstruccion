@@ -5,7 +5,7 @@ ion-col{
 ion-card{
   font-size: 13px;
   color: #b28857b8;
-  --background:#faedca;
+  --background:#e5e6e7;
   border-radius: 10px;
   min-height: 129px;
   display: flex;
@@ -15,7 +15,7 @@ ion-card{
       padding: 7px;
   }
   ion-card-title{
-      color: #b28857;
+      color: #cc6506;
       b{
           font-size: 16px;
       }
@@ -23,14 +23,11 @@ ion-card{
           font-size: larger;
       }
   }
-
-
-  ion-card-subtitle{
-      font-size: 10px;
-  }
 }
 
 .main-title{
   border-bottom: 1px solid #b2885766;
 }
+
+
 

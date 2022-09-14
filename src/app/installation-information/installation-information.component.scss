@@ -17,7 +17,7 @@ ion-card{
   }
 
   ion-card-title{
-      color: #b28857;
+      color: #cc6506;
       b{
           font-size: 18px;
       }
@@ -28,3 +28,23 @@ ion-card{
   border-bottom: 1px solid #b2885766;
 }
 
+
+.information{
+  margin-left: 20px;
+  margin-right: 20px;
+  border:  3px solid #cc6506;
+  margin-top: 10px;
+  justify-content: center;
+  border-radius: 10px;
+  color: #2a3749;
+  background-color: #dbdbdb;
+  padding-left: 5px;
+  padding-right: 5px;
+
+  h1{
+    border-bottom: 3px solid #cc6506;
+  }
+  p{
+    color: #2a3749;
+  }
+}
