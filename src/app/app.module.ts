@@ -40,6 +40,7 @@ import { HttpClientModule } from '@angular/common/http';
     IndexComponent,
     NavBarComponent,
 
+
     MainInterfaceComponent,
     SinupotComponent,
     AssessmentComponent,

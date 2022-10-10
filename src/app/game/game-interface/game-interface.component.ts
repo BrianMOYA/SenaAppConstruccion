@@ -37,21 +37,21 @@ export class GameInterfaceComponent implements OnInit {
     ],
     "Sanitaria" : [
       {
-        img: "../../assets/svg/sourceGame/menuGame/juegoCementos.svg",
+        img: "../../assets/svg/sourceGame/menuGame/portadaJuegoSanitaria.svg",
         route: "/game/gameDashboard"
       },
       {
-        img: "../../assets/svg/sourceGame/menuGame/juegoMalasPracticas.svg",
+        img: "../../assets/svg/sourceGame/menuGame/portadaJuegoSanitarias2.svg",
         route: "/game/gameSelectPair"
       }
     ],
     "Gas" : [
       {
-        img: "../../assets/svg/sourceGame/menuGame/juegoCementos.svg",
+        img: "../../assets/svg/sourceGame/menuGame/portadaJuegoGas.svg",
         route: "/game/gameDashboard"
       },
       {
-        img: "../../assets/svg/sourceGame/menuGame/juegoMalasPracticas.svg",
+        img: "../../assets/svg/sourceGame/menuGame/portadaJuegoGas2.svg",
         route: "/game/gameSelectPair"
       }
     ],

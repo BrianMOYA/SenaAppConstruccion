@@ -26,8 +26,6 @@ export class GameChooseThePiecesComponent implements OnInit {
 
   ngOnInit() {}
 
-  goTo(){
 
-  }
 
 }

@@ -23,19 +23,7 @@
     font-family: 'JosefinSans-Regular';
   }
 
-  /** slides **/
-  ion-slides{
-    padding-bottom: 10%;
 
-    ion-slide{
-      --background:transparent;
-      height: 62vh;
-      border-radius: 30px;
-      margin-top: 5%;
-      --bullet-background: #41546e;
-      --bullet-background-active: #2a3749;
-    }
-  }
 
   .title{
     font-size: 30px;

@@ -1,44 +1,54 @@
-<app-header backUrl='/installation'></app-header>
+<app-header backUrl="/installation"></app-header>
 <ion-content color="primary" [fullscreen]="true">
-  <ion-grid>
+
+  <ion-grid fixed>
     <app-module-name></app-module-name>
-      <ion-row>
-        <ion-col size="6">
-          <ion-card>
-            <ion-card-header>
-              <ion-card-title class="ion-text-center main-title" >
-                <b>
-                  <h1>Convencion</h1>
-                </b>
-              </ion-card-title>
-              <ion-card-title class="ion-text-center" >
-                <img src="../../assets/svg/sourceMainInterface/portada_Sinupot.svg">
-              </ion-card-title>
-            </ion-card-header>
-          </ion-card>
-        </ion-col>
-        <ion-col>
-          <ion-card>
-            <ion-card-header>
-              <ion-card-title class="ion-text-center main-title" >
-                <b>
-                  <h1>Nombre TEE</h1>
-                </b>
-              </ion-card-title>
-              <ion-card-title class="ion-text-center" >
-                <img Src="../../assets/svg/sourceMainInterface/portada_Sinupot.svg">
-              </ion-card-title>
-            </ion-card-header>
-          </ion-card>
-        </ion-col>
-      </ion-row>
-      <ion-row class="information">
-        <h1>Concepto</h1>
-        <p  class="ion-text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque maxime assumenda labore nesciunt eum aperiam, repudiandae nam eaque Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dolores assumenda deleniti error culpa quibusdam obcaecati, similique nulla delectus necessitatibus porro suscipit recusandae, at, ducimus placeat laborum sit a repudiandae.</p>
-      </ion-row>
-      <ion-row class="information">
-        <h1>Caracteristicas</h1>
-        <p  class="ion-text-center">elit. Atque maxime assumenda labore nesciunt eum aperiam, repudiandae nam eaque Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dolores assumenda deleniti error culpa quibusdam obcaecati, similique nulla delectus necessitatibus porro suscipit recusandae, at, ducimus placeat laborum sit a repudiandae.</p>
-      </ion-row>
+    <ion-slides pager="false" [options]="slideOpts">
+
+      <ion-slide style="display: block" *ngFor="let pieceInfo of piecesInfo">
+        <ion-row>
+          <ion-col>
+            <ion-card>
+              <ion-card-header>
+                <ion-card-title class="ion-text-center main-title">
+                  <b>
+                    {{ pieceInfo.name}}
+                  </b>
+                </ion-card-title>
+                <ion-card-title class="ion-text-center">
+                  <img class="convencion" [src]="pieceInfo.convencion">
+                </ion-card-title>
+              </ion-card-header>
+            </ion-card>
+          </ion-col>
+          <ion-col>
+            <ion-card>
+              <ion-card-header>
+                <ion-card-title class="ion-text-center main-title">
+                  <b>
+                    {{ pieceInfo.title}}
+                  </b>
+                </ion-card-title>
+                <ion-card-title class="ion-text-center">
+                  <img class="convencion" [src]="pieceInfo.img">
+                </ion-card-title>
+              </ion-card-header>
+            </ion-card>
+          </ion-col>
+        </ion-row>
+        <ion-row class="information">
+          <h1>Concepto</h1>
+          <p class="ion-text-center">
+            {{ pieceInfo.concept}}
+          </p>
+        </ion-row>
+        <ion-row class="information">
+          <h1>Caracteristicas</h1>
+          <p class="ion-text-center">
+            {{ pieceInfo.feature }}
+          </p>
+        </ion-row>
+      </ion-slide>
+    </ion-slides>
   </ion-grid>
 </ion-content>

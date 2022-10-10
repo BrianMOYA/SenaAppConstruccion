@@ -23,31 +23,33 @@ ion-content{
     }
   }
 
-  ion-list{
-    border-radius: 30px;
-    background-color: var(--ion-color-primary);
-    margin-bottom: 10px;
+  ion-slides{
 
-    ion-radio-group{
-    --border-color: transparent;
+    ion-slide{
+      border: #2a3749 solid 2px;
+      border-radius:  10px;
+
+
+      .question{
+        margin-top: 20px;
+        margin-bottom: 20px;
         color: #2a3749;
-      ion-list-header{
-        color: #ffffff;
       }
-      ion-item{
-        --background: var(--ion-color-medium);
-        margin: 2%;
-        border: 1px solid #2a3749;
-        border-radius: 10px;
-        color: #2a3749;
 
-        ion-label{
-          white-space: pre-wrap;
-          display: flex;
-          flex-wrap: wrap;
-          }
+      .answer{
+        ion-button{
+          justify-content: start;
+          height: 70px;
+          border: #ffffff solid;
+          border-radius: 10px;
+          font-size: 1em;
+          text-transform: capitalize;
+          margin-bottom: 10px;
+          color: #ffffff;
+          text-align: left;
+
+        }
       }
     }
   }
-
 }

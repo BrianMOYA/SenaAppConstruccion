@@ -8,7 +8,13 @@ import { GameChooseThePiecesComponent } from './game-choose-the-pieces/game-choo
 import { GameSelectTheConcreteComponent } from './game-select-the-concrete/game-select-the-concrete.component';
 import { GameSelectThePairComponent } from './game-select-the-pair/game-select-the-pair.component';
 
+import { CongratulationsComponent } from './congratulations/congratulations.component';
+
 const routes: Routes = [
+  {
+    path: 'congratulation',
+    component: CongratulationsComponent
+  },
   {
     path: 'gameInterface',
     component: GameInterfaceComponent

@@ -2,21 +2,93 @@
 <ion-content color="medium">
   <ion-grid fixed>
     <app-module-name></app-module-name>
-    <ion-row class="ion-justify-content-center">
-      <h4>¿Cuál fue el fallo de la siguiente construcción?</h4>
-    </ion-row>
-    <ion-row class="ion-justify-content-center">
-      <img src="../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/1.png">
-    </ion-row>
-    <ion-row>
-      <ion-col size="12" *ngFor="let opt of options" >
-        <ion-card class="ion-activatable ripple-parent animate__animated animate__bounceIn" (click)="select()">
-          <ion-ripple-effect></ion-ripple-effect>
-          <ion-card-content>
-            {{ opt.description | titlecase }}
-          </ion-card-content>
-        </ion-card>
-      </ion-col>
-    </ion-row>
-  </ion-grid>
+    <ion-slides pager="false" [options]="slideOpts">
+
+      <ion-slide style="display: block;">
+        <ion-row class="ion-justify-content-center">
+          <img src="../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/1.png">
+        </ion-row>
+        <div class="question">
+          <ion-text>
+            ¿Cual es el error que se evidencia en la imagen?
+          </ion-text>
+        </div>
+        <div class="answer">
+          <ion-button (click)="respondPoll(3)" [fill]="button3.fill" [color]="button3.color" expand="block"> ana dfdsffsdfdsfsdfdsf dkfjhjdshfjdshgfjdsfhds dshfjdshgfjds dshfgdshjgfhdsgf</ion-button>
+          <ion-button (click)="respondPoll(2)" [fill]="button2.fill" [color]="button2.color" expand="block"> elassd </ion-button>
+          <ion-button (click)="respondPoll(1)" [fill]="button1.fill" [color]="button1.color" expand="block"> Esta es correcta </ion-button>
+          <ion-button (click)="respondPoll(4)" [fill]="button4.fill" [color]="button4.color" expand="block"> elassd </ion-button>
+        </div>
+      </ion-slide>
+
+      <ion-slide style="display: block;">
+        <ion-row class="ion-justify-content-center">
+          <img src="../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/error1.jpg">
+        </ion-row>
+        <div class="question">
+          <ion-text>
+            ¿Que es la psicologia?
+          </ion-text>
+        </div>
+        <div class="answer">
+          <ion-button (click)="respondPoll(3)" [fill]="button3.fill" [color]="button3.color" expand="block"> ana </ion-button>
+          <ion-button (click)="respondPoll(2)" [fill]="button2.fill" [color]="button2.color" expand="block"> elassd </ion-button>
+          <ion-button (click)="respondPoll(4)" [fill]="button4.fill" [color]="button4.color" expand="block"> sfdfd </ion-button>
+          <ion-button (click)="respondPoll(1)" [fill]="button1.fill" [color]="button1.color" expand="block"> Esta es correcta </ion-button>
+        </div>
+      </ion-slide>
+
+      <ion-slide style="display: block;">
+        <ion-row class="ion-justify-content-center">
+          <img src="../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/error2.jpg">
+        </ion-row>
+        <div class="question">
+          <ion-text>
+            ¿Que es la psicologia hasd?
+          </ion-text>
+        </div>
+        <div class="answer">
+          <ion-button (click)="respondPoll(2)" [fill]="button2.fill" [color]="button2.color" expand="block"> ana </ion-button>
+          <ion-button (click)="respondPoll(1)" [fill]="button1.fill" [color]="button1.color" expand="block"> Esta es la correcta </ion-button>
+          <ion-button (click)="respondPoll(3)" [fill]="button3.fill" [color]="button3.color" expand="block"> elassd </ion-button>
+          <ion-button (click)="respondPoll(4)" [fill]="button4.fill" [color]="button4.color" expand="block"> elassd </ion-button>
+        </div>
+      </ion-slide>
+
+      <ion-slide style="display: block;">
+        <ion-row class="ion-justify-content-center">
+          <img src="../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/error1.jpg">
+        </ion-row>
+        <div class="question">
+          <ion-text>
+            ¿Que es la psicologia?
+          </ion-text>
+        </div>
+        <div class="answer">
+          <ion-button (click)="respondPoll(3)" [fill]="button3.fill" [color]="button3.color" expand="block"> ana </ion-button>
+          <ion-button (click)="respondPoll(2)" [fill]="button2.fill" [color]="button2.color" expand="block"> elassd </ion-button>
+          <ion-button (click)="respondPoll(4)" [fill]="button4.fill" [color]="button4.color" expand="block"> sfdfd </ion-button>
+          <ion-button (click)="respondPoll(1)" [fill]="button1.fill" [color]="button1.color" expand="block"> Esta es correcta </ion-button>
+        </div>
+      </ion-slide>
+
+      <ion-slide style="display: block;">
+        <ion-row class="ion-justify-content-center">
+          <img src="../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/error1.jpg">
+        </ion-row>
+        <div class="question">
+          <ion-text>
+            ¿Que es la psicologia?
+          </ion-text>
+        </div>
+        <div class="answer">
+          <ion-button (click)="goTo()" [fill]="button1.fill" [color]="button1.color" expand="block"> Esta es correcta </ion-button>
+          <ion-button (click)="respondPoll(3)" [fill]="button3.fill" [color]="button3.color" expand="block"> ana </ion-button>
+          <ion-button (click)="respondPoll(2)" [fill]="button2.fill" [color]="button2.color" expand="block"> elassd </ion-button>
+          <ion-button (click)="respondPoll(4)" [fill]="button4.fill" [color]="button4.color" expand="block"> sfdfd </ion-button>
+        </div>
+      </ion-slide>
+
+    </ion-slides>
+    </ion-grid>
 </ion-content>

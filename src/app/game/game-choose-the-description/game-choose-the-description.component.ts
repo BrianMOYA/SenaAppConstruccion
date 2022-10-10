@@ -1,5 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { IonSlides } from '@ionic/angular';
+import { Router } from '@angular/router';
 
+
+interface ButtonStyle {
+  fill: string;
+  color: string;
+}
 
 @Component({
   selector: 'app-game-choose-the-description',
@@ -7,6 +14,36 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./game-choose-the-description.component.scss'],
 })
 export class GameChooseTheDescriptionComponent implements OnInit {
+
+  @ViewChild(IonSlides, { static:true}) slides: IonSlides;
+
+  slideOpts = {
+    initialSlide: 0,
+    speed: 400
+  }
+
+  button1: ButtonStyle = {
+    fill: "outline",
+    color: "primary"
+  };
+
+  button2: ButtonStyle = {
+    fill: "outline",
+    color: "primary"
+  }
+
+  button3: ButtonStyle = {
+    fill: "outline",
+    color: "primary"
+  }
+
+  button4: ButtonStyle = {
+    fill: "outline",
+    color: "primary"
+  }
+
+
+
   public options: { img: string; description: string }[] = [
     {
       img: '../../assets/svg/sourceVulnerabilidad/prime/portadaCartillaV.svg',
@@ -24,7 +61,7 @@ export class GameChooseTheDescriptionComponent implements OnInit {
     },
   ];
 
-  constructor() {
+  constructor( private router: Router) {
     this.options.push({img:'', description:'brian'})
     console.log(this.randomArrayShuffle(this.options))
   }
@@ -41,7 +78,81 @@ export class GameChooseTheDescriptionComponent implements OnInit {
     return array;
   }
 
-  ngOnInit() {}
 
-  select() {}
+  ngOnInit() {
+    this.slides.lockSwipeToNext(true);
+  }
+
+  resetButtonStyle(){
+    this.button1 = {
+      fill: "outline",
+      color: "primary"
+    };
+
+    this.button2 = {
+      fill: "outline",
+      color: "primary"
+    }
+
+    this.button3 = {
+      fill: "outline",
+      color: "primary"
+    }
+
+    this.button4 = {
+      fill: "outline",
+      color: "primary"
+    }
+  }
+
+  applyButtonSelectedStyle(buttonSelected: number){
+    switch (buttonSelected){
+      case 1:
+        this.button1 ={
+          fill: "solid",
+          color: "success",
+        };
+        this.slides.lockSwipeToNext(false);
+        break;
+      case 2:
+        this.button2 ={
+          fill: "solid",
+          color: "danger"
+        };
+        this.slides.lockSwipeToNext(true);
+        break;
+      case 3:
+        this.button3 ={
+          fill: "solid",
+          color: "danger"
+        };
+        this.slides.lockSwipeToNext(true);
+        break;
+      case 4:
+        this.button4 ={
+          fill: "solid",
+          color: "danger"
+        };
+        this.slides.lockSwipeToNext(true);
+        break;
+    }
+
+  }
+
+  swipeToNextSlide(){
+    this.slides.slideNext();
+    this.resetButtonStyle();
+  }
+
+  respondPoll(buttonSelected: number){
+    this.applyButtonSelectedStyle(buttonSelected);
+
+    setTimeout(() => {
+      this.swipeToNextSlide();
+    }, 900);
+  }
+
+  goTo() {
+    this.router.navigateByUrl('game/congratulation');
+  }
 }

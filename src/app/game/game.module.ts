@@ -11,6 +11,7 @@ import { GameChooseTheDescriptionComponent } from './game-choose-the-description
 import { GameChooseThePiecesComponent } from './game-choose-the-pieces/game-choose-the-pieces.component';
 import { GameSelectTheConcreteComponent } from './game-select-the-concrete/game-select-the-concrete.component';
 import { GameSelectThePairComponent } from './game-select-the-pair/game-select-the-pair.component';
+import { CongratulationsComponent } from './congratulations/congratulations.component';
 
 
 
@@ -22,6 +23,7 @@ import { GameSelectThePairComponent } from './game-select-the-pair/game-select-t
     GameChooseThePiecesComponent,
     GameSelectTheConcreteComponent,
     GameSelectThePairComponent,
+    CongratulationsComponent
   ],
   imports: [
     IonicModule,

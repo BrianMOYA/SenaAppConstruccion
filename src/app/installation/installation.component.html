@@ -3,7 +3,7 @@
   <ion-grid >
     <app-module-name></app-module-name>
     <ion-row>
-      <ion-col size="4" size-md="3"  size-sm="6" size-sm="4" size-lg="2" *ngFor="let accessory of accessories">
+      <ion-col size="4" size-md="3"  size-sm="6" size-sm="4" size-lg="2" *ngFor="let accessory of moduleGames">
         <ion-card class="animate__animated animate__bounceIn ion-activatable ripple-parent" (click)="goTo()">
           <ion-ripple-effect></ion-ripple-effect>
           <ion-card-header>
@@ -13,7 +13,7 @@
               </b>
             </ion-card-title>
             <ion-card-title class="ion-text-center" >
-              <img [src]=accessory.img>
+              <img [src]="accessory.img">
             </ion-card-title>
           </ion-card-header>
         </ion-card>

@@ -54,7 +54,5 @@ export class GameDashboardComponent implements OnInit {
 
   ngOnInit() {}
 
-  goTo(){
 
-  }
 }
