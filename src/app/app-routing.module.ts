@@ -7,15 +7,9 @@ import { IndexComponent } from './index/index.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 
-/* Importación componentes principales de la APP */
-import { MainInterfaceComponent } from './main-interface/main-interface.component';
-import { AssessmentComponent } from './assessment/assessment.component';
-import { TechnicalMaterialComponent } from './technical-material/technical-material.component';
-import { SinupotComponent } from './sinupot/sinupot.component';
 
 /* Importación componentes de piezas simbologia de la APP  */
-import { InstallationInformationComponent } from './installation-information/installation-information.component';
-import { InstallationComponent } from './installation/installation.component';
+
 
 const routes: Routes = [
   {
@@ -25,6 +19,10 @@ const routes: Routes = [
   {
     path: 'game',
     loadChildren: () => import('./game/game.module').then( m => m.GameModule)
+  },
+  {
+    path: 'main',
+    loadChildren: () => import('./main/main.module').then( m => m.MainModule)
   },
   {
     path: 'feature',
@@ -43,34 +41,11 @@ const routes: Routes = [
     component: FooterComponent
   },
   {
-    path: 'mainInterface/:id',
-    component: MainInterfaceComponent
-  },
-  {
-    path: 'sinupot',
-    component: SinupotComponent
-  },
-  {
-    path: 'assessment',
-    component: AssessmentComponent
-  },
-  {
-    path: 'technicalMaterial',
-    component: TechnicalMaterialComponent
-  },
-  {
-    path: 'installation',
-    component: InstallationComponent
-  },
-  {
-    path: 'installationInfo',
-    component: InstallationInformationComponent
-  },
-  {
     path: '',
     redirectTo: 'home',
     pathMatch: 'full'
   },
+
 ];
 
 @NgModule({

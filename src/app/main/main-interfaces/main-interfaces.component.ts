@@ -1,20 +1,21 @@
 import { Component, OnInit } from '@angular/core';
-import { ModuleNameService } from '../services/module-name.service'
+import { ModuleNameService } from '../../services/module-name.service'
 import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
-  selector: 'app-main-interface',
-  templateUrl: './main-interface.component.html',
-  styleUrls: ['./main-interface.component.scss'],
+  selector: 'app-main-interfaces',
+  templateUrl: './main-interfaces.component.html',
+  styleUrls: ['./main-interfaces.component.scss'],
 })
-export class MainInterfaceComponent implements OnInit {
+export class MainInterfacesComponent implements OnInit {
+
   moduleName : string;
 
   public btns : {img: string, title: string, route: string}[] = [
     {
       img: "../../assets/svg/sourceMainInterface/portada_Sinupot.svg",
       title: "sinupot",
-      route: "/sinupot"
+      route: "/main/sinup"
     },
     {
       img: "../../assets/svg/sourceMainInterface/portada_juegos.svg",
@@ -24,12 +25,12 @@ export class MainInterfaceComponent implements OnInit {
     {
       img: "../../assets/svg/sourceMainInterface/portada_MaterialDeApoyo.svg",
       title: "Material de apoyo",
-      route: "/technicalMaterial"
+      route: "/main/material"
     },
     {
       img: "../../assets/svg/sourceMainInterface/portada_Evaluaciones.svg",
       title: "Simulacro evaluativo",
-      route: "/assessment"
+      route: "/main/assessment"
     }
   ];
 
@@ -46,7 +47,7 @@ export class MainInterfaceComponent implements OnInit {
       if(!moduleId.includes("Vulnerabiliad Sismica")){
         this.btns[0].title = "instalación";
         this.btns[0].img = "../../assets/svg/sourceMainInterface/portada_Instalaciones.svg";
-        this.btns[0].route = "/installation";
+        this.btns[0].route = "/main/installationinfo";
       }
       this.moduleNameService.passModuleName(moduleId);
     })
@@ -57,3 +58,4 @@ export class MainInterfaceComponent implements OnInit {
   }
 
 }
+

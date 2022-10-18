@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { ModuleNameService } from '../services/module-name.service';
+import { ModuleNameService } from '../../services/module-name.service';
 
 @Component({
-  selector: 'app-installation-information',
-  templateUrl: './installation-information.component.html',
-  styleUrls: ['./installation-information.component.scss'],
+  selector: 'app-installationin',
+  templateUrl: './installationin.component.html',
+  styleUrls: ['./installationin.component.scss'],
 })
-export class InstallationInformationComponent implements OnInit {
+export class InstallationinComponent implements OnInit {
 
   slideOpts = {
     initialSlide: 0,
@@ -246,8 +246,8 @@ export class InstallationInformationComponent implements OnInit {
         name:'Convención',
         title: 'Adaptador De Limpieza',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorDeLimpieza.svg',
-        img: '../../assets/svg/sourceInstallation/piezasSanitarias/pieza/adaptadorDeLimpieza.png',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorDeLimpieza.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/adaptadorDeLimpieza.png',
         concept: 'lorem  de presión',
         feature:
           'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
@@ -256,8 +256,8 @@ export class InstallationInformationComponent implements OnInit {
         name:'Convención',
         title: 'Bajante Agua Lluvia',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/hidraulicas/bajanteAguaLluvia.svg',
-        img: '../../assets/svg/sourceInstallation/piezasSanitarias/pieza/bajanteAguaLluvia.png',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/bajanteAguaLluvia.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/bajanteAguaLluvia.png',
         concept: 'Son uniones.',
         feature:
           'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
@@ -266,8 +266,8 @@ export class InstallationInformationComponent implements OnInit {
         name:'Convención',
         title: 'Bajante Agua Residual',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/hidraulicas/bajanteAguaResidual.svg',
-        img: '../../assets/svg/sourceInstallation/piezasSanitarias/pieza/bajanteAguaResidual.png',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/bajanteAguaResidual.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/bajanteAguaResidual.png',
         concept: 'Son uniones.',
         feature:
           'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
@@ -276,8 +276,8 @@ export class InstallationInformationComponent implements OnInit {
         name:'Convención',
         title: 'Buje',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorHembra.svg',
-        img: '../../assets/svg/sourceInstallation/piezasSanitarias/pieza/buje.png',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/buje.png',
         concept: 'Son uniones hermeticas.',
         feature:
           'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
@@ -286,8 +286,8 @@ export class InstallationInformationComponent implements OnInit {
         name:'Convención',
         title: 'Caja De Inspeccion',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorHembra.svg',
-        img: '../../assets/svg/sourceInstallation/piezasSanitarias/pieza/cajaDeInspeccion.png',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/cajaDeInspeccion.png',
         concept: 'Son uniones hermeticas',
         feature:
           'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
@@ -296,8 +296,8 @@ export class InstallationInformationComponent implements OnInit {
         name:'Convención',
         title: 'Codo 45',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorHembra.svg',
-        img: '../../assets/svg/sourceInstallation/piezasSanitarias/pieza/codo45.png',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/codo45.png',
         concept: 'Son uniones hermeticas',
         feature:
           'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
@@ -306,158 +306,178 @@ export class InstallationInformationComponent implements OnInit {
         name:'Convención',
         title: 'codo 90',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorHembra.svg',
-        img: '../../assets/svg/sourceInstallation/piezasSanitarias/pieza/codo90.png',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/codo90.png',
         concept: 'Son uniones hermeticas .',
         feature:
           'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
       },
       {
         name:'Convención',
-        title: 'Cruz Roscada',
+        title: 'Codo Reventilado',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorHembra.svg',
-        img: '../../assets/svg/sourceInstallation/piezasSanitarias/pieza/cruzRoscada.png',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/codoSanitarioReventilado.png',
         concept: 'Son uniones hermeticas .',
         feature:
           'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
       },
       {
         name:'Convención',
-        title: 'Tapones',
+        title: 'Sifon',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorHembra.svg',
-        img: '../../assets/svg/sourceInstallation/piezasSanitarias/pieza/tapones.png',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/sifon.png',
         concept: 'Son uniones hermeticas .',
         feature:
           'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
       },
       {
         name:'Convención',
-        title: 'Salida Agua Caliente',
+        title: 'Tapon De Prueba',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorHembra.svg',
-        img: '../../assets/svg/sourceInstallation/piezasSanitarias/pieza/salidaAguaCaliente.png',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/taponDePrueba.png',
         concept: 'Son uniones hermeticas .',
         feature:
           'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
       },
       {
         name:'Convención',
-        title: 'Niple Roscado',
+        title: 'Tee Sanitaria',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorHembra.svg',
-        img: '../../assets/svg/sourceInstallation/piezasSanitarias/pieza/nipleRoscado.png',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/teeSanitaria.png',
         concept: 'Son uniones hermeticas .',
         feature:
           'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
       },
       {
         name:'Convención',
-        title: 'Salida Agua Fria',
+        title: 'Tee Sanitaria Doble',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorHembra.svg',
-        img: '../../assets/svg/sourceInstallation/piezasSanitarias/pieza/salidaAguaFria.png',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/teeSanitariaDoble.png',
         concept: 'Son uniones hermeticas .',
         feature:
           'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
       },
       {
         name:'Convención',
-        title: 'Tee',
+        title: 'Tuberia De Aguas Lluvias',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorHembra.svg',
-        img: '../../assets/svg/sourceInstallation/piezasSanitarias/pieza/tee.png',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/tuberiaDeAguasLluvias.png',
         concept: 'Son uniones hermeticas .',
         feature:
           'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
       },
       {
         name:'Convención',
-        title: 'Unión',
+        title: 'Tuberia Sanitaria',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorHembra.svg',
-        img: '../../assets/svg/sourceInstallation/piezasSanitarias/pieza/union.png',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/tuberiaSanitaria.png',
         concept: 'Son uniones hermeticas .',
         feature:
           'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
       },
       {
         name:'Convención',
-        title: 'Tee Hembra',
+        title: 'Tuberia Ventilacion',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorHembra.svg',
-        img: '../../assets/svg/sourceInstallation/piezasSanitarias/pieza/teeReduccionHembra.png',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/tuberiaVentilacion.png',
         concept: 'Son uniones hermeticas .',
         feature:
           'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
       },
       {
         name:'Convención',
-        title: 'Tuerca Universal',
+        title: 'Union Sanitaria',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorHembra.svg',
-        img: '../../assets/svg/sourceInstallation/piezasSanitarias/pieza/tuercaUniversal.png',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/unionSanitaria.png',
         concept: 'Son uniones hermeticas .',
         feature:
           'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
       },
       {
         name:'Convención',
-        title: 'Unión Deslizante',
+        title: 'Yee Sanitaria',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorHembra.svg',
-        img: '../../assets/svg/sourceInstallation/piezasSanitarias/pieza/unionReparacionDeslizante.png',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/yeeSanitaria.png',
         concept: 'Son uniones hermeticas .',
         feature:
           'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
       },
       {
         name:'Convención',
-        title: 'Valvula De Bola',
+        title: 'Yee Sanitaria Doble',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorHembra.svg',
-        img: '../../assets/svg/sourceInstallation/piezasSanitarias/pieza/valvulaDeBola.png',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/yeeSanitariaDoble.png',
         concept: 'Son uniones hermeticas .',
         feature:
           'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
       },
       {
         name:'Convención',
-        title: 'Valvula De Compuerta',
+        title: 'Lavadero',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorHembra.svg',
-        img: '../../assets/svg/sourceInstallation/piezasSanitarias/pieza/valvulaDeCompuerta.png',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/lavadero.png',
         concept: 'Son uniones hermeticas .',
         feature:
           'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
       },
       {
         name:'Convención',
-        title: 'Valvula De Globo',
+        title: 'Lavadora',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorHembra.svg',
-        img: '../../assets/svg/sourceInstallation/piezasSanitarias/pieza/valvulaDeGlobo.png',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/lavadora.png',
         concept: 'Son uniones hermeticas .',
         feature:
           'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
       },
       {
         name:'Convención',
-        title: 'Valvula De Pie',
+        title: 'Lavamanos',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorHembra.svg',
-        img: '../../assets/svg/sourceInstallation/piezasSanitarias/pieza/valvulaDePie.png',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/lavamanos.png',
         concept: 'Son uniones hermeticas .',
         feature:
           'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
       },
       {
         name:'Convención',
-        title: 'Valvula De Retención',
+        title: 'Lavaplatos',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorHembra.svg',
-        img: '../../assets/svg/sourceInstallation/piezasSanitarias/pieza/valvulaDeRetencion.png',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/lavaplatos.png',
+        concept: 'Son uniones hermeticas .',
+        feature:
+          'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
+      },
+      {
+        name:'Convención',
+        title: 'Orinal',
+        convencion:
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/orinal.png',
+        concept: 'Son uniones hermeticas .',
+        feature:
+          'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
+      },
+      {
+        name:'Convención',
+        title: 'Sanitario',
+        convencion:
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/sanitario.png',
         concept: 'Son uniones hermeticas .',
         feature:
           'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
@@ -574,7 +594,9 @@ export class InstallationInformationComponent implements OnInit {
     this.moduleNameService.moduleNameSource.subscribe((moduleId) => {
       this.piecesInfo = this.rutas[moduleId]
     })
+
   }
+
 
   ngOnInit() {}
 

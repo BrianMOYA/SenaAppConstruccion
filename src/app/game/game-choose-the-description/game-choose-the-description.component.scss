@@ -4,18 +4,18 @@ ion-content::part(scroll) {
 }
 
 ion-content {
+  --background: url("../../../assets/svg/sourceGame/vulnerabilidad/backgroundGame/fondo_malas_practicas.svg");
+  --background-size: cover;
 
-  ion-grid{
-    background-image: url("../../../assets/svg/sourceGame/vulnerabilidad/backgroundGame/fondo_malas_practicas.svg");
-    background-size: contain;
-  }
 
   ion-row {
     background: transparent;
     text-align: center;
 
     img{
-      width: 270px;
+      width: 300px;
+      border: 5px solid #2a3749;
+      border-radius: 10px;
     }
 
     h1 {
@@ -37,7 +37,6 @@ ion-content {
 
 
     ion-slide {
-      border: #2a3749 solid 2px;
       border-radius: 10px;
 
       ion-row{
@@ -47,21 +46,20 @@ ion-content {
       .question {
         margin-top: 20px;
         margin-bottom: 20px;
-        color: #2a3749;
+        color: #ffffff;
       }
 
       .answer {
         ion-button {
-
-          justify-content: start;
           height: 102px;
-
           border-radius: 10px;
-          font-size: 1em;
+          font-size: 15px;
           text-transform: capitalize;
           margin-bottom: 10px;
           color: #ffffff;
           text-align: left;
+          border-radius: 10px;
+          border: #ffffff 3px solid;
 
         }
       }

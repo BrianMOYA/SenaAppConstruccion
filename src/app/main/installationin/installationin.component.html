@@ -1,9 +1,27 @@
-<app-header backUrl="/installation"></app-header>
+<app-header backUrl="/main/mainInterfaces/:id"></app-header>
 <ion-content color="primary" [fullscreen]="true">
 
   <ion-grid fixed>
     <app-module-name></app-module-name>
-    <ion-slides pager="false" [options]="slideOpts">
+    <ion-slides pager="true" [options]="slideOpts">
+      <ion-slide>
+        <ion-row>
+          <ion-col size="3" *ngFor="let accessory of  piecesInfo">
+            <ion-card class="slider1">
+              <ion-card-header>
+                <ion-card-title class="ion-text-center main-title" >
+                  <b>
+                    {{ accessory.title | titlecase }}
+                  </b>
+                </ion-card-title>
+                <ion-card-title class="ion-text-center" >
+                  <img [src]="accessory.img">
+                </ion-card-title>
+              </ion-card-header>
+            </ion-card>
+          </ion-col>
+        </ion-row>
+      </ion-slide>
 
       <ion-slide style="display: block" *ngFor="let pieceInfo of piecesInfo">
         <ion-row>

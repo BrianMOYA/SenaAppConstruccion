@@ -1,57 +1,63 @@
-ion-content::part(scroll){
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
+ion-content {
+  --background: url("../../../assets/svg/sourceGame/vulnerabilidad/backgroundGame/fondo_gris_ladrillos.svg");
+  --background-size: cover;
 
-ion-content{
-
-  ion-card{
-      -webkit-box-shadow: 0px 7px 6px 0px rgba(0,0,0,0.14);
-      box-shadow: 0px 7px 6px 0px rgba(0,0,0,0.14);
-      border-radius: 10px;
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      background-color: #2a3749;
-  }
-
-  ion-grid{
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      background-image: url("../../../assets/svg/sourceGame/vulnerabilidad/backgroundGame/fondo_gris_ladrillos.svg");
-      background-size: cover;
-  }
-
-  .enunciado{
+  ion-card {
+    -webkit-box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.14);
+    box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.14);
     border-radius: 10px;
-    -webkit-box-shadow: 0px 7px 6px 0px rgba(0,0,0,0.14);
-    box-shadow: 0px 7px 6px 0px rgba(0,0,0,0.14);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     background-color: #2a3749;
-    padding: 5px;
-    width: 85%;
-    justify-content: center ;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10%;
-    margin-bottom: 10%;
-
-    h4{
-      color: #ffffff;
-      font-size: medium;
-    }
   }
 
-  ion-row{
-    background: transparent;
-    text-align: center;
-    margin-top: 5%;
+  ion-grid {
+    justify-content: center;
+    ion-row {
+      background: transparent;
+      text-align: center;
+      justify-content: center;
+      justify-items: auto;
 
-    h4{
-      color: black;
+      h4 {
+        color: black;
+        text-align: center;
+      }
     }
 
+    ion-slides {
+      ion-slide {
+        .enunciado {
+          border-radius: 10px;
+          -webkit-box-shadow: 0px 7px 6px 0px rgba(136, 136, 136, 0.14);
+          box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.14);
+          background-color: #ffffff;
+          padding: 5px;
+          width: 85%;
+          justify-content: center;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 10%;
+          margin-bottom: 10%;
+          color: #2a3749;
+        }
+        .btns {
+          width: 100%;
+          padding: 10px;
+          ion-button {
+            width: 150px;
+            float: left;
+            height: 150px;
+            border-radius: 10px;
+            font-size: 15px;
+            color: #ffffff;
+            margin: 5px;
+            border-radius: 10px;
+            border: #ffffff 3px solid;
+          }
+        }
+      }
+    }
   }
-
 }

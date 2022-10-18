@@ -1,5 +1,5 @@
 <app-header backUrl='/game/gameInterface'></app-header>
-<ion-content color="medium">
+<ion-content >
   <ion-grid fixed>
     <app-module-name></app-module-name>
     <ion-slides pager="false" [options]="slideOpts">
@@ -10,14 +10,14 @@
         </ion-row>
         <div class="question">
           <ion-text>
-            ¿Cual es el error que se evidencia en la imagen?
+            ¿Error que se evidencia en  la construcción?
           </ion-text>
         </div>
         <div class="answer">
-          <ion-button (click)="respondPoll(3)" [fill]="button3.fill" [color]="button3.color" expand="block"> ana dfdsffsdfdsfsdfdsf dkfjhjdshfjdshgfjdsfhds dshfjdshgfjds dshfgdshjgfhdsgf</ion-button>
-          <ion-button (click)="respondPoll(2)" [fill]="button2.fill" [color]="button2.color" expand="block"> elassd </ion-button>
-          <ion-button (click)="respondPoll(1)" [fill]="button1.fill" [color]="button1.color" expand="block"> Esta es correcta </ion-button>
-          <ion-button (click)="respondPoll(4)" [fill]="button4.fill" [color]="button4.color" expand="block"> elassd </ion-button>
+          <ion-button (click)="respondPoll(3)" [fill]="button3.fill" [color]="button3.color" expand="block"> Agrietamiento por retracción</ion-button>
+          <ion-button (click)="respondPoll(2)" [fill]="button2.fill" [color]="button2.color" expand="block"> Agrietamiento por oxidación </ion-button>
+          <ion-button (click)="respondPoll(1)" [fill]="button1.fill" [color]="button1.color" expand="block"> Agrietamiento por reactividad (E)</ion-button>
+          <ion-button (click)="respondPoll(4)" [fill]="button4.fill" [color]="button4.color" expand="block"> Agrietamiento por un mal curado </ion-button>
         </div>
       </ion-slide>
 

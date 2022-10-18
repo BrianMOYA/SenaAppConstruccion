@@ -23,22 +23,22 @@ export class GameChooseTheDescriptionComponent implements OnInit {
   }
 
   button1: ButtonStyle = {
-    fill: "outline",
+    fill: "solid",
     color: "primary"
   };
 
   button2: ButtonStyle = {
-    fill: "outline",
+    fill: "solid",
     color: "primary"
   }
 
   button3: ButtonStyle = {
-    fill: "outline",
+    fill: "solid",
     color: "primary"
   }
 
   button4: ButtonStyle = {
-    fill: "outline",
+    fill: "solid",
     color: "primary"
   }
 
@@ -85,22 +85,22 @@ export class GameChooseTheDescriptionComponent implements OnInit {
 
   resetButtonStyle(){
     this.button1 = {
-      fill: "outline",
+      fill: "solid",
       color: "primary"
     };
 
     this.button2 = {
-      fill: "outline",
+      fill: "solid",
       color: "primary"
     }
 
     this.button3 = {
-      fill: "outline",
+      fill: "solid",
       color: "primary"
     }
 
     this.button4 = {
-      fill: "outline",
+      fill: "solid",
       color: "primary"
     }
   }

@@ -1,0 +1,76 @@
+<app-header backUrl="/main/mainInterfaces/:id"></app-header>
+<ion-content color="medium" class="ion-padding">
+  <app-module-name></app-module-name>
+  <ion-row class="ion-justify-content-center">
+    <h1>Simulacro Evaluativo</h1>
+  </ion-row>
+  <ion-row class="ion-justify-content-center">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque maxime assumenda labore nesciunt eum aperiam, repudiandae nam eaque Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dolores assumenda deleniti error culpa quibusdam obcaecati, similique nulla delectus necessitatibus porro suscipit recusandae, at, ducimus placeat laborum sit a repudiandae.</p>
+  </ion-row>
+  <ion-slides pager="false" [options]="slideOpts">
+
+    <ion-slide style="display: block;" *ngFor="let question of questions">
+      <div class="question">
+        <ion-text>
+          {{question.question1}}
+        </ion-text>
+      </div>
+      <ion-button (click)="respondPoll(1)" [fill]="button1.fill" [color]="button1.color" expand="block"> {{ question.answerFirst1 }} </ion-button>
+      <ion-button (click)="respondPoll(2)" [fill]="button2.fill" [color]="button2.color" expand="block"> {{ question.answerFirst2 }} </ion-button>
+      <ion-button (click)="respondPoll(3)" [fill]="button3.fill" [color]="button3.color" expand="block"> {{ question.answerFirst3 }} </ion-button>
+      <ion-button (click)="respondPoll(4)" [fill]="button4.fill" [color]="button4.color" expand="block"> {{ question.answerFirst4 }} </ion-button>
+    </ion-slide>
+
+    <ion-slide style="display: block;" *ngFor="let question of questions">
+      <div class="question">
+        <ion-text>
+          {{question.question2}}
+        </ion-text>
+      </div>
+      <ion-button (click)="respondPoll(2)" [fill]="button2.fill" [color]="button2.color" expand="block"> {{ question.answerSecond2 }} </ion-button>
+      <ion-button (click)="respondPoll(3)" [fill]="button3.fill" [color]="button3.color" expand="block"> {{ question.answerSecond3 }} </ion-button>
+      <ion-button (click)="respondPoll(4)" [fill]="button4.fill" [color]="button4.color" expand="block"> {{ question.answerSecond4 }} </ion-button>
+      <ion-button (click)="respondPoll(1)" [fill]="button1.fill" [color]="button1.color" expand="block"> {{ question.answerSecond1 }} </ion-button>
+    </ion-slide>
+
+
+    <ion-slide style="display: block;" *ngFor="let question of questions">
+      <div class="question">
+        <ion-text>
+          {{question.question3}}
+        </ion-text>
+      </div>
+      <ion-button (click)="respondPoll(2)" [fill]="button2.fill" [color]="button2.color" expand="block"> {{ question.answerThird2 }} </ion-button>
+      <ion-button (click)="respondPoll(3)" [fill]="button3.fill" [color]="button3.color" expand="block"> {{ question.answerThird3 }} </ion-button>
+      <ion-button (click)="respondPoll(1)" [fill]="button1.fill" [color]="button1.color" expand="block"> {{ question.answerThird1 }} </ion-button>
+      <ion-button (click)="respondPoll(4)" [fill]="button4.fill" [color]="button4.color" expand="block"> {{ question.answerThird4 }} </ion-button>
+    </ion-slide>
+
+    <ion-slide style="display: block;" *ngFor="let question of questions">
+      <div class="question">
+        <ion-text>
+          {{question.question4}}
+        </ion-text>
+      </div>
+      <ion-button (click)="respondPoll(2)" [fill]="button2.fill" [color]="button2.color" expand="block"> {{ question.answerFourth2 }} </ion-button>
+      <ion-button (click)="respondPoll(1)" [fill]="button1.fill" [color]="button1.color" expand="block"> {{ question.answerFourth1 }} </ion-button>
+      <ion-button (click)="respondPoll(3)" [fill]="button3.fill" [color]="button3.color" expand="block"> {{ question.answerFourth3 }} </ion-button>
+      <ion-button (click)="respondPoll(4)" [fill]="button4.fill" [color]="button4.color" expand="block"> {{ question.answerFourth4 }} </ion-button>
+    </ion-slide>
+
+    <ion-slide style="display: block;" *ngFor="let question of questions">
+      <div class="question">
+        <ion-text>
+          {{question.question5}}
+        </ion-text>
+      </div>
+      <ion-button (click)="respondPoll(2)" [fill]="button2.fill" [color]="button2.color" expand="block"> {{ question.answerFifth2 }} </ion-button>
+      <ion-button (click)="goTo()" [fill]="button1.fill" [color]="button1.color" expand="block"> {{ question.answerFifth1 }} </ion-button>
+      <ion-button (click)="respondPoll(3)" [fill]="button3.fill" [color]="button3.color" expand="block"> {{ question.answerFifth3 }} </ion-button>
+      <ion-button (click)="respondPoll(4)" [fill]="button4.fill" [color]="button4.color" expand="block"> {{ question.answerFifth4 }} </ion-button>
+    </ion-slide>
+
+
+  </ion-slides>
+</ion-content>
+

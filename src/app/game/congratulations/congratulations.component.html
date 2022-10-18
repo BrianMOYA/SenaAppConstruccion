@@ -1,9 +1,12 @@
 <ion-content color="dark" fullscreen="true">
-  <ion-row class="container">
-    <ion-col class="ion-align-self-center">
-      <ion-row class="ion-justify-content-center">
-        <img class="wallpaperIndex" src="../../assets/svg/sourceGame/congratulation/congratulations.webp">
-      </ion-row>
-    </ion-col>
-  </ion-row>
+  <ion-grid fixed>
+      <ion-col size="12" size-md="3"  size-sm="6" size-sm="4" size-lg="2">
+        <ion-row class="ion-justify-content-center">
+          <img class="wallpaperIndex" src="../../assets/svg/sourceGame/congratulation/congratulations.webp">
+        </ion-row>
+        <ion-row class="ion-justify-content-center">
+          <button (click)="goTo()" class="sinupot">Visitar SINUPOT</button>
+        </ion-row>
+      </ion-col>
+  </ion-grid>
 </ion-content>

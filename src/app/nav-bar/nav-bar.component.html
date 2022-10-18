@@ -10,26 +10,13 @@
       </ion-button>
     </div>
     <ion-list class="menu-items" lines="none">
-      <ion-item>
-        <button class="sismica" (click)="goModule()">
-          <ion-icon slot="end" name="home"></ion-icon>Vulnerabilidad Sismica
-        </button>
-      </ion-item>
-      <ion-item>
-        <button (click)="goModule()">
-          <ion-icon slot="end" name="boat-outline"></ion-icon>Planos Hidraulicos
-        </button>
-      </ion-item>
-      <ion-item>
-        <button (click)="goModule()">
-          <ion-icon slot="end" name="calculator-outline"></ion-icon>Planos Sanitarios
-        </button>
-      </ion-item>
-      <ion-item>
-        <button (click)="goModule()">
-          <ion-icon slot="end" name="construct-outline"></ion-icon>Planos Gas resindecial
-        </button>
-      </ion-item>
+      <ion-col size="12" size-md="6" size-sm="4" size-lg="2" *ngFor="let cat of categories">
+        <ion-item>
+          <button (click)="goModule(cat.name)">
+            <img [src]="cat.img"/>
+          </button>
+        </ion-item>
+      </ion-col>
     </ion-list>
   </ion-content>
 </ion-menu>

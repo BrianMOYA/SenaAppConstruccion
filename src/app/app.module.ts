@@ -16,17 +16,6 @@ import { IndexComponent } from './index/index.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 
-/* Importación componentes principales de la APP */
-import { MainInterfaceComponent } from './main-interface/main-interface.component';
-import { AssessmentComponent } from './assessment/assessment.component';
-import { TechnicalMaterialComponent } from './technical-material/technical-material.component';
-import { SinupotComponent } from './sinupot/sinupot.component';
-
-/* Importación componentes de piezas simbologia de la APP  */
-import { InstallationInformationComponent } from './installation-information/installation-information.component';
-import { InstallationComponent } from './installation/installation.component';
-
-
 /* Importación HttpClientModule */
 import { HttpClientModule } from '@angular/common/http';
 
@@ -40,14 +29,6 @@ import { HttpClientModule } from '@angular/common/http';
     IndexComponent,
     NavBarComponent,
 
-
-    MainInterfaceComponent,
-    SinupotComponent,
-    AssessmentComponent,
-    TechnicalMaterialComponent,
-
-    InstallationComponent,
-    InstallationInformationComponent,
   ],
   entryComponents: [],
   imports:

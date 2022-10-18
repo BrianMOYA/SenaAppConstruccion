@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { SinupotComponent } from './sinupot.component';
+import { MainInterfacesComponent } from './main-interfaces.component';
 
-describe('SinupotComponent', () => {
-  let component: SinupotComponent;
-  let fixture: ComponentFixture<SinupotComponent>;
+describe('MainInterfacesComponent', () => {
+  let component: MainInterfacesComponent;
+  let fixture: ComponentFixture<MainInterfacesComponent>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ SinupotComponent ],
+      declarations: [ MainInterfacesComponent ],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(SinupotComponent);
+    fixture = TestBed.createComponent(MainInterfacesComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));

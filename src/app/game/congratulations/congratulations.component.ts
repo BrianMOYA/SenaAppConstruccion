@@ -10,11 +10,13 @@ import { timer } from 'rxjs';
 export class CongratulationsComponent implements OnInit {
 
   constructor( private router: Router ) {
-    timer(1700).subscribe(() => {
-    this.router.navigateByUrl('mainInterface/:id');
-    });
+
   }
 
   ngOnInit() {}
+
+  goTo() {
+    this.router.navigateByUrl('main/mainInterfaces/:id');
+  }
 
 }

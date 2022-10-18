@@ -48,7 +48,7 @@ export class IndexComponent implements OnInit {
     //this.moduleName.passModuleName(moduleId)
     localStorage.setItem('currentModule', moduleId);
     this.router.navigateByUrl(
-      'mainInterface/' + moduleId
+      'main/mainInterfaces/' + moduleId
     )
   }
 
