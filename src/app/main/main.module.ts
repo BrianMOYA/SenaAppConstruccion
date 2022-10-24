@@ -8,6 +8,7 @@ import { InstallationinComponent } from './installationin/installationin.compone
 import { MainInterfacesComponent } from './main-interfaces/main-interfaces.component';
 import { MaterialComponent } from './material/material.component';
 import { SinupComponent } from './sinup/sinup.component';
+import { InstallationComponent } from './installation/installation.component';
 
 import { MainRoutingModule } from './main-routing.module';
 
@@ -18,7 +19,8 @@ import { MainRoutingModule } from './main-routing.module';
     InstallationinComponent,
     MainInterfacesComponent,
     MaterialComponent,
-    SinupComponent
+    SinupComponent,
+    InstallationComponent
   ],
   imports: [
     CommonModule,

@@ -1,60 +1,57 @@
-ion-content::part(scroll){
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
+ion-content {
+  --background: url("../../../assets/svg/sourceGame/hidraulica/backgroundGame/fondo_juego_planos.svg");
+  --background-size: cover;
 
-ion-content{
-
-  .planos{
-    width: 60%;
+  ion-card {
+    -webkit-box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.14);
+    box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.14);
     border-radius: 10px;
-    border: #D0673B solid 3px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #dbdbdb;
   }
 
-  ion-card{
-      -webkit-box-shadow: 0px 7px 6px 0px rgba(0,0,0,0.14);
-      box-shadow: 0px 7px 6px 0px rgba(0,0,0,0.14);
-      min-height: 85px;
-      height: 90%;
-      border-radius: 10px;
-      display: flex;
+  ion-grid {
+    justify-content: center;
+    ion-row {
+      background: transparent;
+      text-align: center;
       justify-content: center;
-      flex-direction: column;
-      background-color: #2a3749;
-      color: #ffffff;
-      padding:3px;
+      justify-items: auto;
 
-      ion-card-header{
-        padding: 0;
-        margin: 0;
-        ion-card-title{
-          padding-top: 9px;
-          margin-bottom: 0;
+      h4 {
+        color: #ffffff;
+        text-align: center;
+      }
+    }
+
+    ion-slides {
+      ion-slide {
+        .convencion{
+          border-radius: 10px;
+          border: 3px solid #ffffff;
+          width: 78%;
+          padding: 10px;
+        }
+        .btns {
+          width: 100%;
+          padding: 10px;
+          ion-button {
+            width: 96px;
+            float: left;
+            height: 96px;
+            border-radius: 10px;
+            font-size: 15px;
+            color: #ffffff;
+            margin: 5px;
+            border-radius: 10px;
+            border: #ffffff 3px solid;
+          }
         }
       }
-  }
-
-  ion-grid{
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      background-image: url("../../../assets/svg/sourceGame/hidraulica/backgroundGame/fondo_juego_planos.svg");
-      background-size: cover;
-  }
-
-  ion-row{
-    background: transparent;
-    text-align: center;
-    margin-bottom: 6%;
-
-    h4{
-      color: black;
-    }
-
-    .pieces{
-      width: 100%;
     }
   }
-
 }
+
+

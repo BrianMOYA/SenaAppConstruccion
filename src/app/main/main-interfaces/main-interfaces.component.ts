@@ -47,7 +47,7 @@ export class MainInterfacesComponent implements OnInit {
       if(!moduleId.includes("Vulnerabiliad Sismica")){
         this.btns[0].title = "instalación";
         this.btns[0].img = "../../assets/svg/sourceMainInterface/portada_Instalaciones.svg";
-        this.btns[0].route = "/main/installationinfo";
+        this.btns[0].route = "/main/installation";
       }
       this.moduleNameService.passModuleName(moduleId);
     })

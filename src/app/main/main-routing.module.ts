@@ -6,6 +6,7 @@ import { InstallationinComponent } from './installationin/installationin.compone
 import { MainInterfacesComponent } from './main-interfaces/main-interfaces.component';
 import { MaterialComponent } from './material/material.component';
 import { SinupComponent } from './sinup/sinup.component';
+import { InstallationComponent } from './installation/installation.component';
 
 const routes: Routes = [
   {
@@ -14,6 +15,10 @@ const routes: Routes = [
       {
         path: 'assessment',
         component: AssessmentComponent
+      },
+      {
+        path: 'installation',
+        component: InstallationComponent
       },
       {
         path: 'installationinfo',

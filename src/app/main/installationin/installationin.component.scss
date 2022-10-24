@@ -1,68 +1,69 @@
+ion-slides{
+  padding-bottom: 8%;
+  --bullet-background: #ffffff;
+  --bullet-background-active: #e7e7e7;
+}
+
 .slider1 {
   font-size: 10px;
   color: #b28857b8;
-  --background:#e5e6e7;
+  --background: #e5e6e7;
   border-radius: 10px;
-  min-height: 129px;
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  ion-card-title{
-      color: #cc6506;
-      img{
-        width: 60px;
-      }
-      b{
-          font-size: 12px;
-      }
-      ion-icon{
-          font-size: larger;
-      }
+  ion-card-title {
+    font-size: 0px !important;
+    color: #cc6506;
+    img {
+      width: 50px;
+    }
+    b {
+      font-size: 12px;
+    }
   }
 }
 
-ion-col{
+ion-col {
   padding: 0px;
 }
 
-ion-card{
+ion-card {
   display: flex;
   flex-direction: column;
-  font-size: 13px;
+  font-size: 13px !important;
   color: #b28857b8;
-  --background:#faedca;
+  --background: #faedca;
   border-radius: 10px;
-  min-height: 129px;
+  min-height: 95px;
 
-
-  ion-card-header{
-    padding: 5px;
+  ion-card-header {
+    padding: 2px;
   }
 
-  ion-card-title{
-      color: #cc6506;
-      b{
-          font-size: 18px;
-      }
+  ion-card-title {
+    color: #cc6506;
+    .title1 {
+      font-size: 18px !important;
+    }
+
   }
 }
 
-.main-title{
+.main-title {
   border-bottom: 1px solid #b2885766;
 }
 
-.convencion{
+.convencion {
   width: 100px;
   height: 100px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-
-.information{
+.information {
   margin-left: 20px;
   margin-right: 20px;
-  border:  3px solid #cc6506;
+  border: 3px solid #cc6506;
   margin-top: 10px;
   justify-content: center;
   border-radius: 10px;
@@ -71,10 +72,11 @@ ion-card{
   padding-left: 5px;
   padding-right: 5px;
 
-  h1{
+  h1 {
     border-bottom: 3px solid #cc6506;
   }
-  p{
+  p {
+    font-size: 17px;
     color: #2a3749;
   }
 }

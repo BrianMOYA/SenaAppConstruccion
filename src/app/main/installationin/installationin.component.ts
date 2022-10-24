@@ -16,7 +16,7 @@ export class InstallationinComponent implements OnInit {
 
   moduleName: string;
 
-  public piecesInfo: { name: string; convencion: string; title: string; img: string; concept:string; feature:string }[] = [];
+  public piecesInfo: { imgSlider: string; name: string; convencion: string; title: string; img: string; concept:string; feature:string }[] = [];
 
   rutas = {
     "Hidraulica": [
@@ -274,6 +274,16 @@ export class InstallationinComponent implements OnInit {
       },
       {
         name:'Convención',
+        title: 'Tuberia De Aguas Lluvias',
+        convencion:
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/tuberiaDeAguasLluvias.png',
+        concept: 'Son uniones hermeticas .',
+        feature:
+          'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
+      },
+      {
+        name:'Convención',
         title: 'Buje',
         convencion:
           '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
@@ -354,20 +364,10 @@ export class InstallationinComponent implements OnInit {
       },
       {
         name:'Convención',
-        title: 'Tee Sanitaria Doble',
+        title: 'Tee Doble',
         convencion:
           '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
         img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/teeSanitariaDoble.png',
-        concept: 'Son uniones hermeticas .',
-        feature:
-          'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
-      },
-      {
-        name:'Convención',
-        title: 'Tuberia De Aguas Lluvias',
-        convencion:
-          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
-        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/tuberiaDeAguasLluvias.png',
         concept: 'Son uniones hermeticas .',
         feature:
           'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
@@ -414,7 +414,7 @@ export class InstallationinComponent implements OnInit {
       },
       {
         name:'Convención',
-        title: 'Yee Sanitaria Doble',
+        title: 'Yee Doble',
         convencion:
           '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
         img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/yeeSanitariaDoble.png',

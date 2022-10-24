@@ -28,7 +28,7 @@ export class GameInterfaceComponent implements OnInit {
     "Hidraulica" : [
       {
         img: "../../../assets/svg/sourceGame/menuGame/portadaJuegoPlanos.svg",
-        route: "/game/gameDashboard"
+        route: "/game/gameChoosePieces"
       },
       {
         img: "../../assets/svg/sourceGame/menuGame/portadaJuegoSimbolos.svg",
@@ -38,7 +38,7 @@ export class GameInterfaceComponent implements OnInit {
     "Sanitaria" : [
       {
         img: "../../assets/svg/sourceGame/menuGame/portadaJuegoSanitaria.svg",
-        route: "/game/gameDashboard"
+        route: "/game/gameChoosePieces"
       },
       {
         img: "../../assets/svg/sourceGame/menuGame/portadaJuegoSanitarias2.svg",
@@ -48,7 +48,7 @@ export class GameInterfaceComponent implements OnInit {
     "Gas" : [
       {
         img: "../../assets/svg/sourceGame/menuGame/portadaJuegoGas.svg",
-        route: "/game/gameDashboard"
+        route: "/game/gameChoosePieces"
       },
       {
         img: "../../assets/svg/sourceGame/menuGame/portadaJuegoGas2.svg",
@@ -63,6 +63,12 @@ export class GameInterfaceComponent implements OnInit {
   ) {
     this.moduleNameService.moduleNameSource.subscribe((moduleId) => {
       this.moduleGames = this.rutas[moduleId]
+
+      this.route.params.subscribe(({id}) => {
+        const moduleId = id === ':id' ? localStorage.getItem('currentModule') : id;
+
+        //this.moduleNameService.passModuleName(moduleId);
+      })
     })
   }
 

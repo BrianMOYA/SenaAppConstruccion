@@ -41,61 +41,16 @@ export class GameSelectTheConcreteComponent implements OnInit {
   rutas = {
     "Vulnerabiliad Sismica" : [
       {
-        text1: "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_super_resistente.svg",
+        text1: "Presenta buena durabilidad en ambientes polucionados con un buen terminado y una buena manejabilidad para acabados finos, además es adecuado para nivelación y afinados de piso. ",
         img1: "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_super_resistente.svg",
 
-        text2: "¿Es aquel en que pop?",
+        text2: "Es durable en construcciones con altos contenidos de sulfatos como aguas residuales urbanas o industriales, además es adecuado para obras de infraestructura que requieran bajo calor de hidratación",
         img2: "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_uso_amb_marino.svg",
 
-        text3: "¿Es aquel que usamos para jugar?",
+        text3: "Es especial para elementos estructurales como cimientos, losas, vigas, columnas y muros. También, es ideal para producir elementos prefabricados de todo tipo y concretos de alta resistencia.",
         img3: "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_uso_estructural.svg",
 
-        text4: "¿Es aquel que usamos para jugar?",
-        img4: "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_uso_general.svg",
-      },
-    ],
-    "Hidraulica" : [
-      {
-        text1: "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_super_resistente.svg",
-        img1: "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_super_resistente.svg",
-
-        text2: "¿Es aquel en que pop?",
-        img2: "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_uso_amb_marino.svg",
-
-        text3: "¿Es aquel que usamos para jugar?",
-        img3: "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_uso_estructural.svg",
-
-        text4: "¿Es aquel que usamos para jugar?",
-        img4: "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_uso_general.svg",
-      },
-    ],
-    "Sanitaria" : [
-      {
-        text1: "El cemento reforzado con grafeno es más duro, más resistente y más sostenible. Se calcula que la producción de cemento es causante de hasta el 5% de las emisiones de CO2 a nivel mundial.",
-        img1: "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_super_resistente.svg",
-
-        text2: "¿Es aquel en que pop?",
-        img2: "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_uso_amb_marino.svg",
-
-        text3: "¿Es aquel que usamos para jugar?",
-        img3: "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_uso_estructural.svg",
-
-        text4: "¿Es aquel que usamos para jugar?",
-        img4: "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_uso_general.svg",
-      },
-    ],
-    "Gas" : [
-      {
-        text1: "El cemento reforzado con grafeno es más duro, más resistente y más sostenible. Se calcula que la producción de cemento es causante de hasta el 5% de las emisiones de CO2 a nivel mundial.",
-        img1: "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_super_resistente.svg",
-
-        text2: "¿Es aquel en que pop?",
-        img2: "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_uso_amb_marino.svg",
-
-        text3: "¿Es aquel que usamos para jugar?",
-        img3: "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_uso_estructural.svg",
-
-        text4: "¿Es aquel que usamos para jugar?",
+        text4: "Puede usarse en estructuras que no demanden alta resistencia inicial. Ideal para acabados y repello de paredes interiores y exteriores, pegado de bloques, mosaicos, baldosas y piezas sanitarias.",
         img4: "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_uso_general.svg",
       },
     ],
