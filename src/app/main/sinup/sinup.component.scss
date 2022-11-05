@@ -1,8 +1,8 @@
-ion-slides{
+ion-slides {
   padding-bottom: 10%;
 
-  ion-slide{
-    --background:transparent;
+  ion-slide {
+    --background: transparent;
     height: 62vh;
     border-radius: 30px;
     margin-top: 5%;
@@ -11,17 +11,17 @@ ion-slides{
   }
 }
 
-img{
+img {
   width: 100%;
 }
 
-.sinupot{
+.sinupot {
   width: 50%;
-  height: 60px;
-  margin-top: 20px;
+  height: 50px;
+  margin-top: 5px;
   border-radius: 10px;
-  background: linear-gradient(#D04D52, #ee555a, #f38a8f);
-  a{
+  background: linear-gradient(#d04d52, #ee555a, #f38a8f);
+  a {
     text-decoration: none;
     color: #ffffff;
     font-weight: 500;
@@ -29,8 +29,8 @@ img{
   }
 }
 
-ion-footer{
-  background-color: #00324D;
+ion-footer {
+  background-color: #00324d;
   width: 100%;
   height: 11vh;
   text-align: center;
@@ -39,12 +39,11 @@ ion-footer{
   margin: auto;
   align-items: center;
 
-  ion-toolbar{
+  ion-toolbar {
     padding-top: 3%;
 
-    .footer-img{
+    .footer-img {
       width: 50%;
     }
-
   }
 }

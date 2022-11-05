@@ -1,5 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { IonSlides } from '@ionic/angular';
+import { ModuleNameService } from 'src/app/services/module-name.service';
+import { ActivatedRoute} from '@angular/router';
 import { Router } from '@angular/router';
 
 
@@ -21,6 +23,76 @@ export class GameChooseTheDescriptionComponent implements OnInit {
     initialSlide: 0,
     speed: 400
   }
+
+  public descriptions :
+ {
+   img1: string;
+   answerFirst1: string;
+   answerFirst2: string;
+   answerFirst3: string;
+   answerFirst4: string;
+
+   img2: string,
+   answerSecond1: string;
+   answerSecond2: string;
+   answerSecond3: string;
+   answerSecond4: string;
+
+   img3: string,
+   answerThird1: string;
+   answerThird2: string;
+   answerThird3: string;
+   answerThird4: string;
+
+   img4: string,
+   answerFourth1: string;
+   answerFourth2: string;
+   answerFourth3: string;
+   answerFourth4: string;
+
+   img5: string,
+   answerFifth1: string;
+   answerFifth2: string;
+   answerFifth3: string;
+   answerFifth4: string;
+ }[] = [];
+
+ rutas = {
+   "Vulnerabiliad Sismica" : [
+     {
+
+       img1: "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/error1.jpg",
+       answerFirst1: 'Agrietamiento por contracción o retracción ',
+       answerFirst2: 'Agrietamiento por oxidación y tipo de acero de refuerzo',
+       answerFirst3: 'Agrietamiento por reactividad de los agregados',
+       answerFirst4: 'Agrietamiento por un mal curado',
+
+       img2: "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/1.png",
+       answerSecond1: 'Si la excentricidad es pequeña será por compresión',
+       answerSecond2: 'Si la excentricidad es mayor la falla será por tensión ',
+       answerSecond3: 'Si no hay excentricidad la falla será por aplastamiento',
+       answerSecond4: 'Si la excentricidad',
+
+       img3: "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/error1.jpg",
+       answerThird1: 'No tiene cimientos',
+       answerThird2: 'El suelo es blando',
+       answerThird3: 'Muros confinados',
+       answerThird4: 'Losa discontinua',
+
+       img4: "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/error1.jpg",
+       answerFourth1: 'Terreno en pendiente',
+       answerFourth2: 'Terreno llano',
+       answerFourth3: 'Relleno mal compactado',
+       answerFourth4: 'Sobre zonas húmedas',
+
+       img5: "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/error1.jpg",
+       answerFifth1: 'Pegas uniformes',
+       answerFifth2: 'Columnas sin hormigueros',
+       answerFifth3: 'Muros demasiado largos',
+       answerFifth4: 'Refuerzo con recubrimiento',
+     },
+   ]
+ }
 
   button1: ButtonStyle = {
     fill: "solid",
@@ -44,38 +116,15 @@ export class GameChooseTheDescriptionComponent implements OnInit {
 
 
 
-  public options: { img: string; description: string }[] = [
-    {
-      img: '../../assets/svg/sourceVulnerabilidad/prime/portadaCartillaV.svg',
-      description: 'Se calcula que la producción de cemento es causante de hasta el 5% de las emisiones de CO2 a nivel mundial',
-    },
-    {
-      img: '../../assets/svg/sourceMaterialDeApoyo/portada_Normas.svg',
-      description:
-        'Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de',
-    },
-    {
-      img: '../../assets/svg/sourceMaterialDeApoyo/portada_Videos.svg',
-      description:
-        'Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías .',
-    },
-  ];
 
-  constructor( private router: Router) {
-    this.options.push({img:'', description:'brian'})
-    console.log(this.randomArrayShuffle(this.options))
-  }
-
-  public randomArrayShuffle = (array) => {
-    var currentIndex = array.length, temporaryValue, randomIndex;
-    while (0 !== currentIndex) {
-      randomIndex = Math.floor(Math.random() * currentIndex);
-      currentIndex -= 1;
-      temporaryValue = array[currentIndex];
-      array[currentIndex] = array[randomIndex];
-      array[randomIndex] = temporaryValue;
-    }
-    return array;
+  constructor(
+    private moduleNameService: ModuleNameService,
+    private route: ActivatedRoute,
+    private router: Router
+  ) {
+    this.moduleNameService.moduleNameSource.subscribe((moduleId) => {
+      this.descriptions = this.rutas[moduleId]
+    })
   }
 
 
@@ -154,5 +203,6 @@ export class GameChooseTheDescriptionComponent implements OnInit {
 
   goTo() {
     this.router.navigateByUrl('game/congratulation');
+    this.slides.slideTo(0);
   }
 }

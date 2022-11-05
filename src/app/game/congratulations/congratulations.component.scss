@@ -10,18 +10,21 @@ ion-content::part(scroll){
 
 ion-content{
 
+
   ion-grid{
       display: flex;
       justify-content: center;
       flex-direction: column;
-      background-image: url("../../../assets/svg/sourceGame/hidraulica/backgroundGame/fondo_juego_planos.svg");
-      background-size: cover;
+      padding-top: 25vh;
   }
   .sinupot{
     width: 50%;
     height: 60px;
     margin-top: 20px;
     border-radius: 10px;
-    background: linear-gradient(#D04D52, #ee555a, #f38a8f);
+    background: #39A900;
+    font-size: medium;
+    border: 2px solid #ffffff;
+    color: #ffffff;
   }
 }

@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { GameInterfaceComponent } from './game-interface/game-interface.component';
-import { GameDashboardComponent } from './game-dashboard/game-dashboard.component';
 import { GameChooseTheDescriptionComponent } from './game-choose-the-description/game-choose-the-description.component';
 import { GameChooseThePiecesComponent } from './game-choose-the-pieces/game-choose-the-pieces.component';
 import { GameSelectTheConcreteComponent } from './game-select-the-concrete/game-select-the-concrete.component';
@@ -18,10 +17,6 @@ const routes: Routes = [
   {
     path: 'gameInterface',
     component: GameInterfaceComponent
-  },
-  {
-    path: 'gameDashboard',
-    component: GameDashboardComponent
   },
   {
     path: 'gameChooseDescription',

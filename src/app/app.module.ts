@@ -28,7 +28,6 @@ import { HttpClientModule } from '@angular/common/http';
     FeatureComponent,
     IndexComponent,
     NavBarComponent,
-
   ],
   entryComponents: [],
   imports:

@@ -1,28 +1,8 @@
 <app-header backUrl="/main/installation"></app-header>
 <ion-content color="primary" [fullscreen]="true">
-
   <ion-grid fixed>
     <app-module-name></app-module-name>
     <ion-slides pager="true" [options]="slideOpts">
-      <ion-slide>
-        <ion-row>
-          <ion-col size="3" *ngFor="let accessory of  piecesInfo">
-            <ion-card class="slider1">
-              <ion-card-header>
-                <ion-card-title class="ion-text-center main-title" >
-                  <b>
-                    {{ accessory.title | titlecase }}
-                  </b>
-                </ion-card-title>
-                <ion-card-title class="ion-text-center" >
-                  <img [src]="accessory.img">
-                </ion-card-title>
-              </ion-card-header>
-            </ion-card>
-          </ion-col>
-        </ion-row>
-      </ion-slide>
-
       <ion-slide style="display: block" *ngFor="let pieceInfo of piecesInfo">
         <ion-row>
           <ion-col>
@@ -30,11 +10,11 @@
               <ion-card-header>
                 <ion-card-title class="ion-text-center main-title">
                   <b class="title1">
-                    {{ pieceInfo.name}}
+                    {{ pieceInfo.name }}
                   </b>
                 </ion-card-title>
                 <ion-card-title class="ion-text-center">
-                  <img class="convencion" [src]="pieceInfo.convencion">
+                  <img class="convencion" [src]="pieceInfo.convencion" />
                 </ion-card-title>
               </ion-card-header>
             </ion-card>
@@ -44,11 +24,11 @@
               <ion-card-header>
                 <ion-card-title class="ion-text-center main-title">
                   <b>
-                    {{ pieceInfo.title}}
+                    {{ pieceInfo.title }}
                   </b>
                 </ion-card-title>
                 <ion-card-title class="ion-text-center">
-                  <img class="convencion" [src]="pieceInfo.img">
+                  <img class="convencion" [src]="pieceInfo.img" />
                 </ion-card-title>
               </ion-card-header>
             </ion-card>
@@ -57,7 +37,7 @@
         <ion-row class="information">
           <h1>Concepto</h1>
           <p class="ion-text-center">
-            {{ pieceInfo.concept}}
+            {{ pieceInfo.concept }}
           </p>
         </ion-row>
         <ion-row class="information">

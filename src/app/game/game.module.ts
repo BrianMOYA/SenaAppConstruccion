@@ -6,7 +6,6 @@ import { CommonModule } from '@angular/common';
 
 import { GameRoutingModule } from './game-routing.module';
 import { GameInterfaceComponent } from './game-interface/game-interface.component';
-import { GameDashboardComponent } from './game-dashboard/game-dashboard.component';
 import { GameChooseTheDescriptionComponent } from './game-choose-the-description/game-choose-the-description.component';
 import { GameChooseThePiecesComponent } from './game-choose-the-pieces/game-choose-the-pieces.component';
 import { GameSelectTheConcreteComponent } from './game-select-the-concrete/game-select-the-concrete.component';
@@ -18,7 +17,6 @@ import { CongratulationsComponent } from './congratulations/congratulations.comp
 @NgModule({
   declarations: [
     GameInterfaceComponent,
-    GameDashboardComponent,
     GameChooseTheDescriptionComponent,
     GameChooseThePiecesComponent,
     GameSelectTheConcreteComponent,

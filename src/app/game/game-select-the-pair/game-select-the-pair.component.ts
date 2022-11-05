@@ -63,10 +63,10 @@ export class GameSelectThePairComponent implements OnInit {
         img2: "../../assets/svg/sourceInstallation/piezas/piezasSanitarias/teeSanitaria.png",
 
         convencion3:'../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorDeLimpieza.svg',
-        img3: "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_uso_estructural.svg",
+        img3: "../../assets/svg/sourceInstallation/piezas/piezasSanitarias/teeSanitaria.png",
 
         convencion4:'../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorDeLimpieza.svg',
-        img4: "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_uso_general.svg",
+        img4: "../../assets/svg/sourceInstallation/piezas/piezasSanitarias/teeSanitaria.png",
       },
     ],
     "Gas" : [

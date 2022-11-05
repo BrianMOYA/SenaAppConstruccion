@@ -1,8 +1,8 @@
 <ion-menu side="end" menuId="menu" contentId="main">
-  <ion-content>
+  <ion-content color="medium">
     <div class="menu-header-bg"></div>
     <div class="header-content">
-      <img src="assets/svg/sourceFooter/logosSenaAppblancoInferior.svg">
+      <img src="assets/svg/sourceFooter/logosSenaAppblancoInferior.svg" />
     </div>
     <div class="action-button">
       <ion-button routerLink="/index">
@@ -10,15 +10,19 @@
       </ion-button>
     </div>
     <ion-list class="menu-items" lines="none">
-      <ion-col size="12" size-md="6" size-sm="4" size-lg="2" *ngFor="let cat of categories">
+      <ion-col
+        size="12"
+        size-md="6"
+        size-sm="4"
+        size-lg="2"
+        *ngFor="let cat of categories"
+      >
         <ion-item>
           <button (click)="goModule(cat.name)">
-            <img [src]="cat.img"/>
+            <img [src]="cat.img" />
           </button>
         </ion-item>
       </ion-col>
     </ion-list>
   </ion-content>
 </ion-menu>
-
-

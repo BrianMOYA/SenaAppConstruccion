@@ -14,7 +14,9 @@ interface ButtonStyle {
   templateUrl: './game-choose-the-pieces.component.html',
   styleUrls: ['./game-choose-the-pieces.component.scss'],
 })
-export class GameChooseThePiecesComponent implements OnInit {
+export class GameChooseThePiecesComponent implements OnInit{
+
+
 
   @ViewChild(IonSlides, { static:true}) slides: IonSlides;
 
@@ -59,7 +61,7 @@ export class GameChooseThePiecesComponent implements OnInit {
         img2: "../../assets/svg/sourceInstallation/piezas/piezasSanitarias/teeSanitaria.png",
 
         convencion3:'../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorDeLimpieza.svg',
-        img3: "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_uso_estructural.svg",
+        img3: "../../assets/svg/sourceInstallation/piezas/piezasSanitarias/teeSanitaria.png",
       },
     ],
     "Gas" : [
@@ -182,6 +184,7 @@ export class GameChooseThePiecesComponent implements OnInit {
 
   goTo() {
     this.router.navigateByUrl('game/congratulation');
+    this.slides.slideTo(0);
   }
 
 }

@@ -1,94 +1,228 @@
-<app-header backUrl='/game/gameInterface'></app-header>
-<ion-content >
+<app-header backUrl="/game/gameInterface"></app-header>
+<ion-content>
   <ion-grid fixed>
     <app-module-name></app-module-name>
+    <div class="question">
+      <ion-text>
+        ¿Cual es el error de construcción que se evidencia en la siguiente
+        imagen?
+      </ion-text>
+    </div>
     <ion-slides pager="false" [options]="slideOpts">
-
-      <ion-slide style="display: block;">
+      <ion-slide
+        style="display: block"
+        *ngFor="let description of descriptions"
+      >
         <ion-row class="ion-justify-content-center">
-          <img src="../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/1.png">
+          <img class="convencion" [src]="description.img1" />
         </ion-row>
-        <div class="question">
-          <ion-text>
-            ¿Error que se evidencia en  la construcción?
-          </ion-text>
-        </div>
         <div class="answer">
-          <ion-button (click)="respondPoll(3)" [fill]="button3.fill" [color]="button3.color" expand="block"> Agrietamiento por retracción</ion-button>
-          <ion-button (click)="respondPoll(2)" [fill]="button2.fill" [color]="button2.color" expand="block"> Agrietamiento por oxidación </ion-button>
-          <ion-button (click)="respondPoll(1)" [fill]="button1.fill" [color]="button1.color" expand="block"> Agrietamiento por reactividad (E)</ion-button>
-          <ion-button (click)="respondPoll(4)" [fill]="button4.fill" [color]="button4.color" expand="block"> Agrietamiento por un mal curado </ion-button>
+          <ion-button
+            (click)="respondPoll(1)"
+            [fill]="button1.fill"
+            [color]="button1.color"
+            expand="block"
+          >
+            {{ description.answerFirst1 }}
+          </ion-button>
+          <ion-button
+            (click)="respondPoll(2)"
+            [fill]="button2.fill"
+            [color]="button2.color"
+            expand="block"
+          >
+            {{ description.answerFirst2 }}
+          </ion-button>
+          <ion-button
+            (click)="respondPoll(3)"
+            [fill]="button3.fill"
+            [color]="button3.color"
+            expand="block"
+          >
+            {{ description.answerFirst3 }}
+          </ion-button>
+          <ion-button
+            (click)="respondPoll(4)"
+            [fill]="button4.fill"
+            [color]="button4.color"
+            expand="block"
+          >
+            {{ description.answerFirst4 }}
+          </ion-button>
         </div>
       </ion-slide>
 
-      <ion-slide style="display: block;">
+      <ion-slide
+        style="display: block"
+        *ngFor="let description of descriptions"
+      >
         <ion-row class="ion-justify-content-center">
-          <img src="../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/error1.jpg">
+          <img class="convencion" [src]="description.img2" />
         </ion-row>
-        <div class="question">
-          <ion-text>
-            ¿Que es la psicologia?
-          </ion-text>
-        </div>
         <div class="answer">
-          <ion-button (click)="respondPoll(3)" [fill]="button3.fill" [color]="button3.color" expand="block"> ana </ion-button>
-          <ion-button (click)="respondPoll(2)" [fill]="button2.fill" [color]="button2.color" expand="block"> elassd </ion-button>
-          <ion-button (click)="respondPoll(4)" [fill]="button4.fill" [color]="button4.color" expand="block"> sfdfd </ion-button>
-          <ion-button (click)="respondPoll(1)" [fill]="button1.fill" [color]="button1.color" expand="block"> Esta es correcta </ion-button>
+          <ion-button
+            (click)="respondPoll(2)"
+            [fill]="button2.fill"
+            [color]="button2.color"
+            expand="block"
+          >
+            {{ description.answerSecond1 }}
+          </ion-button>
+          <ion-button
+            (click)="respondPoll(3)"
+            [fill]="button3.fill"
+            [color]="button3.color"
+            expand="block"
+          >
+            {{ description.answerSecond2 }}
+          </ion-button>
+          <ion-button
+            (click)="respondPoll(4)"
+            [fill]="button4.fill"
+            [color]="button4.color"
+            expand="block"
+          >
+            {{ description.answerSecond3 }}
+          </ion-button>
+          <ion-button
+            (click)="respondPoll(1)"
+            [fill]="button1.fill"
+            [color]="button1.color"
+            expand="block"
+          >
+            {{ description.answerSecond4 }}
+          </ion-button>
         </div>
       </ion-slide>
 
-      <ion-slide style="display: block;">
+      <ion-slide
+        style="display: block"
+        *ngFor="let description of descriptions"
+      >
         <ion-row class="ion-justify-content-center">
-          <img src="../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/error2.jpg">
+          <img class="convencion" [src]="description.img3" />
         </ion-row>
-        <div class="question">
-          <ion-text>
-            ¿Que es la psicologia hasd?
-          </ion-text>
-        </div>
         <div class="answer">
-          <ion-button (click)="respondPoll(2)" [fill]="button2.fill" [color]="button2.color" expand="block"> ana </ion-button>
-          <ion-button (click)="respondPoll(1)" [fill]="button1.fill" [color]="button1.color" expand="block"> Esta es la correcta </ion-button>
-          <ion-button (click)="respondPoll(3)" [fill]="button3.fill" [color]="button3.color" expand="block"> elassd </ion-button>
-          <ion-button (click)="respondPoll(4)" [fill]="button4.fill" [color]="button4.color" expand="block"> elassd </ion-button>
+          <ion-button
+            (click)="respondPoll(2)"
+            [fill]="button2.fill"
+            [color]="button2.color"
+            expand="block"
+          >
+            {{ description.answerThird1 }}
+          </ion-button>
+          <ion-button
+            (click)="respondPoll(3)"
+            [fill]="button3.fill"
+            [color]="button3.color"
+            expand="block"
+          >
+            {{ description.answerThird4 }}
+          </ion-button>
+          <ion-button
+            (click)="respondPoll(1)"
+            [fill]="button1.fill"
+            [color]="button1.color"
+            expand="block"
+          >
+            {{ description.answerThird3 }}
+          </ion-button>
+          <ion-button
+            (click)="respondPoll(4)"
+            [fill]="button4.fill"
+            [color]="button4.color"
+            expand="block"
+          >
+            {{ description.answerThird2 }}
+          </ion-button>
         </div>
       </ion-slide>
 
-      <ion-slide style="display: block;">
+      <ion-slide
+        style="display: block"
+        *ngFor="let description of descriptions"
+      >
         <ion-row class="ion-justify-content-center">
-          <img src="../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/error1.jpg">
+          <img class="convencion" [src]="description.img4" />
         </ion-row>
-        <div class="question">
-          <ion-text>
-            ¿Que es la psicologia?
-          </ion-text>
-        </div>
         <div class="answer">
-          <ion-button (click)="respondPoll(3)" [fill]="button3.fill" [color]="button3.color" expand="block"> ana </ion-button>
-          <ion-button (click)="respondPoll(2)" [fill]="button2.fill" [color]="button2.color" expand="block"> elassd </ion-button>
-          <ion-button (click)="respondPoll(4)" [fill]="button4.fill" [color]="button4.color" expand="block"> sfdfd </ion-button>
-          <ion-button (click)="respondPoll(1)" [fill]="button1.fill" [color]="button1.color" expand="block"> Esta es correcta </ion-button>
+          <ion-button
+            (click)="respondPoll(2)"
+            [fill]="button2.fill"
+            [color]="button2.color"
+            expand="block"
+          >
+            {{ description.answerFourth3 }}
+          </ion-button>
+          <ion-button
+            (click)="respondPoll(1)"
+            [fill]="button1.fill"
+            [color]="button1.color"
+            expand="block"
+          >
+            {{ description.answerFourth2 }}
+          </ion-button>
+          <ion-button
+            (click)="respondPoll(3)"
+            [fill]="button3.fill"
+            [color]="button3.color"
+            expand="block"
+          >
+            {{ description.answerFourth1 }}
+          </ion-button>
+          <ion-button
+            (click)="respondPoll(4)"
+            [fill]="button4.fill"
+            [color]="button4.color"
+            expand="block"
+          >
+            {{ description.answerFourth4 }}
+          </ion-button>
         </div>
       </ion-slide>
 
-      <ion-slide style="display: block;">
+      <ion-slide
+        style="display: block"
+        *ngFor="let description of descriptions"
+      >
         <ion-row class="ion-justify-content-center">
-          <img src="../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/error1.jpg">
+          <img class="convencion" [src]="description.img5" />
         </ion-row>
-        <div class="question">
-          <ion-text>
-            ¿Que es la psicologia?
-          </ion-text>
-        </div>
         <div class="answer">
-          <ion-button (click)="goTo()" [fill]="button1.fill" [color]="button1.color" expand="block"> Esta es correcta </ion-button>
-          <ion-button (click)="respondPoll(3)" [fill]="button3.fill" [color]="button3.color" expand="block"> ana </ion-button>
-          <ion-button (click)="respondPoll(2)" [fill]="button2.fill" [color]="button2.color" expand="block"> elassd </ion-button>
-          <ion-button (click)="respondPoll(4)" [fill]="button4.fill" [color]="button4.color" expand="block"> sfdfd </ion-button>
+          <ion-button
+            (click)="respondPoll(2)"
+            [fill]="button2.fill"
+            [color]="button2.color"
+            expand="block"
+          >
+            {{ description.answerFifth2 }}
+          </ion-button>
+          <ion-button
+            (click)="respondPoll(3)"
+            [fill]="button3.fill"
+            [color]="button3.color"
+            expand="block"
+          >
+            {{ description.answerFifth4 }}
+          </ion-button>
+          <ion-button
+            (click)="goTo()"
+            [fill]="button1.fill"
+            [color]="button1.color"
+            expand="block"
+          >
+            {{ description.answerFifth3 }}
+          </ion-button>
+          <ion-button
+            (click)="respondPoll(4)"
+            [fill]="button4.fill"
+            [color]="button4.color"
+            expand="block"
+          >
+            {{ description.answerFifth1 }}
+          </ion-button>
         </div>
       </ion-slide>
-
     </ion-slides>
-    </ion-grid>
+  </ion-grid>
 </ion-content>

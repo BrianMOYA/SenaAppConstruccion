@@ -1,11 +1,11 @@
-<app-header backUrl='/main/mainInterfaces/:id'></app-header>
+<app-header backUrl="/main/mainInterfaces/:id"></app-header>
 <ion-content color="medium" [fullscreen]="true">
   <app-module-name></app-module-name>
   <ion-grid>
     <ion-row class="ion-justify-content-center" class="ion-padding">
       <ion-col size="12" *ngFor="let imgPiece of imgPieces">
         <ion-row class="ion-justify-content-center">
-          <img [src]="imgPiece.img"/>
+          <img [src]="imgPiece.img" />
         </ion-row>
         <ion-row class="ion-justify-content-center">
           <button class="continue" [routerLink]="imgPiece.route">

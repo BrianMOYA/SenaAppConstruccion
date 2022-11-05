@@ -9,7 +9,7 @@ ion-content {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: #00324D;
+    background-color: #00324d;
   }
 
   ion-grid {
@@ -42,13 +42,13 @@ ion-content {
           margin-bottom: 10%;
           color: #2a3749;
         }
-        .btns {
+        ion-row {
           width: 100%;
           padding: 10px;
           ion-button {
-            width: 150px;
+            width: 135px;
             float: left;
-            height: 150px;
+            height: 135px;
             border-radius: 10px;
             font-size: 15px;
             color: #ffffff;

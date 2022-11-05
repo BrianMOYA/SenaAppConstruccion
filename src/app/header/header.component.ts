@@ -22,6 +22,7 @@ export class HeaderComponent implements OnInit {
     if(this.backurl){
       await this.router.navigateByUrl(this.backurl);
     }
+
   }
 
 }
