@@ -29,10 +29,9 @@ export class GameChooseThePiecesComponent implements OnInit{
 
   public concretes :
   {
-    convencion1: string;
-    convencion2: string;
-    convencion3: string;
-    convencion4: string;
+    plano1: string;
+    plano2: string;
+    plano3: string;
     img1: string;
     img2: string;
     img3: string;
@@ -42,38 +41,38 @@ export class GameChooseThePiecesComponent implements OnInit{
   rutas = {
     "Hidraulica" : [
       {
-        convencion1:'../../assets/svg/sourceGame/hidraulica/planosGame/2.png',
+        plano1:'../../assets/svg/sourceGame/hidraulica/planosGame/semicodo2.png',
         img1: "../../assets/svg/sourceInstallation/piezas/piezasSanitarias/teeSanitaria.png",
 
-        convencion2:'../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorHembra.svg',
+        plano2:'../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorHembra.svg',
         img2: "../../assets/svg/sourceInstallation/piezas/piezasSanitarias/teeSanitaria.png",
 
-        convencion3:'../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorHembra.svg',
+        plano3:'../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorHembra.svg',
         img3: "../../assets/svg/sourceInstallation/piezas/piezasSanitarias/teeSanitaria.png",
       },
     ],
     "Sanitaria" : [
       {
-        convencion1:'../../assets/svg/sourceInstallation/convenciones/sanitarias/yeeSanitaria.svg',
-        img1: "../../assets/svg/sourceInstallation/piezas/piezasSanitarias/yeeSanitaria.png",
+        plano1:'../../assets/svg/sourceGame/sanitaria/planosGame/tapon.png',
+        img1: "../../assets/svg/sourceInstallation/piezas/piezasSanitarias/taponDePrueba.png",
 
-        convencion2:'../../assets/svg/sourceInstallation/convenciones/sanitarias/yeeSanitaria.svg',
-        img2: "../../assets/svg/sourceInstallation/piezas/piezasSanitarias/teeSanitaria.png",
+        plano2:'../../assets/svg/sourceGame/sanitaria/planosGame/sifon.png',
+        img2: "../../assets/svg/sourceInstallation/piezas/piezasSanitarias/sifon.png",
 
-        convencion3:'../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorDeLimpieza.svg',
-        img3: "../../assets/svg/sourceInstallation/piezas/piezasSanitarias/teeSanitaria.png",
+        plano3:'../../assets/svg/sourceGame/sanitaria/planosGame/yee.png',
+        img3: "../../assets/svg/sourceInstallation/piezas/piezasSanitarias/yeeSanitaria.png",
       },
     ],
     "Gas" : [
       {
-        convencion1:'../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorHembra.svg',
-        img1: "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_super_resistente.svg",
+        plano1:'../../assets/svg/sourceGame/gas/planosGame/codo.png',
+        img1: "../../assets/svg/sourceInstallation/piezas/piezasGas/codo90.png",
 
-        convencion2:'../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorHembra.svg',
-        img2: "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_uso_amb_marino.svg",
+        plano2:'../../assets/svg/sourceGame/gas/planosGame/reguladorDeBola.png',
+        img2: "../../assets/svg/sourceInstallation/piezas/piezasGas/universalEPC.png",
 
-        convencion3:'../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorHembra.svg',
-        img3: "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_uso_estructural.svg",
+        plano3:'../../assets/svg/sourceGame/gas/planosGame/tee.png',
+        img3: "../../assets/svg/sourceInstallation/piezas/piezasGas/tee.png",
       },
     ],
   }

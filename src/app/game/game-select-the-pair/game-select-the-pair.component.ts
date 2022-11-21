@@ -41,17 +41,17 @@ export class GameSelectThePairComponent implements OnInit {
   rutas = {
     "Hidraulica" : [
       {
-        convencion1:'../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorHembra.svg',
-        img1: "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_super_resistente.svg",
+        convencion1:'../../assets/svg/sourceInstallation/convenciones/hidraulicas/codo90.svg',
+        img1: "../../assets/svg/sourceInstallation/piezas/piezasHidraulicas/codo90.png",
 
-        convencion2:'../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorHembra.svg',
-        img2: "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_uso_amb_marino.svg",
+        convencion2:'../../assets/svg/sourceInstallation/convenciones/hidraulicas/tee.svg',
+        img2: "../../assets/svg/sourceInstallation/piezas/piezasHidraulicas/tee.png",
 
-        convencion3:'../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorHembra.svg',
-        img3: "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_uso_estructural.svg",
+        convencion3:'../../assets/svg/sourceInstallation/convenciones/hidraulicas/tapones.svg',
+        img3: "../../assets/svg/sourceInstallation/piezas/piezasHidraulicas/tapones.png",
 
-        convencion4:'../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorHembra.svg',
-        img4: "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_uso_general.svg",
+        convencion4:'../../assets/svg/sourceInstallation/convenciones/hidraulicas/valvulaDeRetencion.svg',
+        img4: "../../assets/svg/sourceInstallation/piezas/piezasHidraulicas/valvulaDeRetencion.png",
       },
     ],
     "Sanitaria" : [
@@ -59,29 +59,29 @@ export class GameSelectThePairComponent implements OnInit {
         convencion1:'../../assets/svg/sourceInstallation/convenciones/sanitarias/yeeSanitaria.svg',
         img1: "../../assets/svg/sourceInstallation/piezas/piezasSanitarias/yeeSanitaria.png",
 
-        convencion2:'../../assets/svg/sourceInstallation/convenciones/sanitarias/yeeSanitaria.svg',
+        convencion2:'../../assets/svg/sourceInstallation/convenciones/sanitarias/teeSanitaria.svg',
         img2: "../../assets/svg/sourceInstallation/piezas/piezasSanitarias/teeSanitaria.png",
 
-        convencion3:'../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorDeLimpieza.svg',
-        img3: "../../assets/svg/sourceInstallation/piezas/piezasSanitarias/teeSanitaria.png",
+        convencion3:'../../assets/svg/sourceInstallation/convenciones/sanitarias/codoSanitario90.svg',
+        img3: "../../assets/svg/sourceInstallation/piezas/piezasSanitarias/codo90.png",
 
-        convencion4:'../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorDeLimpieza.svg',
-        img4: "../../assets/svg/sourceInstallation/piezas/piezasSanitarias/teeSanitaria.png",
+        convencion4:'../../assets/svg/sourceInstallation/convenciones/sanitarias/buje.svg',
+        img4: "../../assets/svg/sourceInstallation/piezas/piezasSanitarias/buje.png",
       },
     ],
     "Gas" : [
       {
-        convencion1:'../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorHembra.svg',
-        img1: "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_super_resistente.svg",
+        convencion1:'../../assets/svg/sourceInstallation/convenciones/gas/semicodoDeCobreEPC.svg',
+        img1: "../../assets/svg/sourceInstallation/piezas/piezasGas/semicodo.png",
 
-        convencion2:'../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorHembra.svg',
-        img2: "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_uso_amb_marino.svg",
+        convencion2:'../../assets/svg/sourceInstallation/convenciones/gas/taponCopaCobre.svg',
+        img2: "../../assets/svg/sourceInstallation/piezas/piezasGas/taponCopa.png",
 
-        convencion3:'../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorHembra.svg',
-        img3: "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_uso_estructural.svg",
+        convencion3:'../../assets/svg/sourceInstallation/convenciones/gas/valvulas.svg',
+        img3: "../../assets/svg/sourceInstallation/piezas/piezasGas/valvulaPE_AL_PE.png",
 
-        convencion4:'../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorHembra.svg',
-        img4: "../../assets/svg/sourceGame/vulnerabilidad/concreteGame/cemento_uso_general.svg",
+        convencion4:'../../assets/svg/sourceInstallation/convenciones/gas/tuberiaMulticapa.svg',
+        img4: "../../assets/svg/sourceInstallation/piezas/piezasGas/tuberiaMulticapa.png",
       },
     ],
   }

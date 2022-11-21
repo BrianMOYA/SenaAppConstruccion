@@ -4,24 +4,6 @@ ion-slides {
   --bullet-background-active: #e7e7e7;
 }
 
-.slider1 {
-  font-size: 10px;
-  color: #b28857b8;
-  --background: #e5e6e7;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  ion-card-title {
-    font-size: 0px !important;
-    color: #cc6506;
-    img {
-      width: 50px;
-    }
-    b {
-      font-size: 12px;
-    }
-  }
-}
 
 ion-col {
   padding: 0px;
@@ -32,7 +14,7 @@ ion-card {
   flex-direction: column;
   font-size: 13px !important;
   color: #b28857b8;
-  --background: #faedca;
+  --background: #FBFCEC;
   border-radius: 10px;
   min-height: 95px;
 
@@ -41,7 +23,7 @@ ion-card {
   }
 
   ion-card-title {
-    color: #cc6506;
+    color: #006F35;
     .title1 {
       font-size: 18px !important;
     }
@@ -62,20 +44,20 @@ ion-card {
 .information {
   margin-left: 20px;
   margin-right: 20px;
-  border: 3px solid #cc6506;
+  border: 3px solid #006F35;
   margin-top: 10px;
   justify-content: center;
   border-radius: 10px;
   color: #2a3749;
-  background-color: #dbdbdb;
+  background-color: #ebebeb;
   padding-left: 5px;
   padding-right: 5px;
 
   h1 {
-    border-bottom: 3px solid #cc6506;
+    border-bottom: 3px solid #006F35;
   }
   p {
-    font-size: 17px;
+    font-size: 15px;
     color: #2a3749;
   }
 }

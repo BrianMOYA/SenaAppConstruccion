@@ -23,16 +23,6 @@ export class InstallationinComponent implements OnInit, OnDestroy {
     "Hidraulica": [
       {
         name:'Convención',
-        title: 'Tee',
-        convencion:
-          '../../assets/svg/sourceInstallation/convenciones/hidraulicas/tee.svg',
-        img: '../../assets/svg/sourceInstallation/piezas/piezasHidraulicas/tee.png',
-        concept: 'Te  (T):  Accesorio en  forma  de  T  que  permite  realizar  una  conexión  a  tres bandas.  También  llamada  racor  en  T.  Los  diámetros  de  las  distintas  salidas pueden ser del mismo tamaño o distinto, se unen con soldadura, apriete mecanico o adhesivo..',
-        feature:
-          'Las tees existen en diámetros desde 1/2 "" hasta 4 "" en el tipo Fabricación, su espesor depende del tubo o accesorio al cual va instalada y su dimensión es la medida del centro a cualquiera de las bocas de la te.'
-      },
-      {
-        name:'Convención',
         title: 'Unión',
         convencion:
           '../../assets/svg/sourceInstallation/convenciones/hidraulicas/union.svg',
@@ -40,6 +30,16 @@ export class InstallationinComponent implements OnInit, OnDestroy {
         concept: 'Son uniones hermeticas que permiten conectar o acoplar una linea de fluido hidraulico hacia otro componente hidraulico.',
         feature:
           'Menores pérdidas de presión y facilidad de instalación, además el sistema de unión de los Tubos PVC Presión, consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
+      },
+      {
+        name:'Convención',
+        title: 'Tee',
+        convencion:
+          '../../assets/svg/sourceInstallation/convenciones/hidraulicas/tee.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasHidraulicas/tee.png',
+        concept: 'Te  (T):  Accesorio en  forma  de  T  que  permite  realizar  una  conexión  a  tres bandas.  También  llamada  racor  en  T.  Los  diámetros  de  las  distintas  salidas pueden ser del mismo tamaño o distinto, se unen con soldadura, apriete mecanico o adhesivo..',
+        feature:
+          'Las tees existen en diámetros desde 1/2 "" hasta 4 "" en el tipo Fabricación, su espesor depende del tubo o accesorio al cual va instalada y su dimensión es la medida del centro a cualquiera de las bocas de la te.'
       },
       {
         name:'Convención',
@@ -245,41 +245,21 @@ export class InstallationinComponent implements OnInit, OnDestroy {
     "Sanitaria": [
       {
         name:'Convención',
-        title: 'Adaptador De Limpieza',
+        title: 'Tubería Sanitaria',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorDeLimpieza.svg',
-        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/adaptadorDeLimpieza.png',
-        concept: 'lorem  de presión',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/tuberiaSanitaria.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/tuberiaSanitaria.png',
+        concept: 'La tubería de agua sanitaria es un conducto que cumple la función de evacuar las aguas residuales de la edificación.',
         feature:
           'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
       },
       {
         name:'Convención',
-        title: 'Bajante Agua Lluvia',
+        title: 'Unión Sanitaria',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/sanitarias/bajanteAguaLluvia.svg',
-        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/bajanteAguaLluvia.png',
-        concept: 'Son uniones.',
-        feature:
-          'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
-      },
-      {
-        name:'Convención',
-        title: 'Bajante Agua Residual',
-        convencion:
-          '../../assets/svg/sourceInstallation/convenciones/sanitarias/bajanteAguaResidual.svg',
-        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/bajanteAguaResidual.png',
-        concept: 'Son uniones.',
-        feature:
-          'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
-      },
-      {
-        name:'Convención',
-        title: 'Tuberia De Aguas Lluvias',
-        convencion:
-          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
-        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/tuberiaDeAguasLluvias.png',
-        concept: 'Son uniones hermeticas .',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/unionSanitaria.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/unionSanitaria.png',
+        concept: 'Accesorio que permite la unión entre dos tubos',
         feature:
           'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
       },
@@ -287,39 +267,29 @@ export class InstallationinComponent implements OnInit, OnDestroy {
         name:'Convención',
         title: 'Buje',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/buje.svg',
         img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/buje.png',
-        concept: 'Son uniones hermeticas.',
+        concept: 'Accesorio utilizado para pasar de un diámetro de tubería o accesorio mayor a un diámetro menor.',
         feature:
           'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
       },
       {
         name:'Convención',
-        title: 'Caja De Inspeccion',
+        title: 'Codo 45°',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
-        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/cajaDeInspeccion.png',
-        concept: 'Son uniones hermeticas',
-        feature:
-          'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
-      },
-      {
-        name:'Convención',
-        title: 'Codo 45',
-        convencion:
-          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/codoSanitario45.svg',
         img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/codo45.png',
-        concept: 'Son uniones hermeticas',
+        concept: 'Accesorio que permite la conducción de las aguas lluvias o servidas y evacuarlas a un ángulo de 45°',
         feature:
           'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
       },
       {
         name:'Convención',
-        title: 'codo 90',
+        title: 'codo 90°',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/codoSanitario90.svg',
         img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/codo90.png',
-        concept: 'Son uniones hermeticas .',
+        concept: 'Accesorio que permite la conducción de las aguas lluvias o servidas y evacuarlas a un ángulo de 90°',
         feature:
           'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
       },
@@ -327,19 +297,19 @@ export class InstallationinComponent implements OnInit, OnDestroy {
         name:'Convención',
         title: 'Codo Reventilado',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/codoSanitarioReventilado.svg',
         img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/codoSanitarioReventilado.png',
-        concept: 'Son uniones hermeticas .',
+        concept: 'Codo Reventilado, se utiliza para ensamblar las partes en redes de tuberías , sirve para re-direccionar el flujo de aguas residuales, la conexión extra en la parte superior permite conectar el subsistema de ventilación de tuberías',
         feature:
           'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
       },
       {
         name:'Convención',
-        title: 'Sifon',
+        title: 'Sifón',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/sifon.svg',
         img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/sifon.png',
-        concept: 'Son uniones hermeticas .',
+        concept: 'Consiste en un tubo en forma de «U», de manera que, al desaguar el aparato, el agua llena las dos ramas del tubo, hasta el nivel de desagüe de la segunda, manteniendo un tapón de agua limpia que cierra la entrada de olores.',
         feature:
           'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
       },
@@ -347,9 +317,9 @@ export class InstallationinComponent implements OnInit, OnDestroy {
         name:'Convención',
         title: 'Tapon De Prueba',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/taponDeprueba.svg',
         img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/taponDePrueba.png',
-        concept: 'Son uniones hermeticas .',
+        concept: 'Accesorio que  permite el cierre de los extremos de la red sanitaria para sus correspondientes pruebas de hermeticidad.',
         feature:
           'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
       },
@@ -357,9 +327,9 @@ export class InstallationinComponent implements OnInit, OnDestroy {
         name:'Convención',
         title: 'Tee Sanitaria',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/teeSanitaria.svg',
         img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/teeSanitaria.png',
-        concept: 'Son uniones hermeticas .',
+        concept: 'La conexión tee, está diseñada para unir tres diferentes tramos de tubería de en un ángulo de 90° para redireccionar y permitir la conducción de agua.',
         feature:
           'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
       },
@@ -367,39 +337,9 @@ export class InstallationinComponent implements OnInit, OnDestroy {
         name:'Convención',
         title: 'Tee Doble',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/teeSanitariaDoble.svg',
         img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/teeSanitariaDoble.png',
-        concept: 'Son uniones hermeticas .',
-        feature:
-          'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
-      },
-      {
-        name:'Convención',
-        title: 'Tuberia Sanitaria',
-        convencion:
-          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
-        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/tuberiaSanitaria.png',
-        concept: 'Son uniones hermeticas .',
-        feature:
-          'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
-      },
-      {
-        name:'Convención',
-        title: 'Tuberia Ventilacion',
-        convencion:
-          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
-        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/tuberiaVentilacion.png',
-        concept: 'Son uniones hermeticas .',
-        feature:
-          'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
-      },
-      {
-        name:'Convención',
-        title: 'Union Sanitaria',
-        convencion:
-          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
-        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/unionSanitaria.png',
-        concept: 'Son uniones hermeticas .',
+        concept: 'La conexión tee doble, está diseñada para unir cuatro diferentes tramos de tubería de en un ángulo de 90° para redireccionar y permitir la conducción de agua.',
         feature:
           'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
       },
@@ -407,9 +347,9 @@ export class InstallationinComponent implements OnInit, OnDestroy {
         name:'Convención',
         title: 'Yee Sanitaria',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/yeeSanitaria.svg',
         img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/yeeSanitaria.png',
-        concept: 'Son uniones hermeticas .',
+        concept: 'La conexión yee, está diseñada para unir tres diferentes tramos de tubería de en un ángulo de 45° para redireccionar y permitir la conducción de agua.',
         feature:
           'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
       },
@@ -417,9 +357,9 @@ export class InstallationinComponent implements OnInit, OnDestroy {
         name:'Convención',
         title: 'Yee Doble',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/yeeSanitariaDoble.svg',
         img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/yeeSanitariaDoble.png',
-        concept: 'Son uniones hermeticas .',
+        concept: 'La conexión yee doble, está diseñada para unir cuatro diferentes tramos de tubería de en un ángulo de 45° para redireccionar y permitir la conducción de agua.',
         feature:
           'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
       },
@@ -427,7 +367,7 @@ export class InstallationinComponent implements OnInit, OnDestroy {
         name:'Convención',
         title: 'Lavadero',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/lavadero.svg',
         img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/lavadero.png',
         concept: 'Pila o recipiente grande que sirve para lavar la ropa.',
         feature:
@@ -437,7 +377,7 @@ export class InstallationinComponent implements OnInit, OnDestroy {
         name:'Convención',
         title: 'Lavadora',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/lavadora.svg',
         img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/lavadora.png',
         concept: 'Aparato electrodoméstico que sirve para lavar la ropa.',
         feature:
@@ -447,7 +387,7 @@ export class InstallationinComponent implements OnInit, OnDestroy {
         name:'Convención',
         title: 'Lavamanos',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/lavamanos.svg',
         img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/lavamanos.png',
         concept: 'Se llama lavabo o lavamanos al recipiente en el que se vierte el agua para el aseo personal.',
         feature:
@@ -457,7 +397,7 @@ export class InstallationinComponent implements OnInit, OnDestroy {
         name:'Convención',
         title: 'Lavaplatos',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/lavaplatos.svg',
         img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/lavaplatos.png',
         concept: 'Recipiente que sirve para lavar platos, cubiertos y otros utensilios de cocina.',
         feature:
@@ -467,7 +407,7 @@ export class InstallationinComponent implements OnInit, OnDestroy {
         name:'Convención',
         title: 'Orinal',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/orinal.svg',
         img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/orinal.png',
         concept: 'Un urinario o mingitorio es un objeto utilizado para orinar, generalmente ubicado en baños públicos masculinos.',
         feature:
@@ -477,9 +417,69 @@ export class InstallationinComponent implements OnInit, OnDestroy {
         name:'Convención',
         title: 'Sanitario',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorHembra.svg',
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/sanitario.svg',
         img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/sanitario.png',
         concept: 'Aparato sanitario para evacuar los excrementos y la orina, provisto de un sifón que evita los malos olores.',
+        feature:
+          'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
+      },
+      {
+        name:'Convención',
+        title: 'Tubería De Aguas Lluvias',
+        convencion:
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/tuberiaAguasLluvias.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/tuberiaDeAguasLluvias.png',
+        concept: 'La tubería de agua lluvia es un conducto que cumple la función de evacuar las aguas lluvias de la edificación.',
+        feature:
+          'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
+      },
+      {
+        name:'Convención',
+        title: 'Tubería Ventilación',
+        convencion:
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/tuberiaVentilacion.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/tuberiaVentilacion.png',
+        concept: 'La tubería de ventilación es un conducto que cumple la función de evacuar los gases que se acumulan en el interior de las tuberías y permiten el aireamiento a una presión atmosférica necesaria para preservar los sellos hidráulicos de los sifones en laedificación.',
+        feature:
+        'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
+      },
+      {
+        name:'Convención',
+        title: 'Caja De Inspección',
+        convencion:
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/cajaDeInspeccion.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/cajaDeInspeccion.png',
+        concept: 'Cámara que se instala en los cambios de dirección, diámetro o pendiente en las tuberías de alcantarillado de la red, la cual  sirve para permitir la inspección y mantenimiento de los colectores.',
+        feature:
+          'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
+      },
+      {
+        name:'Convención',
+        title: 'Adaptador De Limpieza',
+        convencion:
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/adaptadorDeLimpieza.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/adaptadorDeLimpieza.png',
+        concept: 'Accesorio ubicado en punto estratégicos que permita la fácil limpieza de la red sanitaria. ',
+        feature:
+          'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
+        },
+      {
+        name:'Convención',
+        title: 'Bajante Agua Lluvia',
+        convencion:
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/bajanteAguasLluvia.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/bajanteAguaLluvia.png',
+        concept: 'El bajante de agus lluvias es un conducto vertical encargado de recoger las aguas que se reciben por lluvia o nieve, en los techos o cubiertas',
+        feature:
+          'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
+      },
+      {
+        name:'Convención',
+        title: 'Bajante Agua Residual',
+        convencion:
+          '../../assets/svg/sourceInstallation/convenciones/sanitarias/bajanteAguasResiduales.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/bajanteAguaResidual.png',
+        concept: 'Se llama bajante a la tubería vertical destinada a recoger las aguas vertidas por las derivaciones en cada piso o planta de viviendas',
         feature:
           'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
       },
@@ -487,103 +487,113 @@ export class InstallationinComponent implements OnInit, OnDestroy {
     "Gas": [
       {
         name:'Convención',
-        title: 'codo 90',
+        title: 'Tubería Multicapa',
         convencion:
-          '../../assets/svg/sourceInstallation/piezasHidraulicas/convencion/adaptadorHembra.png',
-        img: '../../assets/svg/sourceInstallation/piezasGases/pieza/codo90.png',
-        concept: 'lorem  de presión',
+        '../../assets/svg/sourceInstallation/convenciones/gas/tuberiaMulticapa.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasGas/tuberiaMulticapa.png',
+        concept: 'Tubería Multicapa PE AL PE, compuesta por tres capa Polietileno, Aluminio y Polietileno, unidas con material adhesivo especialmente para este sistema.Usadas generalmente en las instalaciones internas domiciliarias de gas natural para transportar el mismo hacia los artefactos de consumo.',
         feature:
-          'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
+        'Resistencia a la corrosión. maneja altas temperaturas y presiones, además tiene alto nivel de flexibilidad, es fácil su instalación y tiene menor costo en la instalación y transporte.',
       },
       {
         name:'Convención',
-        title: 'Semicodo',
+        title: 'Válvula PE AL PE',
         convencion:
-          '../../assets/svg/sourceInstallation/piezasHidraulicas/convencion/adaptadorHembra.png',
-        img: '../../assets/svg/sourceInstallation/piezasGases/pieza/semicodo.png',
-        concept: 'Son uniones.',
+        '../../assets/svg/sourceInstallation/convenciones/gas/valvulas.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasGas/valvulaPE_AL_PE.png',
+        concept: 'Válvulas de cierre tipo bola para tuberías multicapas y conexiones PE AL PE. Cuerpo de latón con extremos roscados. Usualmente utilizadas en instalaciones internas domiciliarias de gas natural.',
         feature:
-          'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
+        'Resistencia a la corrosión, temperatura y presión, y además tiene una fácil instalación.',
       },
       {
         name:'Convención',
-        title: 'Tee',
+        title: 'Codo 90° EPC',
         convencion:
-          '../../assets/svg/sourceInstallation/piezasHidraulicas/convencion/adaptadorHembra.png',
-        img: '../../assets/svg/sourceInstallation/piezasGases/pieza/tee.png',
-        concept: 'Son uniones.',
+          '../../assets/svg/sourceInstallation/convenciones/gas/tuberiaMulticapa.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasGas/codo90.png',
+        concept: 'Tuberia Tipo L rigida: Se usa para la Refrigeracion y el Gas Domiciliario . Sus medidas son: Diametro de 1/4" hasta 6" en Longitudes x 6.00 m.',
         feature:
-          'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
+          'Las tuberías flexibles de cobre, a diferencia de las rígidas, se identifican solamente por el grabado (bajo relieve), el color en este caso no se usa y se marca solamente el tipo de tubería, su diámetro, la marca, la leyenda “Hecho en…” y el sello.',
       },
       {
         name:'Convención',
-        title: 'Conector De Manguera',
+        title: 'Codo 45° EPC',
         convencion:
-          '../../assets/svg/sourceInstallation/piezasHidraulicas/convencion/adaptadorHembra.png',
-        img: '../../assets/svg/sourceInstallation/piezasGases/pieza/conectorDeManguera.png',
-        concept: 'Son uniones hermeticas.',
+          '../../assets/svg/sourceInstallation/convenciones/gas/tuberiaMulticapa.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasGas/tuberiaMulticapa.png',
+        concept: 'Tuberia Tipo L rigida: Se usa para la Refrigeracion y el Gas Domiciliario . Sus medidas son: Diametro de 1/4" hasta 6" en Longitudes x 6.00 m.',
         feature:
-          'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
+          'Las tuberías flexibles de cobre, a diferencia de las rígidas, se identifican solamente por el grabado (bajo relieve), el color en este caso no se usa y se marca solamente el tipo de tubería, su diámetro, la marca, la leyenda “Hecho en…” y el sello',
       },
       {
         name:'Convención',
-        title: 'Tuberia De Temple Flexible',
+        title: 'Tapón Copa',
         convencion:
-          '../../assets/svg/sourceInstallation/piezasHidraulicas/convencion/adaptadorHembra.png',
-        img: '../../assets/svg/sourceInstallation/piezasGases/pieza/tuberiaDeTempleFlexible.png',
-        concept: 'Son uniones hermeticas',
+          '../../assets/svg/sourceInstallation/convenciones/gas/taponCopaCobre.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasGas/taponCopa.png',
+        concept: 'Tuberia Tipo L rigida: Se usa para la Refrigeracion y el Gas Domiciliario . Sus medidas son: Diametro de 1/4" hasta 6" en Longitudes x 6.00 m.',
         feature:
-          'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
+          'Las características de las tuberías flexibles de cobre difieren de tuberías rígidas, precisamente en el temple dado en su proceso de fabricación; por lo tanto, las condiciones de uso serán diferentes aún cuando las tuberías de los dos temples sean parte de una misma aleación.',
       },
       {
         name:'Convención',
-        title: 'Valvula Decorativa PE AL PE',
+        title: 'Tee EPC',
         convencion:
-          '../../assets/svg/sourceInstallation/piezasHidraulicas/convencion/adaptadorHembra.png',
-        img: '../../assets/svg/sourceInstallation/piezasGases/pieza/valvulaDecorativa.png',
-        concept: 'Son uniones hermeticas',
+          '../../assets/svg/sourceInstallation/convenciones/gas/teeDeCobreEPC.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasGas/tee.png',
+        concept: 'Tuberia Tipo L rigida: Se usa para la Refrigeracion y el Gas Domiciliario . Sus medidas son: Diametro de 1/4" hasta 6" en Longitudes x 6.00 m.',
         feature:
-          'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
-      },
-      {
-        name:'Convención',
-        title: 'Tapon Copa',
-        convencion:
-          '../../assets/svg/sourceInstallation/piezasHidraulicas/convencion/adaptadorHembra.png',
-        img: '../../assets/svg/sourceInstallation/piezasGases/pieza/taponCopa.png',
-        concept: 'Son uniones hermeticas .',
-        feature:
-          'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
+          'Las tuberías flexibles de cobre, a diferencia de las rígidas, se identifican solamente por el grabado (bajo relieve), el color en este caso no se usa y se marca solamente el tipo de tubería, su diámetro, la marca, la leyenda “Hecho en…” y el sello.',
       },
       {
         name:'Convención',
         title: 'Universal EPC',
         convencion:
-          '../../assets/svg/sourceInstallation/piezasHidraulicas/convencion/adaptadorHembra.png',
-        img: '../../assets/svg/sourceInstallation/piezasGases/pieza/universalEPC.png',
-        concept: 'Son uniones hermeticas .',
+          '../../assets/svg/sourceInstallation/convenciones/gas/universalDeCobreEPC.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasGas/universalEPC.png',
+        concept: 'Tuberia Tipo L rigida: Se usa para la Refrigeracion y el Gas Domiciliario . Sus medidas son: Diametro de 1/4" hasta 6" en Longitudes x 6.00 m.',
         feature:
-          'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
+          'Las tuberías flexibles de cobre, a diferencia de las rígidas, se identifican solamente por el grabado (bajo relieve), el color en este caso no se usa y se marca solamente el tipo de tubería, su diámetro, la marca, la leyenda “Hecho en…” y el sello',
       },
       {
         name:'Convención',
-        title: 'Tuberia Multicapa',
+        title: 'Unión de cobre',
         convencion:
-          '../../assets/svg/sourceInstallation/piezasHidraulicas/convencion/adaptadorHembra.png',
-        img: '../../assets/svg/sourceInstallation/piezasGases/pieza/tuberiaMulticapa.png',
-        concept: 'Son uniones hermeticas .',
+          '../../assets/svg/sourceInstallation/convenciones/gas/unionDeCobre.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasGas/tuberiaMulticapa.png',
+        concept: 'Tuberia Tipo L rigida: Se usa para la Refrigeracion y el Gas Domiciliario . Sus medidas son: Diametro de 1/4" hasta 6" en Longitudes x 6.00 m.',
         feature:
-          'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
+          'Las tuberías flexibles de cobre, a diferencia de las rígidas, se identifican solamente por el grabado (bajo relieve), el color en este caso no se usa y se marca solamente el tipo de tubería, su diámetro, la marca, la leyenda “Hecho en…” y el sello',
       },
       {
         name:'Convención',
-        title: 'Valvula PE AL PE',
+        title: 'Válvula Decorativa',
         convencion:
-          '../../assets/svg/sourceInstallation/piezasHidraulicas/convencion/adaptadorHembra.png',
-        img: '../../assets/svg/sourceInstallation/piezasGases/pieza/valvulaPE_AL_PE.png',
-        concept: 'Son uniones hermeticas .',
+        '../../assets/svg/sourceInstallation/convenciones/gas/valvulaDecorativa.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasGas/valvulaDecorativa.png',
+        concept: 'Válvulas de cierre cromadas decorativas tipo bola para tuberías multicapas y conexiones PE AL PE.Cuerpo de latón con extremos roscados. Usualmente utilizadas en instalaciones internas domiciliarias de gas natural.',
         feature:
-          'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
+        'Resistencia a la corrosión, temperatura y presión, y tiene una Fácil instalación.',
+      },
+      {
+        name:'Convención',
+        title: 'Conector De Manguera',
+        convencion:
+          '../../assets/svg/sourceInstallation/convenciones/gas/tuberiaMulticapa.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasGas/conectorDeManguera.png',
+        concept: 'Mangueras para Gas Natural 3/8" - Terminales de 1/2"',
+        feature:
+          'Manguera de 1.50 mts Terminal Hembra - Hembra (Tuerca Giratoria), manguera de 1.30 mts Terminal Macho - Macho, manguera de 60 cm Terminal Macho - Hembra (Tuerca Giratoria), manguera de 50 cm Terminal Macho - Hembra (Tuerca Giratoria), manguera de 40 cm Terminal Macho - Hembra (Tuerca Giratoria).',
+      },
+      {
+        name:'Convención',
+        title: 'Tuberia De Temple Flexible',
+        convencion:
+          '../../assets/svg/sourceInstallation/convenciones/gas/tuberiaCobreTempleFlexible.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasGas/tuberiaDeTempleFlexible.png',
+        concept: 'Tuberia Tipo L rigida: Se usa para la Refrigeracion y el Gas Domiciliario . Sus medidas son: Diametro de 1/4" hasta 6" en Longitudes x 6.00 m.',
+        feature:
+          'Las características de las tuberías flexibles de cobre difieren de tuberías rígidas, precisamente en el temple dado en su proceso de fabricación; por lo tanto, las condiciones de uso serán diferentes aún cuando las tuberías de los dos temples sean parte de una misma aleación.',
       },
     ],
   };
@@ -599,8 +609,6 @@ export class InstallationinComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy(): void {
-    console.log('HOLA');
-
   }
 
 

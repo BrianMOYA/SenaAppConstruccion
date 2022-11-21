@@ -30,12 +30,53 @@
     img {
       width: 150px;
       border-radius: 10px;
-      border: #39a900 solid 3px;
+      border: #00AC00 solid 3px;
     }
 
     ion-label {
       font-size: 16px;
       color: #ffffff;
+    }
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .content_div {
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 10px;
+
+    .col_div {
+      margin-top: 20px;
+    }
+
+    button {
+      width: 120px;
+
+      img {
+        width: 110px;
+      }
+
+      ion-label {
+        font-size: 12px;
+
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 361px) {
+  .content_div {
+
+    button {
+    width: 180px;
+      img {
+        width: 150px;
+      }
+
+      ion-label {
+        font-size: 16px;
+      }
     }
   }
 }

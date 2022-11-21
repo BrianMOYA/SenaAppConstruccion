@@ -14,7 +14,7 @@ export class MainInterfacesComponent implements OnInit {
   public btns : {img: string, title: string, route: string}[] = [
     {
       img: "../../assets/svg/sourceMainInterface/portada_Sinupot.svg",
-      title: "sinupot",
+      title: "Sinupot",
       route: "/main/sinup"
     },
     {

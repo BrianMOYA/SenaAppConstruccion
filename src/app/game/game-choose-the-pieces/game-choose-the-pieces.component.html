@@ -3,7 +3,7 @@
   <ion-grid>
     <app-module-name></app-module-name>
     <ion-row class="ion-justify-content-center">
-      <h4>¿Cuál fue el fallo de la siguiente construcción?</h4>
+      <h4>De acuerdo con el siguiente plano, seleccione de manera correcta la pieza que mejor se ajuste dentro del círculo que se ecuentra subrayado en el plano</h4>
     </ion-row>
     <ion-slides pager="false" [options]="slideOpts">
       <ion-slide style="display: block" *ngFor="let concrete of concretes">
@@ -12,7 +12,7 @@
             <ion-card>
               <ion-card-header>
                 <ion-row class="ion-justify-content-center">
-                  <img class="convencion" [src]="concrete.convencion1" />
+                  <img class="convencion" [src]="concrete.plano1" />
                 </ion-row>
                 <ion-row class="ion-justify-content-center">
                   <ion-button
@@ -52,7 +52,7 @@
             <ion-card>
               <ion-card-header>
                 <ion-row class="ion-justify-content-center">
-                  <img class="convencion" [src]="concrete.convencion2" />
+                  <img class="convencion" [src]="concrete.plano2" />
                 </ion-row>
                 <ion-row class="ion-justify-content-center">
                   <ion-button
@@ -92,7 +92,7 @@
             <ion-card>
               <ion-card-header>
                 <ion-row class="ion-justify-content-center">
-                  <img class="convencion" [src]="concrete.convencion3" />
+                  <img class="convencion" [src]="concrete.plano3" />
                 </ion-row>
                 <ion-row class="ion-justify-content-center">
                   <ion-button
@@ -111,47 +111,6 @@
                   >
                     <img [src]="concrete.img2" />
                   </ion-button>
-                  <ion-button
-                    (click)="respondPoll(1)"
-                    [fill]="button1.fill"
-                    [color]="button1.color"
-                    expand="block"
-                  >
-                    <img [src]="concrete.img3" />
-                  </ion-button>
-                </ion-row>
-              </ion-card-header>
-            </ion-card>
-          </ion-col>
-        </ion-row>
-      </ion-slide>
-
-      <ion-slide style="display: block" *ngFor="let concrete of concretes">
-        <ion-row class="ion-justify-content-center">
-          <ion-col>
-            <ion-card>
-              <ion-card-header>
-                <ion-row class="ion-justify-content-center">
-                  <img class="convencion" [src]="concrete.convencion4" />
-                </ion-row>
-                <ion-row class="ion-justify-content-center">
-                  <ion-button
-                    (click)="respondPoll(4)"
-                    [fill]="button4.fill"
-                    [color]="button4.color"
-                    expand="block"
-                  >
-                    <img [src]="concrete.img1" />
-                  </ion-button>
-                  <ion-button
-                    (click)="respondPoll(2)"
-                    [fill]="button2.fill"
-                    [color]="button2.color"
-                    expand="block"
-                  >
-                    <img [src]="concrete.img2" />
-                  </ion-button>
-
                   <ion-button
                     (click)="goTo()"
                     [fill]="button1.fill"
@@ -166,6 +125,7 @@
           </ion-col>
         </ion-row>
       </ion-slide>
+
     </ion-slides>
   </ion-grid>
 </ion-content>

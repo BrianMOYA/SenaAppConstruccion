@@ -11,7 +11,7 @@ export class HomePage {
 
   constructor( private router: Router ) {
     timer(1700).subscribe(() => {
-    this.router.navigateByUrl('feature');
+      this.router.navigateByUrl('feature');
     });
   }
 

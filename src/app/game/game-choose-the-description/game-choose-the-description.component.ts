@@ -61,7 +61,7 @@ export class GameChooseTheDescriptionComponent implements OnInit {
    "Vulnerabiliad Sismica" : [
      {
 
-       img1: "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/error1.jpg",
+       img1: "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/1.jpg",
        answerFirst1: 'Agrietamiento por contracción o retracción ',
        answerFirst2: 'Agrietamiento por oxidación y tipo de acero de refuerzo',
        answerFirst3: 'Agrietamiento por reactividad de los agregados',
@@ -73,23 +73,23 @@ export class GameChooseTheDescriptionComponent implements OnInit {
        answerSecond3: 'Si no hay excentricidad la falla será por aplastamiento',
        answerSecond4: 'Si la excentricidad',
 
-       img3: "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/error1.jpg",
-       answerThird1: 'No tiene cimientos',
-       answerThird2: 'El suelo es blando',
-       answerThird3: 'Muros confinados',
-       answerThird4: 'Losa discontinua',
+       img3: "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/3.jpg",
+       answerThird1: 'Si falla por aplastamiento en la parte superior es columna corta',
+       answerThird2: 'ESi presenta poca resistencia en la parte superior es columna larga',
+       answerThird3: 'Si falla en la parte intermedia y el refuerzo sufre aplastamiento es columna larga',
+       answerThird4: 'Si tienen mayor dimensión resisten más, aunque no tengan refuerzo',
 
-       img4: "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/error1.jpg",
-       answerFourth1: 'Terreno en pendiente',
-       answerFourth2: 'Terreno llano',
-       answerFourth3: 'Relleno mal compactado',
-       answerFourth4: 'Sobre zonas húmedas',
+       img4: "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/4.jpg",
+       answerFourth1: 'Si el concreto de la placa falla es porque no tiene un espesor adecuado para el trafico',
+       answerFourth2: 'Si el concreto de la placa falla es porque el diseño de la mezcla no da la resistencia',
+       answerFourth3: 'Si el concreto de la placa falla es porque el terreno que la soporta falla',
+       answerFourth4: 'Si el concreto de la placa falla es porque queda mal vibrada y con hormigueros',
 
-       img5: "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/error1.jpg",
-       answerFifth1: 'Pegas uniformes',
-       answerFifth2: 'Columnas sin hormigueros',
-       answerFifth3: 'Muros demasiado largos',
-       answerFifth4: 'Refuerzo con recubrimiento',
+       img5: "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/5.jpg",
+       answerFifth1: 'Si falla por grietas diagonales es por tensión diagonal cortante',
+       answerFifth2: 'Si la falla es por descascaramientos es por perdida del recubrimiento',
+       answerFifth3: 'Si la falla es por movimiento inferior de la estructura es por deslizamiento en la base',
+       answerFifth4: 'Si la falla es por hundimiento es por aplastamiento',
      },
    ]
  }

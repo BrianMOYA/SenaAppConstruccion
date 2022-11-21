@@ -9,9 +9,25 @@
       <ion-row>
         <ion-col size="6" *ngFor="let material of btnsMaterial">
           <div class="col_div">
-            <button [routerLink]="material.route">
+            <button>
+              <a href="https://senaappconstruccion.blogspot.com/p/normativas.html">
               <img [src]="material.img" />
               <ion-label>{{ material.title | titlecase }}</ion-label>
+              </a>
+            </button>
+          </div>
+        </ion-col>
+        <ion-col size="6">
+          <div class="col_div">
+            <button>
+              <a
+                href="https://senaappconstruccion.blogspot.com/p/normativas.html"
+              >
+                <img
+                  src="../../assets/svg/sourceMaterialDeApoyo/portada_Normas.svg"
+                />
+                <ion-label>Normas</ion-label>
+              </a>
             </button>
           </div>
         </ion-col>
@@ -19,7 +35,7 @@
           <div class="col_div">
             <button>
               <a
-                href="https://www.youtube.com/channel/UCeFu0uQbB7fAZDpHi05Jy5Q"
+                href="https://www.youtube.com/watch?v=2aEfvcJSOhw&list=PLTNlk93iEfHRmrpPhIabo4WkM1hf3qByM&ab_channel=SennovaCTCM"
               >
                 <img
                   src="../../assets/svg/sourceMaterialDeApoyo/portada_Videos.svg"
@@ -32,8 +48,7 @@
       </ion-row>
       <ion-row class="ion-justify-content-center">
         <h6 class="nota">
-          Nota: Para navegar por estos apartados es necesario tener acceso a
-          intertnet
+          Nota: Para navegar por estos apartados es necesario tener acceso a internet
         </h6>
       </ion-row>
     </ion-grid>

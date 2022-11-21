@@ -11,57 +11,37 @@ export class MaterialComponent implements OnInit {
 
     moduleName : string;
 
-    public btnsMaterial : {img: string, title: string, route: string}[] = [
+    public btnsMaterial : {img: string, title: string}[] = [
     ];
 
     rutas = {
       "Vulnerabiliad Sismica" : [
         {
-          img: "../../assets/svg/sourceVulnerabilidad/prime/portadaCartillaV.svg",
-          title: "Cartilla Sismica",
-          route: "/game/gameSelectConcrete"
+          img: "../../assets/svg/sourceVulnerabilidad/prime/portadaCartillaV.png",
+          title: "Cartilla Sísmica",
+
         },
-        {
-          img: "../../assets/svg/sourceMaterialDeApoyo/portada_Normas.svg",
-          title: "Norma Titulo E",
-          route: "/game/gameChooseDescription"
-        }
       ],
       "Hidraulica" : [
         {
-          img: "../../assets/svg/sourceHidraulica/prime/portada_H.svg",
-          title: "Cartilla Hidrualica",
-          route: "/game/gameSelectConcrete"
+          img: "../../assets/svg/sourceHidraulica/prime/portada_H.png",
+          title: "Cartilla Hidráulica",
+
         },
-        {
-          img: "../../assets/svg/sourceMaterialDeApoyo/portada_Normas.svg",
-          title: "Norma 1500",
-          route: "/game/gameChooseDescription"
-        }
       ],
       "Sanitaria" : [
         {
-          img: "../../assets/svg/sourceSanitaria/prime/portada_S.svg",
+          img: "../../assets/svg/sourceSanitaria/prime/portada_S.png",
           title: "Cartilla Sanitaria",
-          route: "/game/gameSelectConcrete"
+
         },
-        {
-          img: "../../assets/svg/sourceMaterialDeApoyo/portada_Normas.svg",
-          title: "Norma 1500",
-          route: "/game/gameChooseDescription"
-        }
       ],
       "Gas" : [
         {
-          img: "../../assets/svg/sourceGas/prime/portada_G.svg",
+          img: "../../assets/svg/sourceGas/prime/portada_G.png",
           title: "Cartilla Gas",
-          route: "/game/gameSelectConcrete"
+
         },
-        {
-          img: "../../assets/svg/sourceMaterialDeApoyo/portada_Normas.svg",
-          title: "Norma 1500",
-          route: "/game/gameChooseDescription"
-        }
       ],
     }
 

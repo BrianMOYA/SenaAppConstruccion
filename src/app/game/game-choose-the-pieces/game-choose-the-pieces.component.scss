@@ -21,7 +21,7 @@ ion-content {
       justify-items: auto;
 
       h4 {
-        color: #ffffff;
+        color: #000000;
         text-align: center;
       }
     }
@@ -30,17 +30,16 @@ ion-content {
       ion-slide {
         .convencion{
           border-radius: 10px;
-          border: 3px solid #ffffff;
-          width: 78%;
+          border: 3px solid #00324D;
           padding: 10px;
         }
         ion-row {
           width: 100%;
-          padding: 10px;
+          padding: 3px;
           ion-button {
-            width: 135px;
+            width: 110px;
             float: left;
-            height: 135px;
+            height: 110px;
             border-radius: 10px;
             font-size: 15px;
             color: #ffffff;
