@@ -251,7 +251,7 @@ export class InstallationinComponent implements OnInit, OnDestroy {
         img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/tuberiaSanitaria.png',
         concept: 'La tubería de agua sanitaria es un conducto que cumple la función de evacuar las aguas residuales de la edificación.',
         feature:
-          'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
+          'Está diseñada para transportar agua servida, residual doméstica, industrial, aguas lluvia y ventilación. Los tubos vienen de extremo liso y los accesorios con campana. El sistema de unión por medio de soldadura líquida, forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo',
       },
       {
         name:'Convención',
@@ -261,7 +261,7 @@ export class InstallationinComponent implements OnInit, OnDestroy {
         img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/unionSanitaria.png',
         concept: 'Accesorio que permite la unión entre dos tubos',
         feature:
-          'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
+          'Está diseñada para transportar agua servida, residual doméstica, industrial, aguas lluvia y ventilación. Los tubos vienen de extremo liso y los accesorios con campana. El sistema de unión por medio de soldadura líquida, forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo',
       },
       {
         name:'Convención',
@@ -271,7 +271,7 @@ export class InstallationinComponent implements OnInit, OnDestroy {
         img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/buje.png',
         concept: 'Accesorio utilizado para pasar de un diámetro de tubería o accesorio mayor a un diámetro menor.',
         feature:
-          'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
+          'Pieza necesaria para realizar conexiones hídricas seguras a nivel industrial y doméstico ya que su estructura permite extender la capacidad de la tubería otorgándote mayor economía en tus proyectos de reparación o instalación de sistemas sanitarios.',
       },
       {
         name:'Convención',
@@ -281,7 +281,7 @@ export class InstallationinComponent implements OnInit, OnDestroy {
         img: '../../assets/svg/sourceInstallation/piezas/piezasSanitarias/codo45.png',
         concept: 'Accesorio que permite la conducción de las aguas lluvias o servidas y evacuarlas a un ángulo de 45°',
         feature:
-          'Menores pérdidas de presión Facilidad de Instalación: El sistema de unión de los Tubos PVC Presión consiste en conexiones soldadas por medio de soldadura líquida, lo cual forma un conjunto homogéneo que desarrolla máxima resistencia en un mínimo de tiempo.',
+          'Accesorio indicado para lograr desviaciones de ángulo recto sobre la línea de las tuberías. Este accesorio está hecho en su totalidad de PVC, un material que no transmite olor ni sabor al agua y resiste líquidos con una temperatura de hasta 30 °C.',
       },
       {
         name:'Convención',
@@ -509,7 +509,7 @@ export class InstallationinComponent implements OnInit, OnDestroy {
         name:'Convención',
         title: 'Codo 90° EPC',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/gas/tuberiaMulticapa.svg',
+          '../../assets/svg/sourceInstallation/convenciones/gas/codoDeCobreEPC.svg',
         img: '../../assets/svg/sourceInstallation/piezas/piezasGas/codo90.png',
         concept: 'Tuberia Tipo L rigida: Se usa para la Refrigeracion y el Gas Domiciliario . Sus medidas son: Diametro de 1/4" hasta 6" en Longitudes x 6.00 m.',
         feature:
@@ -519,8 +519,8 @@ export class InstallationinComponent implements OnInit, OnDestroy {
         name:'Convención',
         title: 'Codo 45° EPC',
         convencion:
-          '../../assets/svg/sourceInstallation/convenciones/gas/tuberiaMulticapa.svg',
-        img: '../../assets/svg/sourceInstallation/piezas/piezasGas/tuberiaMulticapa.png',
+          '../../assets/svg/sourceInstallation/convenciones/gas/codo45.svg',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasGas/codo45.png',
         concept: 'Tuberia Tipo L rigida: Se usa para la Refrigeracion y el Gas Domiciliario . Sus medidas son: Diametro de 1/4" hasta 6" en Longitudes x 6.00 m.',
         feature:
           'Las tuberías flexibles de cobre, a diferencia de las rígidas, se identifican solamente por el grabado (bajo relieve), el color en este caso no se usa y se marca solamente el tipo de tubería, su diámetro, la marca, la leyenda “Hecho en…” y el sello',
@@ -560,7 +560,7 @@ export class InstallationinComponent implements OnInit, OnDestroy {
         title: 'Unión de cobre',
         convencion:
           '../../assets/svg/sourceInstallation/convenciones/gas/unionDeCobre.svg',
-        img: '../../assets/svg/sourceInstallation/piezas/piezasGas/tuberiaMulticapa.png',
+        img: '../../assets/svg/sourceInstallation/piezas/piezasGas/unionDeCobre.png',
         concept: 'Tuberia Tipo L rigida: Se usa para la Refrigeracion y el Gas Domiciliario . Sus medidas son: Diametro de 1/4" hasta 6" en Longitudes x 6.00 m.',
         feature:
           'Las tuberías flexibles de cobre, a diferencia de las rígidas, se identifican solamente por el grabado (bajo relieve), el color en este caso no se usa y se marca solamente el tipo de tubería, su diámetro, la marca, la leyenda “Hecho en…” y el sello',

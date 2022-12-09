@@ -41,23 +41,23 @@ export class GameChooseThePiecesComponent implements OnInit{
   rutas = {
     "Hidraulica" : [
       {
-        plano1:'../../assets/svg/sourceGame/hidraulica/planosGame/semicodo2.png',
-        img1: "../../assets/svg/sourceInstallation/piezas/piezasSanitarias/teeSanitaria.png",
+        plano1:'../../assets/svg/sourceGame/hidraulica/planosGame/codo90.png',
+        img2: "../../assets/svg/sourceInstallation/piezas/piezasHidraulicas/codo90.png",
 
-        plano2:'../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorHembra.svg',
-        img2: "../../assets/svg/sourceInstallation/piezas/piezasSanitarias/teeSanitaria.png",
+        plano2:'../../assets/svg/sourceGame/hidraulica/planosGame/tee.png',
+        img1: "../../assets/svg/sourceInstallation/piezas/piezasHidraulicas/tee.png",
 
-        plano3:'../../assets/svg/sourceInstallation/convenciones/hidraulicas/adaptadorHembra.svg',
-        img3: "../../assets/svg/sourceInstallation/piezas/piezasSanitarias/teeSanitaria.png",
+        plano3:'../../assets/svg/sourceGame/hidraulica/planosGame/adaptadorMacho.png',
+        img3: "../../assets/svg/sourceInstallation/piezas/piezasHidraulicas/adaptadorMacho.png",
       },
     ],
     "Sanitaria" : [
       {
         plano1:'../../assets/svg/sourceGame/sanitaria/planosGame/tapon.png',
-        img1: "../../assets/svg/sourceInstallation/piezas/piezasSanitarias/taponDePrueba.png",
+        img2: "../../assets/svg/sourceInstallation/piezas/piezasSanitarias/taponDePrueba.png",
 
         plano2:'../../assets/svg/sourceGame/sanitaria/planosGame/sifon.png',
-        img2: "../../assets/svg/sourceInstallation/piezas/piezasSanitarias/sifon.png",
+        img1: "../../assets/svg/sourceInstallation/piezas/piezasSanitarias/sifon.png",
 
         plano3:'../../assets/svg/sourceGame/sanitaria/planosGame/yee.png',
         img3: "../../assets/svg/sourceInstallation/piezas/piezasSanitarias/yeeSanitaria.png",
@@ -66,10 +66,10 @@ export class GameChooseThePiecesComponent implements OnInit{
     "Gas" : [
       {
         plano1:'../../assets/svg/sourceGame/gas/planosGame/codo.png',
-        img1: "../../assets/svg/sourceInstallation/piezas/piezasGas/codo90.png",
+        img2: "../../assets/svg/sourceInstallation/piezas/piezasGas/codo90.png",
 
         plano2:'../../assets/svg/sourceGame/gas/planosGame/reguladorDeBola.png',
-        img2: "../../assets/svg/sourceInstallation/piezas/piezasGas/universalEPC.png",
+        img1: "../../assets/svg/sourceInstallation/piezas/piezasGas/valvulaPE_AL_PE.png",
 
         plano3:'../../assets/svg/sourceGame/gas/planosGame/tee.png',
         img3: "../../assets/svg/sourceInstallation/piezas/piezasGas/tee.png",
@@ -178,7 +178,7 @@ export class GameChooseThePiecesComponent implements OnInit{
 
     setTimeout(() => {
       this.swipeToNextSlide();
-    }, 900);
+    }, 300);
   }
 
   goTo() {

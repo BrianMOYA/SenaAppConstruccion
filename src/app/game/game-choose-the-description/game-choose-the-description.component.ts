@@ -198,7 +198,7 @@ export class GameChooseTheDescriptionComponent implements OnInit {
 
     setTimeout(() => {
       this.swipeToNextSlide();
-    }, 900);
+    }, 300);
   }
 
   goTo() {

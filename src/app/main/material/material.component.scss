@@ -35,7 +35,7 @@
     }
 
     ion-label {
-      font-size: 16px;
+      font-size: 15px;
       color: #ffffff;
     }
   }
@@ -47,49 +47,3 @@
 }
 
 
-@media screen and (max-width: 360px) {
-  .content_div {
-    width: 100%;
-    margin-top: 2px;
-    padding-top: 2px;
-
-    .col_div {
-      margin-top: 0px;
-      height: 120px;
-    }
-
-    button {
-      width: 120px;
-
-      img {
-        width: 110px;
-      }
-
-      ion-label {
-        font-size: 12px;
-
-      }
-    }
-  }
-  .nota {
-    margin: 10px;
-    padding: 10px;
-    font-size: 12px;
-  }
-}
-
-@media screen and (min-width: 361px) {
-  .content_div {
-
-    button {
-    width: 160px;
-      img {
-        width: 130px;
-      }
-
-      ion-label {
-        font-size: 16px;
-      }
-    }
-  }
-}

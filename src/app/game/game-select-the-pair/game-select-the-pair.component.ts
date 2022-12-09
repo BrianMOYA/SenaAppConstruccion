@@ -187,10 +187,11 @@ export class GameSelectThePairComponent implements OnInit {
 
     setTimeout(() => {
       this.swipeToNextSlide();
-    }, 900);
+    }, 300);
   }
 
   goTo() {
     this.router.navigateByUrl('game/congratulation');
+    this.slides.slideTo(0);
   }
 }
