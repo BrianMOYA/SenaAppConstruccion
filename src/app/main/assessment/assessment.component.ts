@@ -298,7 +298,7 @@ export class AssessmentComponent implements OnInit {
 
     setTimeout(() => {
       this.swipeToNextSlide();
-    }, 900);
+    }, 300);
   }
 
   goTo() {

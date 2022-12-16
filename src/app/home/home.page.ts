@@ -10,7 +10,7 @@ import { timer } from 'rxjs';
 export class HomePage {
 
   constructor( private router: Router ) {
-    timer(1700).subscribe(() => {
+    timer(900).subscribe(() => {
       this.router.navigateByUrl('feature');
     });
   }

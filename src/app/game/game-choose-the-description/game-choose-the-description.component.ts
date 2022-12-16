@@ -62,34 +62,34 @@ export class GameChooseTheDescriptionComponent implements OnInit {
      {
 
        img1: "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/1.jpg",
-       answerFirst1: 'Agrietamiento por contracción o retracción ',
+       answerFirst1: 'Todas las antiores',
        answerFirst2: 'Agrietamiento por oxidación y tipo de acero de refuerzo',
        answerFirst3: 'Agrietamiento por reactividad de los agregados',
        answerFirst4: 'Agrietamiento por un mal curado',
 
        img2: "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/1.png",
        answerSecond1: 'Si la excentricidad es pequeña será por compresión',
-       answerSecond2: 'Si la excentricidad es mayor la falla será por tensión ',
-       answerSecond3: 'Si no hay excentricidad la falla será por aplastamiento',
-       answerSecond4: 'Si la excentricidad',
+       answerSecond2: 'Si no hay excentricidad la columna esta mal diseñada',
+       answerSecond3: 'Si hay excentricidad la falla será por aplastamiento',
+       answerSecond4: 'Si la excentricidad es mayor la falla será por tensión',
 
        img3: "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/3.jpg",
        answerThird1: 'Si falla por aplastamiento en la parte superior es columna corta',
-       answerThird2: 'ESi presenta poca resistencia en la parte superior es columna larga',
-       answerThird3: 'Si falla en la parte intermedia y el refuerzo sufre aplastamiento es columna larga',
-       answerThird4: 'Si tienen mayor dimensión resisten más, aunque no tengan refuerzo',
+       answerThird2: 'Si presenta poca resistencia en la parte superior es columna larga',
+       answerThird3: 'Todas las anteriores',
+       answerThird4: 'Si falla en la parte intermedia y el refuerzo sufre aplastamiento es columna larga',
 
        img4: "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/4.jpg",
-       answerFourth1: 'Si el concreto de la placa falla es porque no tiene un espesor adecuado para el trafico',
+       answerFourth1: 'Si el concreto de la placa no falla, es porque no tiene un espesor adecuado para el trafico',
        answerFourth2: 'Si el concreto de la placa falla es porque el diseño de la mezcla no da la resistencia',
-       answerFourth3: 'Si el concreto de la placa falla es porque el terreno que la soporta falla',
-       answerFourth4: 'Si el concreto de la placa falla es porque queda mal vibrada y con hormigueros',
+       answerFourth3: 'Si el concreto de la placa falla, es porque el terreno que la no soporta falla',
+       answerFourth4: 'Si el concreto de la placa no falla, es porque esta con menor espesor del adecuado',
 
        img5: "../../assets/svg/sourceGame/vulnerabilidad/badPracticeGame/5.jpg",
        answerFifth1: 'Si falla por grietas diagonales es por tensión diagonal cortante',
        answerFifth2: 'Si la falla es por descascaramientos es por perdida del recubrimiento',
-       answerFifth3: 'Si la falla es por movimiento inferior de la estructura es por deslizamiento en la base',
-       answerFifth4: 'Si la falla es por hundimiento es por aplastamiento',
+       answerFifth3: 'Todas las anteriores',
+       answerFifth4: 'Si la falla es por movimiento inferior de la estructura es por deslizamiento en la base',
      },
    ]
  }
