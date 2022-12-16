@@ -71,8 +71,8 @@ export class GameSelectThePairComponent implements OnInit {
     ],
     "Gas" : [
       {
-        convencion1:'../../assets/svg/sourceInstallation/convenciones/gas/semicodoDeCobreEPC.svg',
-        img1: "../../assets/svg/sourceInstallation/piezas/piezasGas/semicodo.png",
+        convencion1:'../../assets/svg/sourceInstallation/convenciones/gas/codo45.svg',
+        img1: "../../assets/svg/sourceInstallation/piezas/piezasGas/codo45.png",
 
         convencion2:'../../assets/svg/sourceInstallation/convenciones/gas/taponCopaCobre.svg',
         img2: "../../assets/svg/sourceInstallation/piezas/piezasGas/taponCopa.png",
